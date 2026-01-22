@@ -17,7 +17,6 @@ Item {
     Component.onCompleted: {
         console.log("测试颜色值:", FluColors.Grey210)
     }
-
     FluGroupBox {
         id: group
         anchors.fill: parent

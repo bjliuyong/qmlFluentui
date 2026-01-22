@@ -16,6 +16,7 @@ ColumnLayout {
         id: headerBox
         title: "Header"
         Layout.preferredHeight: baseRoot.netHeight * 0.2
+
     }
 
     ShadowBox {

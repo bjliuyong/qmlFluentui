@@ -5,12 +5,12 @@ project(BaseLayout VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
-find_package(Qt6 6.10 COMPONENTS Quick Gui Qml
+find_package(Qt6 COMPONENTS Quick Gui Qml
     QuickControls2 Network Widgets PrintSupport REQUIRED)
 
 add_subdirectory(3rdparty/FluentUI)
 
-qt_standard_project_setup(REQUIRES 6.10)
+qt_standard_project_setup(REQUIRES 6)
 
 qt_add_executable(appBaseLayout
     main.cpp
@@ -42,6 +42,7 @@ qt_add_qml_module(appBaseLayout
     QML_FILES
         Main.qml
         ${ALL_LAYOUT_FILES_ABS}
+        QML_FILES qml/Layout/SearchLayoutTemplate/defaultLayoutHeader.qml
 )
 
 

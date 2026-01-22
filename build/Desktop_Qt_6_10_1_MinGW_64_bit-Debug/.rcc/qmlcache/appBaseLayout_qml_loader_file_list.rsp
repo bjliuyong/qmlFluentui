@@ -2,6 +2,7 @@
 D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qmake_BaseLayout.qrc
 --resource
 D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appBaseLayout_raw_qml_0.qrc
-/qt/qml/BaseLayout/Main.qml
-/qt/qml/BaseLayout/ShadowBox.qml
-/qt/qml/BaseLayout/SearchLayoutTemplate.qml
+/BaseLayout/Main.qml
+/BaseLayout/ShadowBox.qml
+/BaseLayout/SearchLayoutTemplate.qml
+/BaseLayout/defaultLayoutHeader.qml

@@ -1,6 +1,6 @@
 module BaseLayout
 typeinfo appBaseLayout.qmltypes
-prefer :/qt/qml/BaseLayout/
+prefer :/BaseLayout/
 Main 1.0 Main.qml
 ShadowBox 1.0 ShadowBox.qml
 SearchLayoutTemplate 1.0 SearchLayoutTemplate.qml
