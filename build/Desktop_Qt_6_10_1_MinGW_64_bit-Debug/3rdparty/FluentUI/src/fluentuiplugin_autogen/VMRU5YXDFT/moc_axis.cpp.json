@@ -1,0 +1,269 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": ""
+                }
+            ],
+            "className": "Axis",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "lineNumber": 36,
+                    "name": "TickerType",
+                    "values": [
+                        "Fixed",
+                        "Log",
+                        "Pi",
+                        "Text",
+                        "DateTime",
+                        "Time"
+                    ]
+                }
+            ],
+            "lineNumber": 19,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "type",
+                            "type": "TickerType"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 37,
+                    "name": "setTickerType",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "position",
+                            "type": "float"
+                        },
+                        {
+                            "name": "size",
+                            "type": "float"
+                        },
+                        {
+                            "name": "align",
+                            "type": "Qt::AlignmentFlag"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 38,
+                    "name": "setRange",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "lower",
+                            "type": "float"
+                        },
+                        {
+                            "name": "upper",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 39,
+                    "name": "setRange",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 22,
+                    "name": "visible",
+                    "notify": "visibleChanged",
+                    "read": "visible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "set_visible"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 23,
+                    "name": "label",
+                    "notify": "labelChanged",
+                    "read": "label",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "set_label"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 24,
+                    "name": "upper",
+                    "notify": "upperChanged",
+                    "read": "upper",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "float",
+                    "user": false,
+                    "write": "set_upper"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 25,
+                    "name": "lower",
+                    "notify": "lowerChanged",
+                    "read": "lower",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "float",
+                    "user": false,
+                    "write": "set_lower"
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 26,
+                    "name": "grid",
+                    "read": "grid",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QmlQCustomPlot::Grid*",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 27,
+                    "name": "ticker",
+                    "read": "ticker",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QmlQCustomPlot::Ticker*",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QmlQCustomPlot::Axis",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 22,
+                    "name": "visibleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 23,
+                    "name": "labelChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "float"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 24,
+                    "name": "upperChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "float"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 25,
+                    "name": "lowerChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QmlQCustomPlot::Grid*"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 26,
+                    "name": "gridChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QmlQCustomPlot::Ticker*"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 27,
+                    "name": "tickerChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "axis.h",
+    "outputRevision": 69
+}

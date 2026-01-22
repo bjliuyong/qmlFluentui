@@ -1,0 +1,51 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "RealTimePlot",
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "QmlQCustomPlot::RealTimePlot",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "QList<double>"
+                        },
+                        {
+                            "name": "y",
+                            "type": "QList<double>"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 35,
+                    "name": "appendBatch",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 36,
+                    "name": "updatePlot",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "fullyQualifiedName": "QmlQCustomPlot::BasePlot",
+                    "name": "BasePlot"
+                }
+            ]
+        }
+    ],
+    "inputFile": "RealTimePlot.h",
+    "outputRevision": 69
+}

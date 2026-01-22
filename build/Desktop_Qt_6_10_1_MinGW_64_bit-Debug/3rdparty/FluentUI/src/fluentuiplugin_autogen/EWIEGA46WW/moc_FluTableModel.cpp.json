@@ -1,0 +1,186 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "FluTableModel"
+                }
+            ],
+            "className": "FluTableModel",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 30,
+                    "name": "clear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rowIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 32,
+                    "name": "getRow",
+                    "returnType": "QVariant"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rowIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "row",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 34,
+                    "name": "setRow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rowIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "row",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 36,
+                    "name": "insertRow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rowIndex",
+                            "type": "int"
+                        },
+                        {
+                            "name": "rows",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 38,
+                    "name": "removeRow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rowIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "isCloned": true,
+                    "lineNumber": 38,
+                    "name": "removeRow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "QVariant"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 40,
+                    "name": "appendRow",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 11,
+                    "member": "_columnSource",
+                    "name": "columnSource",
+                    "notify": "columnSourceChanged",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<QVariantMap>",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 12,
+                    "member": "_rows",
+                    "name": "rows",
+                    "notify": "rowsChanged",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<QVariantMap>",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 13,
+                    "name": "rowCount",
+                    "read": "rowCount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "FluTableModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 11,
+                    "name": "columnSourceChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 12,
+                    "name": "rowsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractTableModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "FluTableModel.h",
+    "outputRevision": 69
+}

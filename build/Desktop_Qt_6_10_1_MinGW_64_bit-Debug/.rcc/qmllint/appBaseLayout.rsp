@@ -1,0 +1,12 @@
+--bare
+-I
+D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug
+-I
+D:/SoftWare/QT/6.10.1/mingw_64/qml
+--resource
+D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qmake_BaseLayout.qrc
+--resource
+D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appBaseLayout_raw_qml_0.qrc
+D:/Study/QTQMLStudy/code/BaseLayout/Main.qml
+D:/Study/QTQMLStudy/code/BaseLayout/qml/BaseComponent/ShadowBox.qml
+D:/Study/QTQMLStudy/code/BaseLayout/qml/Layout/SearchLayoutTemplate/SearchLayoutTemplate.qml
