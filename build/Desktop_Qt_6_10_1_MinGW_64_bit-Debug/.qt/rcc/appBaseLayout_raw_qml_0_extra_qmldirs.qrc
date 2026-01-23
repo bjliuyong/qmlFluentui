@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/BaseLayout/">
-    <file alias="../BaseComponent/qmldir">D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/BaseLayout/../BaseComponent/qmldir</file>
-  </qresource>
-</RCC>
-

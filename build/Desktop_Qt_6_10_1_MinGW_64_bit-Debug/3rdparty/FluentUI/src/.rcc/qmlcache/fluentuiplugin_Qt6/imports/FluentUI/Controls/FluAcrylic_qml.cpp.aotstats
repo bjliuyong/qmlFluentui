@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 1843,
+                            "durationMicroseconds": 735,
                             "functionName": "tintColor",
                             "line": 7,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 766,
+                            "durationMicroseconds": 582,
                             "functionName": "targetRect",
                             "line": 13,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 174,
+                            "durationMicroseconds": 168,
                             "functionName": "sourceRect",
                             "line": 18,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 132,
+                            "durationMicroseconds": 173,
                             "functionName": "sourceItem",
                             "line": 19,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 96,
+                            "durationMicroseconds": 139,
                             "functionName": "fill",
                             "line": 16,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 108,
                             "functionName": "source",
                             "line": 24,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 127,
+                            "durationMicroseconds": 119,
                             "functionName": "radius",
                             "line": 25,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 93,
+                            "durationMicroseconds": 87,
                             "functionName": "fill",
                             "line": 23,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 129,
+                            "durationMicroseconds": 107,
                             "functionName": "color",
                             "line": 29,
                             "message": "Cannot access value for name luminosity"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 120,
+                            "durationMicroseconds": 83,
                             "functionName": "fill",
                             "line": 28,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 255,
+                            "durationMicroseconds": 201,
                             "functionName": "color",
                             "line": 33,
                             "message": "Cannot access value for name tintColor"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 153,
+                            "durationMicroseconds": 110,
                             "functionName": "fill",
                             "line": 32,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 133,
                             "functionName": "fillMode",
                             "line": 38,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 127,
+                            "durationMicroseconds": 104,
                             "functionName": "opacity",
                             "line": 39,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 179,
+                            "durationMicroseconds": 92,
                             "functionName": "fill",
                             "line": 36,
                             "message": ""

@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 568,
+                            "durationMicroseconds": 484,
                             "functionName": "display",
                             "line": 8,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 291,
+                            "durationMicroseconds": 273,
                             "functionName": "hoverColor",
                             "line": 14,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemHoverColor with type QColor (stored as QVariant) -> FluTheme::itemHoverColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 198,
+                            "durationMicroseconds": 188,
                             "functionName": "pressedColor",
                             "line": 15,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemPressColor with type QColor (stored as QVariant) -> FluTheme::itemPressColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 183,
+                            "durationMicroseconds": 184,
                             "functionName": "normalColor",
                             "line": 16,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemNormalColor with type QColor (stored as QVariant) -> FluTheme::itemNormalColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 168,
+                            "durationMicroseconds": 221,
                             "functionName": "disableColor",
                             "line": 17,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemNormalColor with type QColor (stored as QVariant) -> FluTheme::itemNormalColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 564,
                             "functionName": "iconDelegate",
                             "line": 18,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 550,
+                            "durationMicroseconds": 649,
                             "functionName": "color",
                             "line": 19,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 2102,
+                            "durationMicroseconds": 2103,
                             "functionName": "iconColor",
                             "line": 28,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 2388,
+                            "durationMicroseconds": 2213,
                             "functionName": "textColor",
                             "line": 41,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 176,
+                            "durationMicroseconds": 202,
                             "functionName": "focusPolicy",
                             "line": 59,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 155,
                             "functionName": "enabled",
                             "line": 63,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 10,
-                            "durationMicroseconds": 207,
+                            "durationMicroseconds": 355,
                             "functionName": "font",
                             "line": 64,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Caption with type QFont (stored as QVariant) -> FluTextStyle::Caption with type QFont (adjusted to QFont, stored as QVariant)"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 151,
+                            "durationMicroseconds": 197,
                             "functionName": "role",
                             "line": 54,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 154,
                             "functionName": "name",
                             "line": 55,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 89,
+                            "durationMicroseconds": 94,
                             "functionName": "description",
                             "line": 56,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 267,
+                            "durationMicroseconds": 402,
                             "functionName": "onPressAction",
                             "line": 57,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 183,
+                            "durationMicroseconds": 165,
                             "functionName": "radius",
                             "line": 68,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 181,
+                            "durationMicroseconds": 178,
                             "functionName": "color",
                             "line": 69,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 142,
+                            "durationMicroseconds": 145,
                             "functionName": "visible",
                             "line": 71,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 104,
+                            "durationMicroseconds": 106,
                             "functionName": "iconSize",
                             "line": 79,
                             "message": "Cannot access value for name control"
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 237,
+                            "durationMicroseconds": 1066,
                             "functionName": "horizontalAlignment",
                             "line": 80,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 679,
+                            "durationMicroseconds": 135,
                             "functionName": "verticalAlignment",
                             "line": 81,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 129,
+                            "durationMicroseconds": 1633,
                             "functionName": "iconColor",
                             "line": 82,
                             "message": "Cannot access value for name control"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 58,
+                            "durationMicroseconds": 87,
                             "functionName": "iconSource",
                             "line": 83,
                             "message": "Cannot access value for name control"
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 122,
+                            "durationMicroseconds": 111,
                             "functionName": "pixelSize",
                             "line": 78,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 109,
+                            "durationMicroseconds": 70,
                             "functionName": "sourceComponent",
                             "line": 90,
                             "message": "Cannot access value for name iconDelegate"
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 163,
+                            "durationMicroseconds": 88,
                             "functionName": "visible",
                             "line": 92,
                             "message": "Cannot access value for name display"
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 443,
+                            "durationMicroseconds": 315,
                             "functionName": "alignment",
                             "line": 91,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 93,
+                            "durationMicroseconds": 259,
                             "functionName": "text",
                             "line": 95,
                             "message": "Cannot access value for name control"
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 82,
+                            "durationMicroseconds": 101,
                             "functionName": "visible",
                             "line": 97,
                             "message": "Cannot access value for name display"
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 68,
+                            "durationMicroseconds": 56,
                             "functionName": "color",
                             "line": 98,
                             "message": "Cannot access value for name control"
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 115,
+                            "durationMicroseconds": 93,
                             "functionName": "font",
                             "line": 99,
                             "message": "Cannot access value for name control"
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 843,
+                            "durationMicroseconds": 2138,
                             "functionName": "alignment",
                             "line": 96,
                             "message": ""
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 71,
+                            "durationMicroseconds": 92,
                             "functionName": "sourceComponent",
                             "line": 107,
                             "message": "Cannot access value for name iconDelegate"
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 77,
                             "functionName": "visible",
                             "line": 109,
                             "message": "Cannot access value for name display"
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 258,
+                            "durationMicroseconds": 1151,
                             "functionName": "alignment",
                             "line": 108,
                             "message": ""
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 130,
+                            "durationMicroseconds": 111,
                             "functionName": "text",
                             "line": 112,
                             "message": "Cannot access value for name control"
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 75,
+                            "durationMicroseconds": 84,
                             "functionName": "visible",
                             "line": 114,
                             "message": "Cannot access value for name display"
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 59,
+                            "durationMicroseconds": 64,
                             "functionName": "color",
                             "line": 115,
                             "message": "Cannot access value for name control"
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 94,
                             "functionName": "font",
                             "line": 116,
                             "message": "Cannot access value for name control"
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 326,
+                            "durationMicroseconds": 338,
                             "functionName": "alignment",
                             "line": 113,
                             "message": ""
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 122,
+                            "durationMicroseconds": 131,
                             "functionName": "sourceComponent",
                             "line": 121,
                             "message": "Cannot access value for name display"
@@ -344,7 +344,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 225,
+                            "durationMicroseconds": 242,
                             "functionName": "visible",
                             "line": 130,
                             "message": "Cannot access value for name hovered"
@@ -352,7 +352,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 180,
+                            "durationMicroseconds": 167,
                             "functionName": "text",
                             "line": 139,
                             "message": ""

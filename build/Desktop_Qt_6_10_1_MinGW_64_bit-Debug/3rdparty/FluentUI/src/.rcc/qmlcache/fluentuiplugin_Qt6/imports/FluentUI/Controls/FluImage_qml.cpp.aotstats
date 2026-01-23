@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 39,
-                            "durationMicroseconds": 920,
+                            "durationMicroseconds": 787,
                             "functionName": "clickErrorListener",
                             "line": 7,
                             "message": "Cannot access value for name image"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 39,
-                            "durationMicroseconds": 285,
+                            "durationMicroseconds": 253,
                             "functionName": "clickErrorListener",
                             "line": 7,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 193,
+                            "durationMicroseconds": 144,
                             "functionName": "errorItem",
                             "line": 11,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 114,
+                            "durationMicroseconds": 94,
                             "functionName": "loadingItem",
                             "line": 12,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 769,
+                            "durationMicroseconds": 1240,
                             "functionName": "sourceComponent",
                             "line": 16,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 120,
+                            "durationMicroseconds": 109,
                             "functionName": "fill",
                             "line": 15,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 273,
+                            "durationMicroseconds": 237,
                             "functionName": "color",
                             "line": 29,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemHoverColor with type QColor (stored as QVariant) -> FluTheme::itemHoverColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 111,
+                            "durationMicroseconds": 102,
                             "functionName": "visible",
                             "line": 32,
                             "message": "Cannot access value for name control"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 100,
                             "functionName": "centerIn",
                             "line": 31,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 309,
+                            "durationMicroseconds": 219,
                             "functionName": "color",
                             "line": 39,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemHoverColor with type QColor (stored as QVariant) -> FluTheme::itemHoverColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 85,
+                            "durationMicroseconds": 72,
                             "functionName": "text",
                             "line": 41,
                             "message": "Cannot access value for name control"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 91,
+                            "durationMicroseconds": 81,
                             "functionName": "visible",
                             "line": 43,
                             "message": "Cannot access value for name control"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 93,
+                            "durationMicroseconds": 86,
                             "functionName": "onClicked",
                             "line": 44,
                             "message": "method clickErrorListener cannot be resolved."
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 154,
+                            "durationMicroseconds": 103,
                             "functionName": "centerIn",
                             "line": 42,
                             "message": ""

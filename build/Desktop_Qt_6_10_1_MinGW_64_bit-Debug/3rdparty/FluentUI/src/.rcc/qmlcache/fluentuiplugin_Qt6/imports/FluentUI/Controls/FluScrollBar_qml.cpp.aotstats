@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 2020,
+                            "durationMicroseconds": 1757,
                             "functionName": "color",
                             "line": 9,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 1175,
+                            "durationMicroseconds": 878,
                             "functionName": "pressedColor",
                             "line": 10,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 656,
+                            "durationMicroseconds": 541,
                             "functionName": "implicitWidth",
                             "line": 12,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 654,
+                            "durationMicroseconds": 541,
                             "functionName": "implicitHeight",
                             "line": 14,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 271,
+                            "durationMicroseconds": 260,
                             "functionName": "visible",
                             "line": 17,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 798,
+                            "durationMicroseconds": 749,
                             "functionName": "minimumSize",
                             "line": 18,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 8,
-                            "durationMicroseconds": 181,
+                            "durationMicroseconds": 163,
                             "functionName": "z",
                             "line": 24,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 478,
+                            "durationMicroseconds": 157,
                             "functionName": "verticalPadding",
                             "line": 25,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 152,
+                            "durationMicroseconds": 148,
                             "functionName": "horizontalPadding",
                             "line": 26,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 15,
-                            "durationMicroseconds": 2445,
+                            "durationMicroseconds": 1312,
                             "functionName": "color",
                             "line": 30,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 493,
+                            "durationMicroseconds": 170,
                             "functionName": "opacity",
                             "line": 31,
                             "message": "Cannot access value for name vertical"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 177,
+                            "durationMicroseconds": 120,
                             "functionName": "visible",
                             "line": 49,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 106,
                             "functionName": "opacity",
                             "line": 50,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 278,
+                            "durationMicroseconds": 106,
                             "functionName": "iconColor",
                             "line": 56,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 204,
+                            "durationMicroseconds": 169,
                             "functionName": "iconSource",
                             "line": 57,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 165,
+                            "durationMicroseconds": 146,
                             "functionName": "onClicked",
                             "line": 58,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 165,
+                            "durationMicroseconds": 147,
                             "functionName": "left",
                             "line": 52,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 145,
+                            "durationMicroseconds": 162,
                             "functionName": "verticalCenter",
                             "line": 54,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 154,
+                            "durationMicroseconds": 142,
                             "functionName": "iconColor",
                             "line": 68,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 100,
+                            "durationMicroseconds": 112,
                             "functionName": "opacity",
                             "line": 69,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 95,
+                            "durationMicroseconds": 107,
                             "functionName": "visible",
                             "line": 75,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 271,
+                            "durationMicroseconds": 152,
                             "functionName": "onClicked",
                             "line": 77,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 173,
+                            "durationMicroseconds": 139,
                             "functionName": "right",
                             "line": 71,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 231,
+                            "durationMicroseconds": 253,
                             "functionName": "verticalCenter",
                             "line": 73,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 181,
+                            "durationMicroseconds": 146,
                             "functionName": "iconColor",
                             "line": 87,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 130,
+                            "durationMicroseconds": 108,
                             "functionName": "opacity",
                             "line": 88,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 117,
+                            "durationMicroseconds": 103,
                             "functionName": "visible",
                             "line": 94,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 113,
                             "functionName": "iconSource",
                             "line": 95,
                             "message": ""
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 211,
+                            "durationMicroseconds": 147,
                             "functionName": "onClicked",
                             "line": 96,
                             "message": ""
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 161,
+                            "durationMicroseconds": 131,
                             "functionName": "top",
                             "line": 90,
                             "message": ""
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 116,
                             "functionName": "horizontalCenter",
                             "line": 92,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 160,
+                            "durationMicroseconds": 131,
                             "functionName": "iconColor",
                             "line": 106,
                             "message": ""
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 115,
+                            "durationMicroseconds": 100,
                             "functionName": "opacity",
                             "line": 107,
                             "message": ""
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 110,
+                            "durationMicroseconds": 100,
                             "functionName": "visible",
                             "line": 113,
                             "message": ""
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 131,
+                            "durationMicroseconds": 183,
                             "functionName": "iconSource",
                             "line": 114,
                             "message": ""
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 242,
+                            "durationMicroseconds": 9686,
                             "functionName": "onClicked",
                             "line": 115,
                             "message": ""
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 153,
+                            "durationMicroseconds": 248,
                             "functionName": "bottom",
                             "line": 109,
                             "message": ""
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 142,
+                            "durationMicroseconds": 138,
                             "functionName": "horizontalCenter",
                             "line": 111,
                             "message": ""
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 797,
+                            "durationMicroseconds": 654,
                             "functionName": "collapsed",
                             "line": 120,
                             "message": ""
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 326,
+                            "durationMicroseconds": 292,
                             "functionName": "implicitWidth",
                             "line": 121,
                             "message": ""
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 6201,
+                            "durationMicroseconds": 254,
                             "functionName": "implicitHeight",
                             "line": 122,
                             "message": ""
@@ -344,7 +344,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 2988,
+                            "durationMicroseconds": 105,
                             "functionName": "width",
                             "line": 125,
                             "message": "Cannot access value for name vertical"
@@ -352,7 +352,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 130,
+                            "durationMicroseconds": 93,
                             "functionName": "height",
                             "line": 126,
                             "message": "Cannot access value for name horizontal"
@@ -360,7 +360,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 1159,
+                            "durationMicroseconds": 324,
                             "functionName": "color",
                             "line": 127,
                             "message": ""
@@ -368,7 +368,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 795,
+                            "durationMicroseconds": 143,
                             "functionName": "radius",
                             "line": 137,
                             "message": ""
@@ -376,7 +376,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 240,
+                            "durationMicroseconds": 193,
                             "functionName": "visible",
                             "line": 138,
                             "message": ""
@@ -384,7 +384,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 139,
+                            "durationMicroseconds": 402,
                             "functionName": "right",
                             "line": 134,
                             "message": "Cannot access value for name vertical"
@@ -392,7 +392,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 89,
+                            "durationMicroseconds": 103,
                             "functionName": "bottom",
                             "line": 135,
                             "message": "Cannot access value for name horizontal"
@@ -400,7 +400,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 66,
                             "functionName": "when",
                             "line": 152,
                             "message": "Cannot access value for name contentItem"
@@ -408,7 +408,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 121,
                             "functionName": "target",
                             "line": 154,
                             "message": ""
@@ -432,7 +432,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 60,
+                            "durationMicroseconds": 52,
                             "functionName": "when",
                             "line": 143,
                             "message": "Cannot access value for name contentItem"
@@ -440,7 +440,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 111,
+                            "durationMicroseconds": 84,
                             "functionName": "target",
                             "line": 145,
                             "message": ""
@@ -464,7 +464,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 116,
                             "functionName": "target",
                             "line": 178,
                             "message": ""
@@ -472,7 +472,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 76,
+                            "durationMicroseconds": 67,
                             "functionName": "properties",
                             "line": 179,
                             "message": "Cannot access value for name vertical"
@@ -480,7 +480,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 124,
+                            "durationMicroseconds": 118,
                             "functionName": "type",
                             "line": 181,
                             "message": ""
@@ -488,7 +488,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 98,
+                            "durationMicroseconds": 108,
                             "functionName": "target",
                             "line": 166,
                             "message": ""
@@ -496,7 +496,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 67,
+                            "durationMicroseconds": 66,
                             "functionName": "properties",
                             "line": 167,
                             "message": "Cannot access value for name vertical"
@@ -504,7 +504,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 111,
+                            "durationMicroseconds": 148,
                             "functionName": "type",
                             "line": 169,
                             "message": ""

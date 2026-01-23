@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 445,
+                            "durationMicroseconds": 300,
                             "functionName": "width",
                             "line": 12,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 94,
                             "functionName": "height",
                             "line": 13,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 79,
+                            "durationMicroseconds": 71,
                             "functionName": "color",
                             "line": 15,
                             "message": "Cannot access value for name bgColor"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 141,
+                            "durationMicroseconds": 110,
                             "functionName": "fill",
                             "line": 16,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 92,
+                            "durationMicroseconds": 83,
                             "functionName": "size",
                             "line": 20,
                             "message": "Cannot access value for name margins"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 112,
+                            "durationMicroseconds": 94,
                             "functionName": "centerIn",
                             "line": 21,
                             "message": ""

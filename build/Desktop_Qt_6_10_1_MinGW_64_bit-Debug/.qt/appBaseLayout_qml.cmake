@@ -6,10 +6,10 @@ set(src_and_dest_list
     "D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/BaseLayout/Main.qml"
     "D:/Study/QTQMLStudy/code/BaseLayout/qml/BaseComponent/ShadowBox.qml"
     "D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/BaseLayout/ShadowBox.qml"
+    "D:/Study/QTQMLStudy/code/BaseLayout/qml/Layout/SearchLayoutTemplate/DefaultLayoutHeader.qml"
+    "D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/BaseLayout/DefaultLayoutHeader.qml"
     "D:/Study/QTQMLStudy/code/BaseLayout/qml/Layout/SearchLayoutTemplate/SearchLayoutTemplate.qml"
     "D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/BaseLayout/SearchLayoutTemplate.qml"
-    "D:/Study/QTQMLStudy/code/BaseLayout/qml/Layout/SearchLayoutTemplate/defaultLayoutHeader.qml"
-    "D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/BaseLayout/defaultLayoutHeader.qml"
 
 )
 set(timestamp_file "D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/appBaseLayout_qml.txt")

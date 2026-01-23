@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 1059,
+                            "durationMicroseconds": 402,
                             "functionName": "orientation",
                             "line": 7,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 267,
+                            "durationMicroseconds": 21230,
                             "functionName": "indicatorGravity",
                             "line": 12,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 44,
-                            "durationMicroseconds": 123,
+                            "durationMicroseconds": 115,
                             "functionName": "indicatorDelegate",
                             "line": 19,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 1828,
+                            "durationMicroseconds": 219,
                             "functionName": "onIndicatorGravityChanged",
                             "line": 23,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 578,
+                            "durationMicroseconds": 478,
                             "functionName": "isAnimEnable",
                             "line": 32,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 464,
+                            "durationMicroseconds": 566,
                             "functionName": "onIsAnimEnableChanged",
                             "line": 33,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 1479,
+                            "durationMicroseconds": 206,
                             "functionName": "snapMode",
                             "line": 63,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 224,
+                            "durationMicroseconds": 167,
                             "functionName": "boundsBehavior",
                             "line": 65,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 169,
+                            "durationMicroseconds": 136,
                             "functionName": "model",
                             "line": 66,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 894,
+                            "durationMicroseconds": 648,
                             "functionName": "maximumFlickVelocity",
                             "line": 67,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 436,
+                            "durationMicroseconds": 297,
                             "functionName": "interactive",
                             "line": 74,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 166,
+                            "durationMicroseconds": 207,
                             "functionName": "orientation",
                             "line": 81,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 4353,
+                            "durationMicroseconds": 3353,
                             "functionName": "onMovementEnded",
                             "line": 105,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 370,
+                            "durationMicroseconds": 400,
                             "functionName": "onMovementStarted",
                             "line": 127,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 2746,
+                            "durationMicroseconds": 1770,
                             "functionName": "onContentXChanged",
                             "line": 131,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 2694,
+                            "durationMicroseconds": 1488,
                             "functionName": "onContentYChanged",
                             "line": 142,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 461,
+                            "durationMicroseconds": 294,
                             "functionName": "onOrientationChanged",
                             "line": 153,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 9,
-                            "durationMicroseconds": 217,
+                            "durationMicroseconds": 123,
                             "functionName": "resetPos",
                             "line": 156,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 194,
+                            "durationMicroseconds": 117,
                             "functionName": "fill",
                             "line": 62,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 273,
+                            "durationMicroseconds": 308,
                             "functionName": "onCompleted",
                             "line": 71,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 480,
+                            "durationMicroseconds": 129,
                             "functionName": "target",
                             "line": 76,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 2,
                             "column": 13,
-                            "durationMicroseconds": 363,
+                            "durationMicroseconds": 228,
                             "functionName": "onModelChanged",
                             "line": 77,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 233,
+                            "durationMicroseconds": 297,
                             "functionName": "width",
                             "line": 84,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 341,
+                            "durationMicroseconds": 178,
                             "functionName": "height",
                             "line": 85,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 299,
+                            "durationMicroseconds": 268,
                             "functionName": "displayIndex",
                             "line": 86,
                             "message": "Cannot access value for name index"
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 0,
                             "column": 45,
-                            "durationMicroseconds": 177,
+                            "durationMicroseconds": 175,
                             "functionName": "displayIndex",
                             "line": 94,
                             "message": ""
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 417,
+                            "durationMicroseconds": 456,
                             "functionName": "model",
                             "line": 95,
                             "message": "Cannot access value for name list_view"
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 81,
+                            "durationMicroseconds": 95,
                             "functionName": "sourceComponent",
                             "line": 97,
                             "message": "Cannot access value for name control"
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 123,
+                            "durationMicroseconds": 126,
                             "functionName": "fill",
                             "line": 96,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 283,
+                            "durationMicroseconds": 294,
                             "functionName": "scale",
                             "line": 176,
                             "message": "Cannot access value for name checked"
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 488,
+                            "durationMicroseconds": 351,
                             "functionName": "color",
                             "line": 177,
                             "message": "Cannot access value for name checked"
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 493,
+                            "durationMicroseconds": 260,
                             "functionName": "width",
                             "line": 178,
                             "message": ""
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 358,
+                            "durationMicroseconds": 205,
                             "functionName": "color",
                             "line": 179,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 1516,
+                            "durationMicroseconds": 692,
                             "functionName": "onClicked",
                             "line": 184,
                             "message": "Cannot access value for name realIndex"
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 166,
+                            "durationMicroseconds": 94,
                             "functionName": "fill",
                             "line": 183,
                             "message": ""
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 66,
+                            "durationMicroseconds": 50,
                             "functionName": "active",
                             "line": 193,
                             "message": "Cannot access value for name showIndicator"
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 520,
+                            "durationMicroseconds": 391,
                             "functionName": "sourceComponent",
                             "line": 194,
                             "message": ""
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 1420,
+                            "durationMicroseconds": 822,
                             "functionName": "updateAnchors",
                             "line": 195,
                             "message": "cannot convert from void to QQuickAnchors::horizontalCenter with type QQuickAnchorLine"
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 137,
+                            "durationMicroseconds": 126,
                             "functionName": "onCompleted",
                             "line": 225,
                             "message": ""
@@ -344,7 +344,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 84,
+                            "durationMicroseconds": 72,
                             "functionName": "spacing",
                             "line": 234,
                             "message": "Cannot access value for name control"
@@ -352,7 +352,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 67,
+                            "durationMicroseconds": 54,
                             "functionName": "model",
                             "line": 237,
                             "message": "Cannot access value for name list_view"
@@ -360,7 +360,7 @@
                         {
                             "codegenResult": 2,
                             "column": 48,
-                            "durationMicroseconds": 1032,
+                            "durationMicroseconds": 552,
                             "functionName": "displayIndex",
                             "line": 239,
                             "message": "Cannot access value for name index"
@@ -368,7 +368,7 @@
                         {
                             "codegenResult": 2,
                             "column": 45,
-                            "durationMicroseconds": 65,
+                            "durationMicroseconds": 43,
                             "functionName": "realIndex",
                             "line": 246,
                             "message": "Cannot access value for name index"
@@ -376,7 +376,7 @@
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 124,
+                            "durationMicroseconds": 91,
                             "functionName": "checked",
                             "line": 247,
                             "message": "Cannot access value for name list_view"
@@ -384,7 +384,7 @@
                         {
                             "codegenResult": 2,
                             "column": 38,
-                            "durationMicroseconds": 558,
+                            "durationMicroseconds": 194,
                             "functionName": "sourceComponent",
                             "line": 248,
                             "message": "Cannot access value for name index"
@@ -392,7 +392,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 77,
+                            "durationMicroseconds": 56,
                             "functionName": "spacing",
                             "line": 262,
                             "message": "Cannot access value for name control"
@@ -400,7 +400,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 45,
                             "functionName": "model",
                             "line": 265,
                             "message": "Cannot access value for name list_view"
@@ -408,7 +408,7 @@
                         {
                             "codegenResult": 2,
                             "column": 48,
-                            "durationMicroseconds": 249,
+                            "durationMicroseconds": 246,
                             "functionName": "displayIndex",
                             "line": 267,
                             "message": "Cannot access value for name index"
@@ -416,7 +416,7 @@
                         {
                             "codegenResult": 2,
                             "column": 45,
-                            "durationMicroseconds": 31,
+                            "durationMicroseconds": 269,
                             "functionName": "realIndex",
                             "line": 274,
                             "message": "Cannot access value for name index"
@@ -424,7 +424,7 @@
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 75,
+                            "durationMicroseconds": 297,
                             "functionName": "checked",
                             "line": 275,
                             "message": "Cannot access value for name list_view"
@@ -432,7 +432,7 @@
                         {
                             "codegenResult": 2,
                             "column": 38,
-                            "durationMicroseconds": 264,
+                            "durationMicroseconds": 212,
                             "functionName": "sourceComponent",
                             "line": 276,
                             "message": "Cannot access value for name index"
@@ -440,7 +440,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 2383,
+                            "durationMicroseconds": 641,
                             "functionName": "onTriggered",
                             "line": 289,
                             "message": ""
@@ -448,7 +448,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 246,
+                            "durationMicroseconds": 132,
                             "functionName": "interval",
                             "line": 298,
                             "message": ""
@@ -456,7 +456,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 195,
+                            "durationMicroseconds": 97,
                             "functionName": "repeat",
                             "line": 299,
                             "message": ""
@@ -464,7 +464,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 1433,
+                            "durationMicroseconds": 482,
                             "functionName": "onTriggered",
                             "line": 300,
                             "message": ""

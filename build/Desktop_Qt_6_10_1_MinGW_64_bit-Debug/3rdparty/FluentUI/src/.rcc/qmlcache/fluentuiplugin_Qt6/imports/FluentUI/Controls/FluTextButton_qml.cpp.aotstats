@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 547,
+                            "durationMicroseconds": 530,
                             "functionName": "normalColor",
                             "line": 9,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 883,
+                            "durationMicroseconds": 1028,
                             "functionName": "hoverColor",
                             "line": 10,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 1395,
+                            "durationMicroseconds": 806,
                             "functionName": "pressedColor",
                             "line": 11,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 1491,
+                            "durationMicroseconds": 1530,
                             "functionName": "disableColor",
                             "line": 12,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 209,
+                            "durationMicroseconds": 208,
                             "functionName": "backgroundHoverColor",
                             "line": 13,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemHoverColor with type QColor (stored as QVariant) -> FluTheme::itemHoverColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 17189,
+                            "durationMicroseconds": 183,
                             "functionName": "backgroundPressedColor",
                             "line": 14,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemPressColor with type QColor (stored as QVariant) -> FluTheme::itemPressColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 43,
-                            "durationMicroseconds": 233,
+                            "durationMicroseconds": 168,
                             "functionName": "backgroundNormalColor",
                             "line": 15,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemNormalColor with type QColor (stored as QVariant) -> FluTheme::itemNormalColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 377,
+                            "durationMicroseconds": 162,
                             "functionName": "backgroundDisableColor",
                             "line": 16,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemNormalColor with type QColor (stored as QVariant) -> FluTheme::itemNormalColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 861,
+                            "durationMicroseconds": 919,
                             "functionName": "textColor",
                             "line": 18,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 115,
+                            "durationMicroseconds": 282,
                             "functionName": "enabled",
                             "line": 29,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 10,
-                            "durationMicroseconds": 179,
+                            "durationMicroseconds": 202,
                             "functionName": "font",
                             "line": 30,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Body with type QFont (stored as QVariant) -> FluTextStyle::Body with type QFont (adjusted to QFont, stored as QVariant)"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 151,
+                            "durationMicroseconds": 190,
                             "functionName": "focusPolicy",
                             "line": 52,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 251,
+                            "durationMicroseconds": 337,
                             "functionName": "color",
                             "line": 35,
                             "message": "Cannot access value for name backgroundDisableColor"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 186,
+                            "durationMicroseconds": 279,
                             "functionName": "visible",
                             "line": 48,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 120,
+                            "durationMicroseconds": 158,
                             "functionName": "role",
                             "line": 53,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 123,
+                            "durationMicroseconds": 142,
                             "functionName": "name",
                             "line": 54,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 79,
+                            "durationMicroseconds": 130,
                             "functionName": "description",
                             "line": 55,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 179,
+                            "durationMicroseconds": 133,
                             "functionName": "text",
                             "line": 59,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 147,
+                            "durationMicroseconds": 150,
                             "functionName": "font",
                             "line": 60,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 107,
+                            "durationMicroseconds": 144,
                             "functionName": "horizontalAlignment",
                             "line": 61,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 96,
+                            "durationMicroseconds": 160,
                             "functionName": "verticalAlignment",
                             "line": 62,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 154,
+                            "durationMicroseconds": 164,
                             "functionName": "color",
                             "line": 63,
                             "message": ""

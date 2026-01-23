@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 508,
+                            "durationMicroseconds": 547,
                             "functionName": "orientation",
                             "line": 7,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 699,
+                            "durationMicroseconds": 562,
                             "functionName": "width",
                             "line": 26,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 630,
+                            "durationMicroseconds": 509,
                             "functionName": "height",
                             "line": 27,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 150,
+                            "durationMicroseconds": 146,
                             "functionName": "isVertical",
                             "line": 12,
                             "message": "Cannot access value for name orientation"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 411,
+                            "durationMicroseconds": 346,
                             "functionName": "parentHeight",
                             "line": 13,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 367,
+                            "durationMicroseconds": 360,
                             "functionName": "parentWidth",
                             "line": 19,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 257,
+                            "durationMicroseconds": 263,
                             "functionName": "color",
                             "line": 29,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::dividerColor with type QColor (stored as QVariant) -> FluTheme::dividerColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 153,
+                            "durationMicroseconds": 111,
                             "functionName": "width",
                             "line": 30,
                             "message": "Cannot access value for name size"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 112,
                             "functionName": "height",
                             "line": 31,
                             "message": "Cannot access value for name size"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 198,
+                            "durationMicroseconds": 100,
                             "functionName": "centerIn",
                             "line": 32,
                             "message": ""

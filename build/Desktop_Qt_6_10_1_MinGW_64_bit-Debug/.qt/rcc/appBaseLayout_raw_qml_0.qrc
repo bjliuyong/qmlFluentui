@@ -2,8 +2,8 @@
   <qresource prefix="/BaseLayout/">
     <file alias="Main.qml">D:/Study/QTQMLStudy/code/BaseLayout/Main.qml</file>
     <file alias="ShadowBox.qml">D:/Study/QTQMLStudy/code/BaseLayout/qml/BaseComponent/ShadowBox.qml</file>
+    <file alias="DefaultLayoutHeader.qml">D:/Study/QTQMLStudy/code/BaseLayout/qml/Layout/SearchLayoutTemplate/DefaultLayoutHeader.qml</file>
     <file alias="SearchLayoutTemplate.qml">D:/Study/QTQMLStudy/code/BaseLayout/qml/Layout/SearchLayoutTemplate/SearchLayoutTemplate.qml</file>
-    <file alias="defaultLayoutHeader.qml">D:/Study/QTQMLStudy/code/BaseLayout/qml/Layout/SearchLayoutTemplate/defaultLayoutHeader.qml</file>
   </qresource>
 </RCC>
 

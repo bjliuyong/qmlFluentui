@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 585,
+                            "durationMicroseconds": 445,
                             "functionName": "animationEasingType",
                             "line": 10,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 1133,
+                            "durationMicroseconds": 740,
                             "functionName": "animateToNewData",
                             "line": 14,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 303,
+                            "durationMicroseconds": 180,
                             "functionName": "onChartAnimationProgressChanged",
                             "line": 94,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 244783,
+                            "durationMicroseconds": 122796,
                             "functionName": "onPaint",
                             "line": 97,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 584,
+                            "durationMicroseconds": 598,
                             "functionName": "onHeightChanged",
                             "line": 114,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 85,
+                            "durationMicroseconds": 125,
                             "functionName": "jsChart",
                             "line": 24,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 88,
+                            "durationMicroseconds": 94,
                             "functionName": "handler",
                             "line": 34,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 13,
-                            "durationMicroseconds": 314,
+                            "durationMicroseconds": 226,
                             "functionName": "onClicked",
                             "line": 60,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 69,
+                            "durationMicroseconds": 144,
                             "functionName": "onClicked",
                             "line": 60,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 13,
-                            "durationMicroseconds": 200,
+                            "durationMicroseconds": 179,
                             "functionName": "onPositionChanged",
                             "line": 64,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 108,
                             "functionName": "onPositionChanged",
                             "line": 64,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 237,
+                            "durationMicroseconds": 253,
                             "functionName": "onExited",
                             "line": 67,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 214,
+                            "durationMicroseconds": 193,
                             "functionName": "onEntered",
                             "line": 70,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 13,
-                            "durationMicroseconds": 177,
+                            "durationMicroseconds": 173,
                             "functionName": "onPressed",
                             "line": 74,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 59,
+                            "durationMicroseconds": 63,
                             "functionName": "onPressed",
                             "line": 74,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 13,
-                            "durationMicroseconds": 202,
+                            "durationMicroseconds": 185,
                             "functionName": "onReleased",
                             "line": 78,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 59,
+                            "durationMicroseconds": 70,
                             "functionName": "onReleased",
                             "line": 78,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 131,
+                            "durationMicroseconds": 233,
                             "functionName": "fill",
                             "line": 31,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 134,
+                            "durationMicroseconds": 136,
                             "functionName": "duration",
                             "line": 88,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 177,
+                            "durationMicroseconds": 174,
                             "functionName": "onFinished",
                             "line": 90,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 137,
+                            "durationMicroseconds": 155,
                             "functionName": "type",
                             "line": 89,
                             "message": ""

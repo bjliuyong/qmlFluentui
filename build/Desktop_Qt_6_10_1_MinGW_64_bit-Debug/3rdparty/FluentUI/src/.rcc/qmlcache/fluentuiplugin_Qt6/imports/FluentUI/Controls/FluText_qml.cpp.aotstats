@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 870,
+                            "durationMicroseconds": 545,
                             "functionName": "textColor",
                             "line": 6,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::fontPrimaryColor with type QColor (stored as QVariant) -> FluTheme::fontPrimaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 2756,
+                            "durationMicroseconds": 1827,
                             "functionName": "color",
                             "line": 8,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 465,
+                            "durationMicroseconds": 424,
                             "functionName": "renderType",
                             "line": 9,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 11,
-                            "durationMicroseconds": 207,
+                            "durationMicroseconds": 235,
                             "functionName": "font",
                             "line": 10,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Body with type QFont (stored as QVariant) -> FluTextStyle::Body with type QFont (adjusted to QFont, stored as QVariant)"

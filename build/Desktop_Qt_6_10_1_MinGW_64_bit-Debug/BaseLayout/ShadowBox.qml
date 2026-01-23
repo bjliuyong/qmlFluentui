@@ -14,9 +14,6 @@ Item {
     Layout.fillHeight: true
     // 高度由外部 Layout 根据权重分配
 
-    Component.onCompleted: {
-        console.log("测试颜色值:", FluColors.Grey210)
-    }
     FluGroupBox {
         id: group
         anchors.fill: parent

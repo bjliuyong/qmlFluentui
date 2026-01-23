@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 1099,
+                            "durationMicroseconds": 26231,
                             "functionName": "implicitWidth",
                             "line": 7,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 656,
+                            "durationMicroseconds": 1024,
                             "functionName": "implicitHeight",
                             "line": 9,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 207,
+                            "durationMicroseconds": 225,
                             "functionName": "spacing",
                             "line": 13,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 188,
+                            "durationMicroseconds": 184,
                             "functionName": "model",
                             "line": 15,
                             "message": ""

@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 1999,
+                            "durationMicroseconds": 1625,
                             "functionName": "normalColor",
                             "line": 10,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 1414,
+                            "durationMicroseconds": 1876,
                             "functionName": "hoverColor",
                             "line": 11,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 1367,
+                            "durationMicroseconds": 1221,
                             "functionName": "disableColor",
                             "line": 12,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 1331,
+                            "durationMicroseconds": 2404,
                             "functionName": "dividerColor",
                             "line": 13,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 4120,
+                            "durationMicroseconds": 3723,
                             "functionName": "textColor",
                             "line": 14,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 155,
+                            "durationMicroseconds": 149,
                             "functionName": "enabled",
                             "line": 38,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 10,
-                            "durationMicroseconds": 218,
+                            "durationMicroseconds": 222,
                             "functionName": "font",
                             "line": 41,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Body with type QFont (stored as QVariant) -> FluTextStyle::Body with type QFont (adjusted to QFont, stored as QVariant)"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 363,
+                            "durationMicroseconds": 133,
                             "functionName": "focusPolicy",
                             "line": 42,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 221,
+                            "durationMicroseconds": 104,
                             "functionName": "role",
                             "line": 33,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 164,
+                            "durationMicroseconds": 108,
                             "functionName": "name",
                             "line": 34,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 99,
+                            "durationMicroseconds": 71,
                             "functionName": "description",
                             "line": 35,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 206,
+                            "durationMicroseconds": 161,
                             "functionName": "onPressAction",
                             "line": 36,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 232,
+                            "durationMicroseconds": 279,
                             "functionName": "color",
                             "line": 47,
                             "message": "Cannot access value for name disableColor"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 66,
+                            "durationMicroseconds": 76,
                             "functionName": "shadow",
                             "line": 53,
                             "message": "Cannot access value for name pressed"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 153,
+                            "durationMicroseconds": 174,
                             "functionName": "visible",
                             "line": 55,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 138,
                             "functionName": "text",
                             "line": 60,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 141,
+                            "durationMicroseconds": 104,
                             "functionName": "horizontalAlignment",
                             "line": 61,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 133,
+                            "durationMicroseconds": 83,
                             "functionName": "verticalAlignment",
                             "line": 62,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 424,
+                            "durationMicroseconds": 139,
                             "functionName": "font",
                             "line": 63,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 679,
+                            "durationMicroseconds": 126,
                             "functionName": "color",
                             "line": 64,
                             "message": ""

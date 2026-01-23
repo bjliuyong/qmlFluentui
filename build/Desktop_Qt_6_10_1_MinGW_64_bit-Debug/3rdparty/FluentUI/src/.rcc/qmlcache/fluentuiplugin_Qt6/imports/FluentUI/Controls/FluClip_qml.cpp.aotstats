@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 849,
+                            "durationMicroseconds": 609,
                             "functionName": "enabled",
                             "line": 9,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 1393,
+                            "durationMicroseconds": 1226,
                             "functionName": "textureSize",
                             "line": 10,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 107,
+                            "durationMicroseconds": 118,
                             "functionName": "radius",
                             "line": 14,
                             "message": "Cannot access value for name control"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 58,
+                            "durationMicroseconds": 54,
                             "functionName": "width",
                             "line": 15,
                             "message": "Cannot access value for name control"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 49,
                             "functionName": "height",
                             "line": 16,
                             "message": "Cannot access value for name control"

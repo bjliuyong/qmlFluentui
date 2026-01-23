@@ -8,17 +8,33 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 444,
+                            "durationMicroseconds": 211,
                             "functionName": "visibility",
-                            "line": 10,
+                            "line": 9,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 74,
+                            "functionName": "minimumWidth",
+                            "line": 11,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 48,
+                            "functionName": "minimumHeight",
+                            "line": 12,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 105,
+                            "durationMicroseconds": 37,
                             "functionName": "fill",
-                            "line": 14,
+                            "line": 15,
                             "message": ""
                         }
                     ],

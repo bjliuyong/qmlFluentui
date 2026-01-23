@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 8,
-                            "durationMicroseconds": 926,
+                            "durationMicroseconds": 803,
                             "functionName": "x",
                             "line": 8,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 8,
-                            "durationMicroseconds": 220,
+                            "durationMicroseconds": 197,
                             "functionName": "y",
                             "line": 9,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 670,
+                            "durationMicroseconds": 643,
                             "functionName": "implicitWidth",
                             "line": 10,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 598,
+                            "durationMicroseconds": 546,
                             "functionName": "implicitHeight",
                             "line": 12,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 11,
-                            "durationMicroseconds": 286,
+                            "durationMicroseconds": 241,
                             "functionName": "font",
                             "line": 16,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Body with type QFont (stored as QVariant) -> FluTextStyle::Body with type QFont (adjusted to QFont, stored as QVariant)"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 381,
+                            "durationMicroseconds": 391,
                             "functionName": "closePolicy",
                             "line": 17,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 137,
+                            "durationMicroseconds": 773,
                             "functionName": "text",
                             "line": 19,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 237,
+                            "durationMicroseconds": 153,
                             "functionName": "font",
                             "line": 20,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 131,
+                            "durationMicroseconds": 123,
                             "functionName": "wrapMode",
                             "line": 21,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 1248,
+                            "durationMicroseconds": 1094,
                             "functionName": "color",
                             "line": 24,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"

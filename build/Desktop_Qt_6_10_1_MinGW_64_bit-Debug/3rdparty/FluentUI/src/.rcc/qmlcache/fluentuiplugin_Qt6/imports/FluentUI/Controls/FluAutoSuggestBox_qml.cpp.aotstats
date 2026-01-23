@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 348,
+                            "durationMicroseconds": 339,
                             "functionName": "items",
                             "line": 6,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 45,
-                            "durationMicroseconds": 215,
+                            "durationMicroseconds": 189,
                             "functionName": "autoSuggestBoxReplacement",
                             "line": 8,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 93,
                             "functionName": "filter",
                             "line": 13,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 203,
+                            "durationMicroseconds": 126,
                             "functionName": "onActiveFocusChanged",
                             "line": 60,
                             "message": "Cannot retrieve a non-object type by ID: control_popup"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 257,
+                            "durationMicroseconds": 284,
                             "functionName": "onTextChanged",
                             "line": 156,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 492,
+                            "durationMicroseconds": 411,
                             "functionName": "onPressed",
                             "line": 159,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 1401,
+                            "durationMicroseconds": 1744,
                             "functionName": "showSuggest",
                             "line": 164,
                             "message": "Cannot load property height from (component in D:/Study/QTQMLStudy/code/BaseLayout/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluAutoSuggestBox.qml)::window with type QVariant."
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 210,
+                            "durationMicroseconds": 213,
                             "functionName": "onCompleted",
                             "line": 21,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 216,
+                            "durationMicroseconds": 162,
                             "functionName": "window",
                             "line": 27,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 248,
+                            "durationMicroseconds": 245,
                             "functionName": "loadData",
                             "line": 33,
                             "message": "Cannot access value for name items"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 334,
+                            "durationMicroseconds": 307,
                             "functionName": "handleEnterReturn",
                             "line": 54,
                             "message": "Cannot access value for name list_view"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 301,
+                            "durationMicroseconds": 277,
                             "functionName": "onDownPressed",
                             "line": 65,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 188,
+                            "durationMicroseconds": 194,
                             "functionName": "onUpPressed",
                             "line": 68,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 178,
+                            "durationMicroseconds": 166,
                             "functionName": "onEnterPressed",
                             "line": 71,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 168,
+                            "durationMicroseconds": 165,
                             "functionName": "onReturnPressed",
                             "line": 74,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 457,
+                            "durationMicroseconds": 284,
                             "functionName": "duration",
                             "line": 86,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 253,
+                            "durationMicroseconds": 145,
                             "functionName": "boundsBehavior",
                             "line": 95,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 112,
+                            "durationMicroseconds": 104,
                             "functionName": "fill",
                             "line": 93,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 75,
+                            "durationMicroseconds": 79,
                             "functionName": "width",
                             "line": 98,
                             "message": "Cannot access value for name control"
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 2,
                             "column": 29,
-                            "durationMicroseconds": 83,
+                            "durationMicroseconds": 80,
                             "functionName": "height",
                             "line": 99,
                             "message": "Cannot access value for name control"
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 55,
                             "functionName": "text",
                             "line": 102,
                             "message": "Cannot access value for name emptyText"
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 45,
-                            "durationMicroseconds": 428,
+                            "durationMicroseconds": 178,
                             "functionName": "verticalCenter",
                             "line": 104,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 161,
+                            "durationMicroseconds": 147,
                             "functionName": "left",
                             "line": 105,
                             "message": ""
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 330,
+                            "durationMicroseconds": 196,
                             "functionName": "color",
                             "line": 111,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemHoverColor with type QColor (stored as QVariant) -> FluTheme::itemHoverColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 2,
                             "column": 29,
-                            "durationMicroseconds": 83,
+                            "durationMicroseconds": 73,
                             "functionName": "height",
                             "line": 115,
                             "message": "Cannot access value for name control"
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 71,
                             "functionName": "width",
                             "line": 116,
                             "message": "Cannot access value for name control"
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 694,
+                            "durationMicroseconds": 703,
                             "functionName": "onClicked",
                             "line": 117,
                             "message": "Cannot access value for name d"
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 163,
+                            "durationMicroseconds": 172,
                             "functionName": "color",
                             "line": 125,
                             "message": "Cannot access value for name pressed"
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 161,
+                            "durationMicroseconds": 160,
                             "functionName": "visible",
                             "line": 122,
                             "message": ""
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 552,
+                            "durationMicroseconds": 531,
                             "functionName": "text",
                             "line": 136,
                             "message": "Cannot access value for name modelData"
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 113,
+                            "durationMicroseconds": 71,
                             "functionName": "implicitWidth",
                             "line": 146,
                             "message": "Cannot access value for name control"
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 2,
                             "column": 29,
-                            "durationMicroseconds": 194,
+                            "durationMicroseconds": 190,
                             "functionName": "implicitHeight",
                             "line": 147,
                             "message": "Cannot access value for name control"
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 1625,
+                            "durationMicroseconds": 1065,
                             "functionName": "color",
                             "line": 149,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 2029,
+                            "durationMicroseconds": 1451,
                             "functionName": "color",
                             "line": 150,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"

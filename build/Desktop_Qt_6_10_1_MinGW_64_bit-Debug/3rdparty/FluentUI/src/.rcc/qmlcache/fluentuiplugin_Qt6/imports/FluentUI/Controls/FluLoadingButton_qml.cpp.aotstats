@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 437,
+                            "durationMicroseconds": 379,
                             "functionName": "disabled",
                             "line": 9,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 250,
+                            "durationMicroseconds": 218,
                             "functionName": "text",
                             "line": 13,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 173,
+                            "durationMicroseconds": 155,
                             "functionName": "horizontalAlignment",
                             "line": 14,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 128,
+                            "durationMicroseconds": 101,
                             "functionName": "verticalAlignment",
                             "line": 15,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 191,
+                            "durationMicroseconds": 163,
                             "functionName": "font",
                             "line": 16,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 182,
+                            "durationMicroseconds": 151,
                             "functionName": "color",
                             "line": 17,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 169,
+                            "durationMicroseconds": 153,
                             "functionName": "verticalCenter",
                             "line": 18,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 347,
+                            "durationMicroseconds": 305,
                             "functionName": "width",
                             "line": 21,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 400,
+                            "durationMicroseconds": 364,
                             "functionName": "visible",
                             "line": 24,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 159,
+                            "durationMicroseconds": 137,
                             "functionName": "verticalCenter",
                             "line": 23,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 192,
+                            "durationMicroseconds": 169,
                             "functionName": "enabled",
                             "line": 27,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 170,
+                            "durationMicroseconds": 151,
                             "functionName": "type",
                             "line": 30,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 115,
+                            "durationMicroseconds": 94,
                             "functionName": "centerIn",
                             "line": 37,
                             "message": ""

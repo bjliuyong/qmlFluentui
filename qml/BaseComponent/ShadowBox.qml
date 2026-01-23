@@ -3,10 +3,11 @@ import QtQuick.Layouts
 import QtQuick.Controls
 import QtQuick.Effects
 import FluentUI
+
 Item {
     id: control
     property alias title: group.title
-    property alias content: slot.data // 指向 data 属性，支持插入多个组件
+    default property alias content: slot.data // 指向 data 属性，支持插入多个组件
 
     property real weight: 10
 
@@ -14,13 +15,10 @@ Item {
     Layout.fillHeight: true
     // 高度由外部 Layout 根据权重分配
 
-    Component.onCompleted: {
-        console.log("测试颜色值:", FluColors.Grey210)
-    }
     FluGroupBox {
         id: group
         anchors.fill: parent
-
+        padding: 2
         Item {
             id: slot
             anchors.fill: parent

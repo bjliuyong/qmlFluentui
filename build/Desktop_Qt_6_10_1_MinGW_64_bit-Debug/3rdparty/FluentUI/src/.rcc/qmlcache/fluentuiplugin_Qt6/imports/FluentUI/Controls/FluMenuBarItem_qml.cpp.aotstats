@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 5217,
+                            "durationMicroseconds": 28695,
                             "functionName": "textColor",
                             "line": 8,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 189,
+                            "durationMicroseconds": 299,
                             "functionName": "enabled",
                             "line": 28,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 741,
+                            "durationMicroseconds": 708,
                             "functionName": "implicitWidth",
                             "line": 29,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 1012,
+                            "durationMicroseconds": 859,
                             "functionName": "implicitHeight",
                             "line": 31,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 285,
+                            "durationMicroseconds": 516,
                             "functionName": "color",
                             "line": 40,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 224,
+                            "durationMicroseconds": 197,
                             "functionName": "verticalAlignment",
                             "line": 42,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 220,
+                            "durationMicroseconds": 192,
                             "functionName": "text",
                             "line": 43,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 197,
+                            "durationMicroseconds": 251,
                             "functionName": "color",
                             "line": 44,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 540,
+                            "durationMicroseconds": 460,
                             "functionName": "color",
                             "line": 50,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemHoverColor with type QColor (stored as QVariant) -> FluTheme::itemHoverColor with type QColor (adjusted to QColor, stored as QVariant)"

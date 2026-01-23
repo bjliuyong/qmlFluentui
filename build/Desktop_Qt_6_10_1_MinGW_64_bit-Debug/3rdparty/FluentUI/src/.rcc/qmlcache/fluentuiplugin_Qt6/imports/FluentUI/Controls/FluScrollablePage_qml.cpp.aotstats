@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 5,
-                            "durationMicroseconds": 556,
+                            "durationMicroseconds": 583,
                             "functionName": "resetScroll",
                             "line": 28,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 197,
+                            "durationMicroseconds": 210,
                             "functionName": "boundsBehavior",
                             "line": 19,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 152,
+                            "durationMicroseconds": 177,
                             "functionName": "contentHeight",
                             "line": 20,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 92,
+                            "durationMicroseconds": 111,
                             "functionName": "fill",
                             "line": 15,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 119,
+                            "durationMicroseconds": 134,
                             "functionName": "width",
                             "line": 23,
                             "message": "Cannot access value for name bar"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 73,
+                            "durationMicroseconds": 83,
                             "functionName": "spacing",
                             "line": 24,
                             "message": "Cannot retrieve a non-object type by ID: control"

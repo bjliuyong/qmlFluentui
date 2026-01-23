@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 329,
+                            "durationMicroseconds": 333,
                             "functionName": "bottomMargin",
                             "line": 10,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 84,
+                            "durationMicroseconds": 83,
                             "functionName": "topMargin",
                             "line": 11,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 82,
+                            "durationMicroseconds": 74,
                             "functionName": "leftMargin",
                             "line": 12,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 57,
+                            "durationMicroseconds": 81,
                             "functionName": "rightMargin",
                             "line": 13,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 1887,
+                            "durationMicroseconds": 1851,
                             "functionName": "color",
                             "line": 14,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 507,
+                            "durationMicroseconds": 482,
                             "functionName": "startColor",
                             "line": 18,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method lighter, returning QVariant -> QColor stored as QVariant"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 228,
+                            "durationMicroseconds": 195,
                             "functionName": "endColor",
                             "line": 19,
                             "message": "Cannot access value for name shadow"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 1593,
+                            "durationMicroseconds": 1303,
                             "functionName": "color",
                             "line": 21,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 162,
+                            "durationMicroseconds": 159,
                             "functionName": "radius",
                             "line": 26,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 100,
+                            "durationMicroseconds": 110,
                             "functionName": "fill",
                             "line": 25,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 50,
-                            "durationMicroseconds": 299,
+                            "durationMicroseconds": 180,
                             "functionName": "color",
                             "line": 28,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 406,
+                            "durationMicroseconds": 310,
                             "functionName": "position",
                             "line": 29,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 67,
-                            "durationMicroseconds": 200,
+                            "durationMicroseconds": 159,
                             "functionName": "color",
                             "line": 29,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 50,
-                            "durationMicroseconds": 186,
+                            "durationMicroseconds": 147,
                             "functionName": "color",
                             "line": 30,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 555,
+                            "durationMicroseconds": 126,
                             "functionName": "radius",
                             "line": 49,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 227,
+                            "durationMicroseconds": 155,
                             "functionName": "color",
                             "line": 50,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 132,
+                            "durationMicroseconds": 112,
                             "functionName": "fill",
                             "line": 36,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 228,
+                            "durationMicroseconds": 181,
                             "functionName": "margins",
                             "line": 37,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 153,
+                            "durationMicroseconds": 109,
                             "functionName": "topMargin",
                             "line": 38,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 134,
+                            "durationMicroseconds": 123,
                             "functionName": "bottomMargin",
                             "line": 39,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 151,
+                            "durationMicroseconds": 95,
                             "functionName": "leftMargin",
                             "line": 40,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 207,
+                            "durationMicroseconds": 323,
                             "functionName": "rightMargin",
                             "line": 41,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 158,
+                            "durationMicroseconds": 159,
                             "functionName": "type",
                             "line": 45,
                             "message": ""

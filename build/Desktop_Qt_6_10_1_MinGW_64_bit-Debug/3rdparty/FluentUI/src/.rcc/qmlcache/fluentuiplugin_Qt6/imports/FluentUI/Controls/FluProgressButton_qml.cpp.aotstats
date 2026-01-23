@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 2724,
+                            "durationMicroseconds": 1955,
                             "functionName": "normalColor",
                             "line": 13,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 2532,
+                            "durationMicroseconds": 1955,
                             "functionName": "hoverColor",
                             "line": 20,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 3316,
+                            "durationMicroseconds": 3616,
                             "functionName": "disableColor",
                             "line": 27,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 849,
+                            "durationMicroseconds": 913,
                             "functionName": "pressedColor",
                             "line": 34,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 227,
+                            "durationMicroseconds": 205,
                             "functionName": "checked",
                             "line": 10,
                             "message": "Cannot access value for name background"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 15,
-                            "durationMicroseconds": 398,
+                            "durationMicroseconds": 291,
                             "functionName": "color",
                             "line": 41,
                             "message": "Cannot access value for name disableColor"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 1765,
+                            "durationMicroseconds": 1853,
                             "functionName": "color",
                             "line": 39,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 268,
+                            "durationMicroseconds": 269,
                             "functionName": "width",
                             "line": 40,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 291,
+                            "durationMicroseconds": 265,
                             "functionName": "radius",
                             "line": 54,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 120,
+                            "durationMicroseconds": 111,
                             "functionName": "fill",
                             "line": 53,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 296,
+                            "durationMicroseconds": 416,
                             "functionName": "width",
                             "line": 57,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 128,
+                            "durationMicroseconds": 121,
                             "functionName": "height",
                             "line": 58,
                             "message": "Cannot access value for name background"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 271,
+                            "durationMicroseconds": 161,
                             "functionName": "visible",
                             "line": 59,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 221,
+                            "durationMicroseconds": 189,
                             "functionName": "color",
                             "line": 60,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 177,
+                            "durationMicroseconds": 147,
                             "functionName": "bottom",
                             "line": 61,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 299,
+                            "durationMicroseconds": 205,
                             "functionName": "enabled",
                             "line": 63,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 284,
+                            "durationMicroseconds": 243,
                             "functionName": "duration",
                             "line": 66,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 949,
+                            "durationMicroseconds": 218,
                             "functionName": "duration",
                             "line": 69,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 108,
+                            "durationMicroseconds": 72,
                             "functionName": "to",
                             "line": 71,
                             "message": "Cannot access value for name background"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 174,
+                            "durationMicroseconds": 7601,
                             "functionName": "visible",
                             "line": 83,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 166,
+                            "durationMicroseconds": 170,
                             "functionName": "text",
                             "line": 88,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 283,
+                            "durationMicroseconds": 131,
                             "functionName": "horizontalAlignment",
                             "line": 89,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 119,
+                            "durationMicroseconds": 89,
                             "functionName": "verticalAlignment",
                             "line": 90,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 696,
+                            "durationMicroseconds": 686,
                             "functionName": "color",
                             "line": 91,
                             "message": "Cannot access value for name pressed"

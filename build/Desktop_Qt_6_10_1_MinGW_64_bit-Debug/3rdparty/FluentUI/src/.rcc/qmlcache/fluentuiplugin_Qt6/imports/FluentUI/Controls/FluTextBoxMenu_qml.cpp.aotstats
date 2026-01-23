@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 639,
+                            "durationMicroseconds": 1841,
                             "functionName": "onVisibleChanged",
                             "line": 15,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 120,
+                            "durationMicroseconds": 121,
                             "functionName": "target",
                             "line": 21,
                             "message": "Cannot access value for name inputItem"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 9,
-                            "durationMicroseconds": 922,
+                            "durationMicroseconds": 216,
                             "functionName": "onTextChanged",
                             "line": 27,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 378,
+                            "durationMicroseconds": 155,
                             "functionName": "onActiveFocusChanged",
                             "line": 30,
                             "message": "Cannot access value for name inputItem"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 761,
+                            "durationMicroseconds": 9928,
                             "functionName": "display",
                             "line": 37,
                             "message": "Cannot access value for name Button"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 69,
+                            "durationMicroseconds": 62,
                             "functionName": "text",
                             "line": 38,
                             "message": "Cannot access value for name cutText"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 258,
+                            "durationMicroseconds": 268,
                             "functionName": "height",
                             "line": 41,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 263,
+                            "durationMicroseconds": 168,
                             "functionName": "visible",
                             "line": 42,
                             "message": "Cannot access value for name inputItem"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 88,
+                            "durationMicroseconds": 81,
                             "functionName": "onClicked",
                             "line": 48,
                             "message": "Cannot access value for name inputItem"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 577,
+                            "durationMicroseconds": 590,
                             "functionName": "display",
                             "line": 54,
                             "message": "Cannot access value for name Button"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 52,
+                            "durationMicroseconds": 50,
                             "functionName": "text",
                             "line": 55,
                             "message": "Cannot access value for name copyText"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 221,
+                            "durationMicroseconds": 196,
                             "functionName": "height",
                             "line": 58,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 122,
+                            "durationMicroseconds": 138,
                             "functionName": "visible",
                             "line": 59,
                             "message": "Cannot access value for name inputItem"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 81,
+                            "durationMicroseconds": 74,
                             "functionName": "onClicked",
                             "line": 65,
                             "message": "Cannot access value for name inputItem"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 3215,
+                            "durationMicroseconds": 717,
                             "functionName": "display",
                             "line": 71,
                             "message": "Cannot access value for name Button"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 61,
+                            "durationMicroseconds": 304,
                             "functionName": "text",
                             "line": 72,
                             "message": "Cannot access value for name pasteText"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 108,
+                            "durationMicroseconds": 255,
                             "functionName": "visible",
                             "line": 75,
                             "message": "Cannot access value for name inputItem"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 237,
+                            "durationMicroseconds": 211,
                             "functionName": "height",
                             "line": 81,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 86,
+                            "durationMicroseconds": 84,
                             "functionName": "onClicked",
                             "line": 82,
                             "message": "Cannot access value for name inputItem"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 563,
+                            "durationMicroseconds": 528,
                             "functionName": "display",
                             "line": 88,
                             "message": "Cannot access value for name Button"
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 48,
+                            "durationMicroseconds": 45,
                             "functionName": "text",
                             "line": 89,
                             "message": "Cannot access value for name selectAllText"
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 207,
+                            "durationMicroseconds": 203,
                             "functionName": "height",
                             "line": 92,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 112,
+                            "durationMicroseconds": 110,
                             "functionName": "visible",
                             "line": 93,
                             "message": "Cannot access value for name inputItem"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 78,
+                            "durationMicroseconds": 77,
                             "functionName": "onClicked",
                             "line": 99,
                             "message": "Cannot access value for name inputItem"

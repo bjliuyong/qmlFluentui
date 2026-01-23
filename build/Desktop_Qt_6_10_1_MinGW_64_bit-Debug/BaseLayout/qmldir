@@ -3,6 +3,7 @@ typeinfo appBaseLayout.qmltypes
 prefer :/BaseLayout/
 Main 1.0 Main.qml
 ShadowBox 1.0 ShadowBox.qml
+DefaultLayoutHeader 1.0 DefaultLayoutHeader.qml
 SearchLayoutTemplate 1.0 SearchLayoutTemplate.qml
 depends QtQuick
 

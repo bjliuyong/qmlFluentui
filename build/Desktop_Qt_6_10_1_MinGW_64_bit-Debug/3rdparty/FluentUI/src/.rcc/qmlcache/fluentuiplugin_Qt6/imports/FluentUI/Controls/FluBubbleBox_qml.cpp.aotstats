@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 2517,
+                            "durationMicroseconds": 633,
                             "functionName": "targetX",
                             "line": 12,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 152,
+                            "durationMicroseconds": 140,
                             "functionName": "targetX",
                             "line": 12,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 334,
+                            "durationMicroseconds": 288,
                             "functionName": "targetY",
                             "line": 15,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 98,
+                            "durationMicroseconds": 106,
                             "functionName": "targetY",
                             "line": 15,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 49,
-                            "durationMicroseconds": 646,
+                            "durationMicroseconds": 588,
                             "functionName": "triangleDirection",
                             "line": 23,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 3382,
+                            "durationMicroseconds": 1309,
                             "functionName": "color",
                             "line": 41,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 8,
-                            "durationMicroseconds": 403,
+                            "durationMicroseconds": 318,
                             "functionName": "x",
                             "line": 45,
                             "message": "method targetX cannot be resolved."
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 8,
-                            "durationMicroseconds": 245,
+                            "durationMicroseconds": 257,
                             "functionName": "y",
                             "line": 64,
                             "message": "method targetY cannot be resolved."
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 46,
-                            "durationMicroseconds": 6559,
+                            "durationMicroseconds": 1397,
                             "functionName": "clampedRatio",
                             "line": 85,
                             "message": "Cannot access value for name triangleDirection"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 385,
+                            "durationMicroseconds": 176,
                             "functionName": "x",
                             "line": 120,
                             "message": "Cannot access value for name triangleDirection"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 310,
+                            "durationMicroseconds": 147,
                             "functionName": "y",
                             "line": 134,
                             "message": "Cannot access value for name triangleDirection"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 364,
+                            "durationMicroseconds": 196,
                             "functionName": "fillColor",
                             "line": 153,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 233,
+                            "durationMicroseconds": 144,
                             "functionName": "strokeColor",
                             "line": 154,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 175,
+                            "durationMicroseconds": 115,
                             "functionName": "startX",
                             "line": 155,
                             "message": "Cannot access value for name triangleDirection"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 145,
+                            "durationMicroseconds": 95,
                             "functionName": "startY",
                             "line": 167,
                             "message": "Cannot access value for name triangleDirection"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 172,
+                            "durationMicroseconds": 135,
                             "functionName": "x",
                             "line": 180,
                             "message": "Cannot access value for name triangleDirection"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 283,
+                            "durationMicroseconds": 192,
                             "functionName": "y",
                             "line": 193,
                             "message": "Cannot access value for name triangleDirection"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 160,
+                            "durationMicroseconds": 104,
                             "functionName": "x",
                             "line": 208,
                             "message": "Cannot access value for name triangleDirection"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 92,
                             "functionName": "y",
                             "line": 220,
                             "message": "Cannot access value for name triangleDirection"

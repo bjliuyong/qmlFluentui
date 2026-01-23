@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 662,
+                            "durationMicroseconds": 568,
                             "functionName": "borderColor",
                             "line": 11,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::dividerColor with type QColor (stored as QVariant) -> FluTheme::dividerColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 563,
+                            "durationMicroseconds": 1879,
                             "functionName": "color",
                             "line": 12,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::frameActiveColor with type QColor (stored as QVariant) -> FluTheme::frameActiveColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 995,
+                            "durationMicroseconds": 876,
                             "functionName": "implicitWidth",
                             "line": 19,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 698,
+                            "durationMicroseconds": 679,
                             "functionName": "implicitHeight",
                             "line": 22,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 11,
-                            "durationMicroseconds": 241,
+                            "durationMicroseconds": 228,
                             "functionName": "font",
                             "line": 26,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Body with type QFont (stored as QVariant) -> FluTextStyle::Body with type QFont (adjusted to QFont, stored as QVariant)"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 567,
+                            "durationMicroseconds": 644,
                             "functionName": "topPadding",
                             "line": 27,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 201,
+                            "durationMicroseconds": 223,
                             "functionName": "width",
                             "line": 29,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 172,
+                            "durationMicroseconds": 177,
                             "functionName": "text",
                             "line": 30,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 15,
-                            "durationMicroseconds": 228,
+                            "durationMicroseconds": 220,
                             "functionName": "font",
                             "line": 31,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::BodyStrong with type QFont (stored as QVariant) -> FluTextStyle::BodyStrong with type QFont (adjusted to QFont, stored as QVariant)"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 175,
+                            "durationMicroseconds": 180,
                             "functionName": "elide",
                             "line": 32,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 126,
+                            "durationMicroseconds": 124,
                             "functionName": "verticalAlignment",
                             "line": 33,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 340,
+                            "durationMicroseconds": 334,
                             "functionName": "y",
                             "line": 36,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 138,
+                            "durationMicroseconds": 158,
                             "functionName": "width",
                             "line": 37,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 453,
+                            "durationMicroseconds": 1130,
                             "functionName": "height",
                             "line": 38,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 158,
                             "functionName": "radius",
                             "line": 39,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 195,
+                            "durationMicroseconds": 170,
                             "functionName": "color",
                             "line": 42,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 172,
+                            "durationMicroseconds": 168,
                             "functionName": "color",
                             "line": 40,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 148,
+                            "durationMicroseconds": 137,
                             "functionName": "width",
                             "line": 41,
                             "message": ""

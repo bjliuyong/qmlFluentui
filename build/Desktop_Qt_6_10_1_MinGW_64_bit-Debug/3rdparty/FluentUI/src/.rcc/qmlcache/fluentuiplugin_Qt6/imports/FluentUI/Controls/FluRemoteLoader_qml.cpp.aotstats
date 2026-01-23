@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 500,
+                            "durationMicroseconds": 570,
                             "functionName": "onErrorClicked",
                             "line": 10,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 713,
+                            "durationMicroseconds": 687,
                             "functionName": "reload",
                             "line": 32,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 37,
+                            "durationMicroseconds": 36,
                             "functionName": "itemLodaer",
                             "line": 36,
                             "message": "function without return type annotation returns . This may prevent proper compilation to Cpp."
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 655,
+                            "durationMicroseconds": 635,
                             "functionName": "onCompleted",
                             "line": 13,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 1239,
+                            "durationMicroseconds": 1049,
                             "functionName": "onStatusChanged",
                             "line": 22,
                             "message": ""

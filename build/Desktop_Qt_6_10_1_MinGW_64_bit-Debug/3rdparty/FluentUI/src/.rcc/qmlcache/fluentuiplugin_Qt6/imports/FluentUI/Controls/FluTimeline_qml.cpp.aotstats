@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 381,
+                            "durationMicroseconds": 369,
                             "functionName": "mode",
                             "line": 6,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 2067,
+                            "durationMicroseconds": 1382,
                             "functionName": "lineColor",
                             "line": 8,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 160,
+                            "durationMicroseconds": 137,
                             "functionName": "implicitHeight",
                             "line": 11,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 257,
+                            "durationMicroseconds": 228,
                             "functionName": "isLeft",
                             "line": 14,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 197,
+                            "durationMicroseconds": 173,
                             "functionName": "isRight",
                             "line": 15,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 1410,
+                            "durationMicroseconds": 174,
                             "functionName": "isAlternate",
                             "line": 16,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 815,
+                            "durationMicroseconds": 743,
                             "functionName": "hasLable",
                             "line": 17,
                             "message": "Cannot access value for name model"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 372,
+                            "durationMicroseconds": 338,
                             "functionName": "stateName",
                             "line": 29,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 206,
+                            "durationMicroseconds": 162,
                             "functionName": "color",
                             "line": 44,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 948,
+                            "durationMicroseconds": 799,
                             "functionName": "height",
                             "line": 45,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 228,
+                            "durationMicroseconds": 186,
                             "functionName": "visible",
                             "line": 52,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 156,
+                            "durationMicroseconds": 109,
                             "functionName": "state",
                             "line": 53,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 108,
+                            "durationMicroseconds": 92,
                             "functionName": "target",
                             "line": 80,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 1,
                             "column": 47,
-                            "durationMicroseconds": 27,
+                            "durationMicroseconds": 26,
                             "functionName": "horizontalCenter",
                             "line": 81,
                             "message": "Skipped code generation for binding for property of type QQmlScriptString; nothing to do."

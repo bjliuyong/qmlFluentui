@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 1222,
+                            "durationMicroseconds": 1091,
                             "functionName": "implicitWidth",
                             "line": 11,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 686,
+                            "durationMicroseconds": 1571,
                             "functionName": "implicitHeight",
                             "line": 13,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 648,
+                            "durationMicroseconds": 577,
                             "functionName": "color",
                             "line": 20,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::frameActiveColor with type QColor (stored as QVariant) -> FluTheme::frameActiveColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 234,
+                            "durationMicroseconds": 197,
                             "functionName": "color",
                             "line": 19,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::dividerColor with type QColor (stored as QVariant) -> FluTheme::dividerColor with type QColor (adjusted to QColor, stored as QVariant)"

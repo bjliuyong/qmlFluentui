@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 1097,
+                            "durationMicroseconds": 1084,
                             "functionName": "textHighlightColor",
                             "line": 9,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluColors::Grey10 with type QColor (stored as QVariant) -> FluColors::Grey10 with type QColor (adjusted to QColor, stored as QVariant)"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 572,
+                            "durationMicroseconds": 575,
                             "functionName": "textNormalColor",
                             "line": 10,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluColors::Grey120 with type QColor (stored as QVariant) -> FluColors::Grey120 with type QColor (adjusted to QColor, stored as QVariant)"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 548,
+                            "durationMicroseconds": 521,
                             "functionName": "textHoverColor",
                             "line": 11,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluColors::Grey80 with type QColor (stored as QVariant) -> FluColors::Grey80 with type QColor (adjusted to QColor, stored as QVariant)"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 11,
-                            "durationMicroseconds": 230,
+                            "durationMicroseconds": 213,
                             "functionName": "font",
                             "line": 18,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Title with type QFont (stored as QVariant) -> FluTextStyle::Title with type QFont (adjusted to QFont, stored as QVariant)"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 104,
+                            "durationMicroseconds": 101,
                             "functionName": "implicitHeight",
                             "line": 19,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 122,
+                            "durationMicroseconds": 105,
                             "functionName": "implicitWidth",
                             "line": 20,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 689,
+                            "durationMicroseconds": 606,
                             "functionName": "tabY",
                             "line": 23,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 204,
+                            "durationMicroseconds": 200,
                             "functionName": "implicitHeight",
                             "line": 28,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 151,
+                            "durationMicroseconds": 128,
                             "functionName": "implicitWidth",
                             "line": 29,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 210,
+                            "durationMicroseconds": 167,
                             "functionName": "model",
                             "line": 30,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 14881,
                             "functionName": "spacing",
                             "line": 31,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 158,
+                            "durationMicroseconds": 185,
                             "functionName": "orientation",
                             "line": 33,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 320,
+                            "durationMicroseconds": 514,
                             "functionName": "highlightMoveDuration",
                             "line": 34,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 319,
+                            "durationMicroseconds": 317,
                             "functionName": "highlightResizeDuration",
                             "line": 35,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 218,
+                            "durationMicroseconds": 273,
                             "functionName": "color",
                             "line": 41,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 113,
+                            "durationMicroseconds": 137,
                             "functionName": "width",
                             "line": 42,
                             "message": "Cannot access value for name nav_list"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 57,
+                            "durationMicroseconds": 58,
                             "functionName": "y",
                             "line": 43,
                             "message": "Cannot access value for name d"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 163,
+                            "durationMicroseconds": 151,
                             "functionName": "width",
                             "line": 48,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 63,
                             "functionName": "height",
                             "line": 49,
                             "message": "Cannot access value for name nav_list"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 172,
+                            "durationMicroseconds": 145,
                             "functionName": "focusPolicy",
                             "line": 50,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 115,
+                            "durationMicroseconds": 179,
                             "functionName": "onClicked",
                             "line": 75,
                             "message": "Cannot access value for name nav_list"
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 154,
+                            "durationMicroseconds": 202,
                             "functionName": "visible",
                             "line": 54,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 824,
+                            "durationMicroseconds": 600,
                             "functionName": "text",
                             "line": 61,
                             "message": "Cannot access value for name modelData"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 76,
+                            "durationMicroseconds": 78,
                             "functionName": "font",
                             "line": 63,
                             "message": "Cannot access value for name control"
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 1161,
+                            "durationMicroseconds": 628,
                             "functionName": "color",
                             "line": 64,
                             "message": "Cannot access value for name nav_list"
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 178,
+                            "durationMicroseconds": 125,
                             "functionName": "centerIn",
                             "line": 62,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 444,
+                            "durationMicroseconds": 164,
                             "functionName": "fill",
                             "line": 82,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 211,
+                            "durationMicroseconds": 171,
                             "functionName": "model",
                             "line": 84,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 469,
+                            "durationMicroseconds": 1530,
                             "functionName": "argument",
                             "line": 86,
                             "message": "Cannot access value for name modelData"
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 310,
+                            "durationMicroseconds": 271,
                             "functionName": "sourceComponent",
                             "line": 88,
                             "message": "Cannot access value for name modelData"
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 123,
+                            "durationMicroseconds": 96,
                             "functionName": "visible",
                             "line": 89,
                             "message": "Cannot access value for name nav_list"
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 151,
+                            "durationMicroseconds": 118,
                             "functionName": "fill",
                             "line": 87,
                             "message": ""

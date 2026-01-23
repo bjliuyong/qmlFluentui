@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 512,
+                            "durationMicroseconds": 417,
                             "functionName": "implicitWidth",
                             "line": 11,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 158,
+                            "durationMicroseconds": 164,
                             "functionName": "implicitHeight",
                             "line": 12,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 111,
+                            "durationMicroseconds": 98,
                             "functionName": "itemSize",
                             "line": 16,
                             "message": "Cannot access value for name spacing"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 181,
+                            "durationMicroseconds": 154,
                             "functionName": "model",
                             "line": 22,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 97,
+                            "durationMicroseconds": 77,
                             "functionName": "width",
                             "line": 24,
                             "message": "Cannot access value for name d"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 59,
+                            "durationMicroseconds": 46,
                             "functionName": "height",
                             "line": 25,
                             "message": "Cannot access value for name d"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 48,
-                            "durationMicroseconds": 1268,
+                            "durationMicroseconds": 1057,
                             "functionName": "isSelected",
                             "line": 27,
                             "message": "Cannot access value for name d"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 76,
+                            "durationMicroseconds": 64,
                             "functionName": "iconSize",
                             "line": 33,
                             "message": "Cannot access value for name control"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 367,
+                            "durationMicroseconds": 2422,
                             "functionName": "iconSource",
                             "line": 34,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 764,
+                            "durationMicroseconds": 701,
                             "functionName": "iconColor",
                             "line": 35,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 147,
+                            "durationMicroseconds": 110,
                             "functionName": "centerIn",
                             "line": 36,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 826,
+                            "durationMicroseconds": 516,
                             "functionName": "onPositionChanged",
                             "line": 44,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 89,
+                            "durationMicroseconds": 71,
                             "functionName": "onPositionChanged",
                             "line": 44,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 188,
+                            "durationMicroseconds": 172,
                             "functionName": "onExited",
                             "line": 47,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 592,
+                            "durationMicroseconds": 523,
                             "functionName": "onClicked",
                             "line": 50,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 73,
                             "functionName": "onClicked",
                             "line": 50,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 132,
+                            "durationMicroseconds": 110,
                             "functionName": "fill",
                             "line": 42,
                             "message": ""

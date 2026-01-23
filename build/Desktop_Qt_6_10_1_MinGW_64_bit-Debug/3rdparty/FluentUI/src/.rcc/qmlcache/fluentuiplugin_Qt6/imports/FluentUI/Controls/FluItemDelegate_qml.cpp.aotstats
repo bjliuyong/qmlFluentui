@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 1219,
+                            "durationMicroseconds": 1568,
                             "functionName": "implicitWidth",
                             "line": 8,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 948,
+                            "durationMicroseconds": 1075,
                             "functionName": "implicitHeight",
                             "line": 10,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 577,
+                            "durationMicroseconds": 381,
                             "functionName": "color",
                             "line": 16,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 171,
+                            "durationMicroseconds": 203,
                             "functionName": "text",
                             "line": 18,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 202,
+                            "durationMicroseconds": 241,
                             "functionName": "font",
                             "line": 19,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 15,
-                            "durationMicroseconds": 1309,
+                            "durationMicroseconds": 1116,
                             "functionName": "color",
                             "line": 20,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluColors::Grey80 with type QColor (stored as QVariant) -> FluColors::Grey80 with type QColor (adjusted to QColor, stored as QVariant)"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 15,
-                            "durationMicroseconds": 1378,
+                            "durationMicroseconds": 703,
                             "functionName": "color",
                             "line": 30,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 427,
+                            "durationMicroseconds": 454,
                             "functionName": "visible",
                             "line": 37,
                             "message": ""

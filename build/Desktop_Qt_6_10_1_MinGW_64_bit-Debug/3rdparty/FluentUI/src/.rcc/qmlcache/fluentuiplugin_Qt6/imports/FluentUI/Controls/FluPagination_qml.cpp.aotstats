@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 888,
+                            "durationMicroseconds": 768,
                             "functionName": "pageCount",
                             "line": 14,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 384,
+                            "durationMicroseconds": 342,
                             "functionName": "__pageButtonHalf",
                             "line": 16,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 173,
+                            "durationMicroseconds": 153,
                             "functionName": "implicitWidth",
                             "line": 21,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 164,
+                            "durationMicroseconds": 137,
                             "functionName": "height",
                             "line": 24,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 59,
+                            "durationMicroseconds": 54,
                             "functionName": "sourceComponent",
                             "line": 28,
                             "message": "Cannot access value for name header"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 241,
+                            "durationMicroseconds": 219,
                             "functionName": "visible",
                             "line": 31,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 232,
+                            "durationMicroseconds": 187,
                             "functionName": "disabled",
                             "line": 32,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 150,
+                            "durationMicroseconds": 126,
                             "functionName": "text",
                             "line": 33,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 349,
+                            "durationMicroseconds": 300,
                             "functionName": "clickListener",
                             "line": 34,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 94,
+                            "durationMicroseconds": 85,
                             "functionName": "clickListener",
                             "line": 34,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 249,
+                            "durationMicroseconds": 229,
                             "functionName": "visible",
                             "line": 42,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 275,
+                            "durationMicroseconds": 186,
                             "functionName": "checked",
                             "line": 43,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 199,
+                            "durationMicroseconds": 185,
                             "functionName": "text",
                             "line": 44,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 211,
+                            "durationMicroseconds": 217,
                             "functionName": "clickListener",
                             "line": 45,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 91,
+                            "durationMicroseconds": 94,
                             "functionName": "clickListener",
                             "line": 45,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 569,
+                            "durationMicroseconds": 546,
                             "functionName": "visible",
                             "line": 50,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 1114,
+                            "durationMicroseconds": 26742,
                             "functionName": "model",
                             "line": 56,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 47,
-                            "durationMicroseconds": 4847,
+                            "durationMicroseconds": 893,
                             "functionName": "pageNumber",
                             "line": 58,
                             "message": "Cannot access value for name control"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 249,
+                            "durationMicroseconds": 228,
                             "functionName": "text",
                             "line": 65,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 78,
+                            "durationMicroseconds": 81,
                             "functionName": "checked",
                             "line": 66,
                             "message": "Cannot access value for name control"
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 69,
+                            "durationMicroseconds": 72,
                             "functionName": "clickListener",
                             "line": 67,
                             "message": "Cannot access value for name control"
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 142,
+                            "durationMicroseconds": 103,
                             "functionName": "clickListener",
                             "line": 67,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 1103,
+                            "durationMicroseconds": 926,
                             "functionName": "visible",
                             "line": 73,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 42,
-                            "durationMicroseconds": 146,
+                            "durationMicroseconds": 155,
                             "functionName": "pageNumber",
                             "line": 78,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 217,
+                            "durationMicroseconds": 257,
                             "functionName": "visible",
                             "line": 79,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 198,
+                            "durationMicroseconds": 205,
                             "functionName": "checked",
                             "line": 80,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 194,
+                            "durationMicroseconds": 503,
                             "functionName": "text",
                             "line": 81,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 213,
+                            "durationMicroseconds": 448,
                             "functionName": "clickListener",
                             "line": 82,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 89,
+                            "durationMicroseconds": 124,
                             "functionName": "clickListener",
                             "line": 82,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 302,
+                            "durationMicroseconds": 400,
                             "functionName": "visible",
                             "line": 88,
                             "message": ""
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 218,
+                            "durationMicroseconds": 288,
                             "functionName": "disabled",
                             "line": 89,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 108,
+                            "durationMicroseconds": 2039,
                             "functionName": "text",
                             "line": 90,
                             "message": ""
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 314,
+                            "durationMicroseconds": 514,
                             "functionName": "clickListener",
                             "line": 91,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 88,
+                            "durationMicroseconds": 140,
                             "functionName": "clickListener",
                             "line": 91,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 49,
+                            "durationMicroseconds": 807,
                             "functionName": "sourceComponent",
                             "line": 96,
                             "message": "Cannot access value for name footer"

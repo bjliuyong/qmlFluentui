@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 3064,
+                            "durationMicroseconds": 2356,
                             "functionName": "textColor",
                             "line": 6,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 142,
+                            "durationMicroseconds": 139,
                             "functionName": "color",
                             "line": 20,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 393,
+                            "durationMicroseconds": 331,
                             "functionName": "renderType",
                             "line": 24,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 123,
+                            "durationMicroseconds": 111,
                             "functionName": "selectedTextColor",
                             "line": 30,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 448,
+                            "durationMicroseconds": 491,
                             "functionName": "selectionColor",
                             "line": 32,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method withOpacity, returning QColor -> call to method withOpacity, returning QColor"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 10,
-                            "durationMicroseconds": 263,
+                            "durationMicroseconds": 265,
                             "functionName": "font",
                             "line": 33,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Body with type QFont (stored as QVariant) -> FluTextStyle::Body with type QFont (adjusted to QFont, stored as QVariant)"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 184,
+                            "durationMicroseconds": 195,
                             "functionName": "onSelectedTextChanged",
                             "line": 34,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 132,
+                            "durationMicroseconds": 141,
                             "functionName": "cursorShape",
                             "line": 39,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 248,
                             "functionName": "acceptedButtons",
                             "line": 40,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 399,
+                            "durationMicroseconds": 437,
                             "functionName": "onClicked",
                             "line": 41,
                             "message": "Cannot load property echoMode from ."
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 151,
+                            "durationMicroseconds": 121,
                             "functionName": "fill",
                             "line": 38,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 9,
-                            "durationMicroseconds": 114,
+                            "durationMicroseconds": 123,
                             "functionName": "popup",
                             "line": 45,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 75,
+                            "durationMicroseconds": 78,
                             "functionName": "inputItem",
                             "line": 52,
                             "message": "Cannot access value for name control"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 70,
+                            "durationMicroseconds": 100,
                             "functionName": "onClosed",
                             "line": 56,
                             "message": "Cannot access value for name menu_loader"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 138,
+                            "durationMicroseconds": 144,
                             "functionName": "onCompleted",
                             "line": 53,
                             "message": ""

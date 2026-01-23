@@ -7,42 +7,170 @@
                     "entries": [
                         {
                             "codegenResult": 0,
+                            "column": 21,
+                            "durationMicroseconds": 609,
+                            "functionName": "implicitHeight",
+                            "line": 19,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 70,
+                            "functionName": "implicitWidth",
+                            "line": 24,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 1263,
+                            "durationMicroseconds": 356,
                             "functionName": "netHeight",
-                            "line": 13,
+                            "line": 32,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 164,
+                            "durationMicroseconds": 79,
                             "functionName": "fill",
-                            "line": 6,
+                            "line": 7,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 120,
+                            "functionName": "minimumWidth",
+                            "line": 40,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 507,
+                            "durationMicroseconds": 164,
                             "functionName": "preferredHeight",
-                            "line": 18,
+                            "line": 43,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 78,
+                            "functionName": "minimumHeight",
+                            "line": 44,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 676,
+                            "functionName": "onChildrenChanged",
+                            "line": 49,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 57,
+                            "functionName": "fill",
+                            "line": 48,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 21,
+                            "durationMicroseconds": 103,
+                            "functionName": "active",
+                            "line": 55,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 35,
+                            "functionName": "fill",
+                            "line": 53,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 49,
+                            "functionName": "minimumWidth",
+                            "line": 65,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 251,
+                            "durationMicroseconds": 95,
                             "functionName": "preferredHeight",
-                            "line": 25,
+                            "line": 67,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 44,
+                            "functionName": "minimumHeight",
+                            "line": 68,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 260,
+                            "functionName": "onChildrenChanged",
+                            "line": 73,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 35,
+                            "functionName": "fill",
+                            "line": 72,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 47,
+                            "functionName": "minimumWidth",
+                            "line": 83,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 221,
+                            "durationMicroseconds": 89,
                             "functionName": "preferredHeight",
-                            "line": 31,
+                            "line": 85,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 45,
+                            "functionName": "minimumHeight",
+                            "line": 86,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 250,
+                            "functionName": "onChildrenChanged",
+                            "line": 91,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 38,
+                            "functionName": "fill",
+                            "line": 90,
                             "message": ""
                         }
                     ],

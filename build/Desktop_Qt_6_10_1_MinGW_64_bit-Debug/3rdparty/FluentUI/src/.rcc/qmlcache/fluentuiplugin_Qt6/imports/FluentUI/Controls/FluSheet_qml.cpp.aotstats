@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 484,
+                            "durationMicroseconds": 404,
                             "functionName": "iconSource",
                             "line": 15,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 104,
+                            "durationMicroseconds": 102,
                             "functionName": "onClicked",
                             "line": 26,
                             "message": "Cannot access value for name control"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 215,
+                            "durationMicroseconds": 203,
                             "functionName": "verticalCenter",
                             "line": 22,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 157,
+                            "durationMicroseconds": 159,
                             "functionName": "left",
                             "line": 23,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 74,
+                            "durationMicroseconds": 62,
                             "functionName": "text",
                             "line": 32,
                             "message": "Cannot access value for name control"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 211,
+                            "durationMicroseconds": 183,
                             "functionName": "font",
                             "line": 33,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Subtitle with type QFont (stored as QVariant) -> FluTextStyle::Subtitle with type QFont (adjusted to QFont, stored as QVariant)"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 155,
+                            "durationMicroseconds": 146,
                             "functionName": "verticalCenter",
                             "line": 35,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 61,
                             "functionName": "left",
                             "line": 36,
                             "message": "Cannot access value for name btn_close"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 130,
                             "functionName": "right",
                             "line": 38,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 155,
+                            "durationMicroseconds": 148,
                             "functionName": "win",
                             "line": 73,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 200541,
+                            "durationMicroseconds": 117861,
                             "functionName": "onWinChanged",
                             "line": 74,
                             "message": "Instruction \"generate_CmpInstanceOf\" not implemented"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 269,
+                            "durationMicroseconds": 168,
                             "functionName": "position",
                             "line": 79,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 236,
+                            "durationMicroseconds": 157,
                             "functionName": "parentHeight",
                             "line": 80,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 176,
+                            "durationMicroseconds": 128,
                             "functionName": "parentWidth",
                             "line": 86,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 251,
+                            "durationMicroseconds": 155,
                             "functionName": "onRunningChanged",
                             "line": 95,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 250,
+                            "durationMicroseconds": 145,
                             "functionName": "from",
                             "line": 103,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 111,
+                            "durationMicroseconds": 70,
                             "functionName": "to",
                             "line": 104,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 229,
+                            "durationMicroseconds": 124,
                             "functionName": "type",
                             "line": 105,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 110,
+                            "durationMicroseconds": 71,
                             "functionName": "from",
                             "line": 113,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 201,
+                            "durationMicroseconds": 121,
                             "functionName": "to",
                             "line": 114,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 153,
+                            "durationMicroseconds": 127,
                             "functionName": "type",
                             "line": 115,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 109,
+                            "durationMicroseconds": 65,
                             "functionName": "from",
                             "line": 123,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 162,
+                            "durationMicroseconds": 109,
                             "functionName": "type",
                             "line": 125,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 77,
+                            "durationMicroseconds": 60,
                             "functionName": "to",
                             "line": 134,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 163,
+                            "durationMicroseconds": 118,
                             "functionName": "type",
                             "line": 135,
                             "message": ""
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 81,
+                            "durationMicroseconds": 1035,
                             "functionName": "from",
                             "line": 143,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 130,
+                            "durationMicroseconds": 325,
                             "functionName": "type",
                             "line": 145,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 69,
+                            "durationMicroseconds": 192,
                             "functionName": "to",
                             "line": 154,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 133,
+                            "durationMicroseconds": 172,
                             "functionName": "type",
                             "line": 155,
                             "message": ""
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 277,
+                            "durationMicroseconds": 180,
                             "functionName": "onRunningChanged",
                             "line": 160,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 176,
+                            "durationMicroseconds": 150,
                             "functionName": "from",
                             "line": 168,
                             "message": ""
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 97,
+                            "durationMicroseconds": 75,
                             "functionName": "to",
                             "line": 169,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 141,
+                            "durationMicroseconds": 150,
                             "functionName": "type",
                             "line": 170,
                             "message": ""
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 115,
+                            "durationMicroseconds": 86,
                             "functionName": "from",
                             "line": 178,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 1794,
+                            "durationMicroseconds": 124,
                             "functionName": "to",
                             "line": 179,
                             "message": ""
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 237,
+                            "durationMicroseconds": 115,
                             "functionName": "type",
                             "line": 180,
                             "message": ""
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 2570,
+                            "durationMicroseconds": 2655,
                             "functionName": "color",
                             "line": 188,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -344,7 +344,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 2519,
+                            "durationMicroseconds": 1901,
                             "functionName": "color",
                             "line": 187,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"

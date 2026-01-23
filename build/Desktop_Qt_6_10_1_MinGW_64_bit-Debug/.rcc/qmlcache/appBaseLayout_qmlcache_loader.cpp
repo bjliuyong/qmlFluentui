@@ -19,14 +19,14 @@ namespace _0x5f_BaseLayout_ShadowBox_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _0x5f_BaseLayout_SearchLayoutTemplate_qml { 
+namespace _0x5f_BaseLayout_DefaultLayoutHeader_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _0x5f_BaseLayout_defaultLayoutHeader_qml { 
+namespace _0x5f_BaseLayout_SearchLayoutTemplate_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -49,8 +49,8 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/BaseLayout/Main.qml"), &QmlCacheGeneratedCode::_0x5f_BaseLayout_Main_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/BaseLayout/ShadowBox.qml"), &QmlCacheGeneratedCode::_0x5f_BaseLayout_ShadowBox_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/BaseLayout/DefaultLayoutHeader.qml"), &QmlCacheGeneratedCode::_0x5f_BaseLayout_DefaultLayoutHeader_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/BaseLayout/SearchLayoutTemplate.qml"), &QmlCacheGeneratedCode::_0x5f_BaseLayout_SearchLayoutTemplate_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/BaseLayout/defaultLayoutHeader.qml"), &QmlCacheGeneratedCode::_0x5f_BaseLayout_defaultLayoutHeader_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

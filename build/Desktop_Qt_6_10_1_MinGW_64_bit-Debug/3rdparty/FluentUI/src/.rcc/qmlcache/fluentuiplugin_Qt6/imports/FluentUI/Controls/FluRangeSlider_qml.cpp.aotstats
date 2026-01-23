@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 1910,
+                            "durationMicroseconds": 1559,
                             "functionName": "implicitWidth",
                             "line": 11,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 1048,
+                            "durationMicroseconds": 904,
                             "functionName": "implicitHeight",
                             "line": 14,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 54028,
+                            "durationMicroseconds": 29966,
                             "functionName": "snapMode",
                             "line": 23,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 1866,
+                            "durationMicroseconds": 1159,
                             "functionName": "x",
                             "line": 25,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 1372,
+                            "durationMicroseconds": 1110,
                             "functionName": "y",
                             "line": 26,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 200,
+                            "durationMicroseconds": 142,
                             "functionName": "radius",
                             "line": 29,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 15,
-                            "durationMicroseconds": 6260,
+                            "durationMicroseconds": 1080,
                             "functionName": "color",
                             "line": 30,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 192,
+                            "durationMicroseconds": 136,
                             "functionName": "iconSource",
                             "line": 37,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 4937,
+                            "durationMicroseconds": 408,
                             "functionName": "scale",
                             "line": 39,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 567,
+                            "durationMicroseconds": 184,
                             "functionName": "iconColor",
                             "line": 45,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 138,
+                            "durationMicroseconds": 91,
                             "functionName": "centerIn",
                             "line": 46,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 384,
+                            "durationMicroseconds": 118,
                             "functionName": "type",
                             "line": 50,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 1626,
+                            "durationMicroseconds": 1103,
                             "functionName": "x",
                             "line": 56,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 1198,
+                            "durationMicroseconds": 917,
                             "functionName": "y",
                             "line": 57,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 192,
+                            "durationMicroseconds": 141,
                             "functionName": "radius",
                             "line": 60,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 15,
-                            "durationMicroseconds": 1220,
+                            "durationMicroseconds": 5306,
                             "functionName": "color",
                             "line": 61,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 189,
+                            "durationMicroseconds": 232,
                             "functionName": "iconSource",
                             "line": 68,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 1054,
+                            "durationMicroseconds": 864,
                             "functionName": "scale",
                             "line": 70,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 430,
+                            "durationMicroseconds": 239,
                             "functionName": "iconColor",
                             "line": 76,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 136,
+                            "durationMicroseconds": 90,
                             "functionName": "centerIn",
                             "line": 77,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 197,
+                            "durationMicroseconds": 153,
                             "functionName": "type",
                             "line": 81,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 888,
+                            "durationMicroseconds": 619,
                             "functionName": "x",
                             "line": 87,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 8706,
+                            "durationMicroseconds": 547,
                             "functionName": "y",
                             "line": 88,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 700,
+                            "durationMicroseconds": 192,
                             "functionName": "implicitWidth",
                             "line": 89,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 667,
+                            "durationMicroseconds": 179,
                             "functionName": "implicitHeight",
                             "line": 90,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 519,
+                            "durationMicroseconds": 255,
                             "functionName": "width",
                             "line": 91,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 437,
+                            "durationMicroseconds": 378,
                             "functionName": "height",
                             "line": 92,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 457,
+                            "durationMicroseconds": 271,
                             "functionName": "scale",
                             "line": 93,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 1628,
+                            "durationMicroseconds": 1602,
                             "functionName": "color",
                             "line": 98,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 124,
+                            "durationMicroseconds": 85,
                             "functionName": "fill",
                             "line": 95,
                             "message": ""
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 831,
+                            "durationMicroseconds": 623,
                             "functionName": "x",
                             "line": 101,
                             "message": ""
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 675,
+                            "durationMicroseconds": 524,
                             "functionName": "y",
                             "line": 102,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 1308,
+                            "durationMicroseconds": 1079,
                             "functionName": "width",
                             "line": 103,
                             "message": ""
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 1293,
+                            "durationMicroseconds": 1999,
                             "functionName": "height",
                             "line": 104,
                             "message": ""
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 238,
+                            "durationMicroseconds": 194,
                             "functionName": "color",
                             "line": 105,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 208,
+                            "durationMicroseconds": 205,
                             "functionName": "parent",
                             "line": 109,
                             "message": ""
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 715,
+                            "durationMicroseconds": 1048,
                             "functionName": "visible",
                             "line": 110,
                             "message": ""
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 607,
+                            "durationMicroseconds": 593,
                             "functionName": "text",
                             "line": 111,
                             "message": "Cannot access value for name isTipInt"
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 332,
+                            "durationMicroseconds": 160,
                             "functionName": "parent",
                             "line": 114,
                             "message": ""
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 717,
+                            "durationMicroseconds": 524,
                             "functionName": "visible",
                             "line": 115,
                             "message": ""
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 523,
+                            "durationMicroseconds": 483,
                             "functionName": "text",
                             "line": 116,
                             "message": "Cannot access value for name isTipInt"

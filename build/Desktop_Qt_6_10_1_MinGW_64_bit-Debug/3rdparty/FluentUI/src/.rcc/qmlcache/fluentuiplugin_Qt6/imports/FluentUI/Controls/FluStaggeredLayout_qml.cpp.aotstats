@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 836,
+                            "durationMicroseconds": 768,
                             "functionName": "clear",
                             "line": 62,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 117,
+                            "durationMicroseconds": 118,
                             "functionName": "cellWidth",
                             "line": 12,
                             "message": "Cannot access value for name itemWidth"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 712,
+                            "durationMicroseconds": 631,
                             "functionName": "colCount",
                             "line": 13,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 91,
                             "functionName": "colsHeightArr",
                             "line": 17,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 83,
+                            "durationMicroseconds": 73,
                             "functionName": "itemsInRep",
                             "line": 19,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 207,
+                            "durationMicroseconds": 192,
                             "functionName": "onMaxHeightChanged",
                             "line": 20,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 119,
+                            "durationMicroseconds": 100,
                             "functionName": "onColCountChanged",
                             "line": 23,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 530,
+                            "durationMicroseconds": 487,
                             "functionName": "refresh",
                             "line": 26,
                             "message": "Cannot load property length from (component in D:/Study/QTQMLStudy/code/BaseLayout/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluStaggeredLayout.qml)::itemsInRep with type QVariant."
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 205,
+                            "durationMicroseconds": 214,
                             "functionName": "onCountChanged",
                             "line": 53,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 13,
-                            "durationMicroseconds": 399,
+                            "durationMicroseconds": 430,
                             "functionName": "onItemAdded",
                             "line": 57,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 95,
+                            "durationMicroseconds": 221,
                             "functionName": "onItemAdded",
                             "line": 57,
                             "message": ""

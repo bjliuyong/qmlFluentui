@@ -7,50 +7,42 @@
                     "entries": [
                         {
                             "codegenResult": 0,
-                            "column": 28,
-                            "durationMicroseconds": 1173,
-                            "functionName": "onCompleted",
-                            "line": 17,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 163,
+                            "durationMicroseconds": 393,
                             "functionName": "fill",
-                            "line": 22,
+                            "line": 19,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 204,
+                            "durationMicroseconds": 128,
                             "functionName": "fill",
-                            "line": 26,
+                            "line": 23,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 164,
+                            "durationMicroseconds": 141,
                             "functionName": "source",
-                            "line": 31,
+                            "line": 28,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 261,
+                            "durationMicroseconds": 286,
                             "functionName": "shadowColor",
-                            "line": 34,
+                            "line": 31,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluColors::Grey50 with type QColor (stored as QVariant) -> FluColors::Grey50 with type QColor (adjusted to QColor, stored as QVariant)"
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 122,
+                            "durationMicroseconds": 114,
                             "functionName": "fill",
-                            "line": 32,
+                            "line": 29,
                             "message": ""
                         }
                     ],

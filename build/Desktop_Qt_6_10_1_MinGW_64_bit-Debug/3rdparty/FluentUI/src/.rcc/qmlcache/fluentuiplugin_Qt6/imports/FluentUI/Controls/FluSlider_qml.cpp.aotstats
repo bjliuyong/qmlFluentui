@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 590,
+                            "durationMicroseconds": 521,
                             "functionName": "text",
                             "line": 8,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 658,
+                            "durationMicroseconds": 581,
                             "functionName": "implicitWidth",
                             "line": 12,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 591,
+                            "durationMicroseconds": 527,
                             "functionName": "implicitHeight",
                             "line": 14,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 1101,
+                            "durationMicroseconds": 942,
                             "functionName": "x",
                             "line": 18,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 2543,
+                            "durationMicroseconds": 924,
                             "functionName": "y",
                             "line": 19,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 15,
-                            "durationMicroseconds": 1227,
+                            "durationMicroseconds": 2153,
                             "functionName": "color",
                             "line": 23,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 205,
+                            "durationMicroseconds": 168,
                             "functionName": "iconSource",
                             "line": 36,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 390,
+                            "durationMicroseconds": 323,
                             "functionName": "scale",
                             "line": 38,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 242,
+                            "durationMicroseconds": 176,
                             "functionName": "iconColor",
                             "line": 44,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 132,
+                            "durationMicroseconds": 120,
                             "functionName": "type",
                             "line": 33,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 247,
+                            "durationMicroseconds": 90,
                             "functionName": "centerIn",
                             "line": 45,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 684,
+                            "durationMicroseconds": 581,
                             "functionName": "x",
                             "line": 49,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 732,
+                            "durationMicroseconds": 745,
                             "functionName": "y",
                             "line": 50,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 216,
+                            "durationMicroseconds": 273,
                             "functionName": "implicitWidth",
                             "line": 51,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 201,
+                            "durationMicroseconds": 225,
                             "functionName": "implicitHeight",
                             "line": 52,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 296,
+                            "durationMicroseconds": 342,
                             "functionName": "width",
                             "line": 53,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 299,
+                            "durationMicroseconds": 321,
                             "functionName": "height",
                             "line": 54,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 418,
+                            "durationMicroseconds": 530,
                             "functionName": "scale",
                             "line": 61,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 1451,
+                            "durationMicroseconds": 1254,
                             "functionName": "color",
                             "line": 59,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 118,
+                            "durationMicroseconds": 102,
                             "functionName": "fill",
                             "line": 56,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 492,
+                            "durationMicroseconds": 389,
                             "functionName": "y",
                             "line": 63,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 664,
+                            "durationMicroseconds": 377,
                             "functionName": "width",
                             "line": 64,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 715,
+                            "durationMicroseconds": 463,
                             "functionName": "height",
                             "line": 65,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 212,
+                            "durationMicroseconds": 181,
                             "functionName": "color",
                             "line": 67,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 159,
+                            "durationMicroseconds": 133,
                             "functionName": "parent",
                             "line": 71,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 368,
+                            "durationMicroseconds": 308,
                             "functionName": "visible",
                             "line": 72,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 131,
+                            "durationMicroseconds": 107,
                             "functionName": "text",
                             "line": 73,
                             "message": ""

@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 1042,
+                            "durationMicroseconds": 983,
                             "functionName": "source",
                             "line": 16,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 150,
+                            "durationMicroseconds": 131,
                             "functionName": "fill",
                             "line": 15,
                             "message": ""

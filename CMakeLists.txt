@@ -42,7 +42,7 @@ qt_add_qml_module(appBaseLayout
     QML_FILES
         Main.qml
         ${ALL_LAYOUT_FILES_ABS}
-        QML_FILES qml/Layout/SearchLayoutTemplate/defaultLayoutHeader.qml
+
 )
 
 

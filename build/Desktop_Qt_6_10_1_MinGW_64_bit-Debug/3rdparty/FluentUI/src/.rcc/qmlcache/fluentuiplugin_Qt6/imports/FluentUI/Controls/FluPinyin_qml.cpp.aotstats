@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 89393,
+                            "durationMicroseconds": 49667,
                             "functionName": "context",
                             "line": 8,
                             "message": "Cannot generate efficient code for script lookup"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 41,
-                            "durationMicroseconds": 85,
+                            "durationMicroseconds": 76,
                             "functionName": "outputFormat",
                             "line": 10,
                             "message": "Cannot load property OutputFormat from PinyinPro."
