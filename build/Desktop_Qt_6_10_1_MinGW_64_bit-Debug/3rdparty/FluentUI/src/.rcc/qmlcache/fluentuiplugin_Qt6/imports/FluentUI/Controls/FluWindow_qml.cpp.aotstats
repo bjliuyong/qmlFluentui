@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 463,
+                            "durationMicroseconds": 347,
                             "functionName": "windowIcon",
                             "line": 8,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 155,
+                            "durationMicroseconds": 105,
                             "functionName": "launchMode",
                             "line": 9,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 111,
+                            "durationMicroseconds": 86,
                             "functionName": "argument",
                             "line": 10,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 109,
+                            "durationMicroseconds": 77,
                             "functionName": "background",
                             "line": 11,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 102,
+                            "durationMicroseconds": 72,
                             "functionName": "loadingItem",
                             "line": 13,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 352,
+                            "durationMicroseconds": 275,
                             "functionName": "tintOpacity",
                             "line": 15,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 1528,
+                            "durationMicroseconds": 1289,
                             "functionName": "backgroundColor",
                             "line": 30,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method withOpacity, returning QColor -> call to method withOpacity, returning QColor"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 39,
-                            "durationMicroseconds": 2949,
+                            "durationMicroseconds": 2417,
                             "functionName": "resizeBorderColor",
                             "line": 57,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 113,
+                            "durationMicroseconds": 92,
                             "functionName": "closeListener",
                             "line": 64,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 446,
+                            "durationMicroseconds": 834,
                             "functionName": "color",
                             "line": 78,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 476,
+                            "durationMicroseconds": 491,
                             "functionName": "onVisibleChanged",
                             "line": 95,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 5,
-                            "durationMicroseconds": 161,
+                            "durationMicroseconds": 120,
                             "functionName": "hideLoading",
                             "line": 328,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 40,
+                            "durationMicroseconds": 34,
                             "functionName": "clearAllInfo",
                             "line": 343,
                             "message": "function without return type annotation returns call to method clearAllInfo, returning QVariant. This may prevent proper compilation to Cpp."
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 269,
+                            "durationMicroseconds": 238,
                             "functionName": "moveWindowToDesktopCenter",
                             "line": 346,
                             "message": "Cannot use shadowable base type for further lookups: call to method desktopAvailableGeometry, returning QRect"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 5,
-                            "durationMicroseconds": 719,
+                            "durationMicroseconds": 618,
                             "functionName": "fixWindowSize",
                             "line": 350,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 5,
-                            "durationMicroseconds": 147,
+                            "durationMicroseconds": 109,
                             "functionName": "showMaximized",
                             "line": 363,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 5,
-                            "durationMicroseconds": 297,
+                            "durationMicroseconds": 89,
                             "functionName": "showMinimized",
                             "line": 366,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 5,
-                            "durationMicroseconds": 257,
+                            "durationMicroseconds": 87,
                             "functionName": "showNormal",
                             "line": 369,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 5,
-                            "durationMicroseconds": 266,
+                            "durationMicroseconds": 210,
                             "functionName": "deleteLater",
                             "line": 383,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 23,
+                            "durationMicroseconds": 15,
                             "functionName": "containerItem",
                             "line": 386,
                             "message": "function without return type annotation returns . This may prevent proper compilation to Cpp."
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 154,
+                            "durationMicroseconds": 91,
                             "functionName": "title",
                             "line": 21,
                             "message": ""
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 102,
                             "functionName": "showDark",
                             "line": 23,
                             "message": ""
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 106,
+                            "durationMicroseconds": 70,
                             "functionName": "showClose",
                             "line": 24,
                             "message": ""
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 92,
+                            "durationMicroseconds": 79,
                             "functionName": "showMinimize",
                             "line": 25,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 187,
+                            "durationMicroseconds": 69,
                             "functionName": "showMaximize",
                             "line": 26,
                             "message": ""
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 187,
+                            "durationMicroseconds": 83,
                             "functionName": "showStayTop",
                             "line": 27,
                             "message": ""
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 138,
+                            "durationMicroseconds": 99,
                             "functionName": "icon",
                             "line": 28,
                             "message": ""
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 5577,
+                            "durationMicroseconds": 5589,
                             "functionName": "onCompleted",
                             "line": 79,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 93,
+                            "durationMicroseconds": 94,
                             "functionName": "target",
                             "line": 106,
                             "message": ""
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 123,
+                            "durationMicroseconds": 101,
                             "functionName": "appbar",
                             "line": 111,
                             "message": ""
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 68,
+                            "durationMicroseconds": 55,
                             "functionName": "maximizeButton",
                             "line": 112,
                             "message": "Cannot access value for name appBar"
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 118,
+                            "durationMicroseconds": 79,
                             "functionName": "fixSize",
                             "line": 113,
                             "message": ""
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 153,
+                            "durationMicroseconds": 122,
                             "functionName": "topmost",
                             "line": 114,
                             "message": ""
@@ -344,7 +344,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 122,
+                            "durationMicroseconds": 111,
                             "functionName": "disabled",
                             "line": 115,
                             "message": ""
@@ -352,7 +352,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 126,
+                            "durationMicroseconds": 94,
                             "functionName": "isDarkMode",
                             "line": 116,
                             "message": ""
@@ -360,7 +360,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 139,
+                            "durationMicroseconds": 124,
                             "functionName": "useSystemEffect",
                             "line": 117,
                             "message": ""
@@ -368,7 +368,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 248,
+                            "durationMicroseconds": 242,
                             "functionName": "onEffectiveChanged",
                             "line": 125,
                             "message": ""
@@ -376,7 +376,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 141,
+                            "durationMicroseconds": 121,
                             "functionName": "onCompleted",
                             "line": 118,
                             "message": "Cannot access value for name appBar"
@@ -384,7 +384,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 158,
+                            "durationMicroseconds": 120,
                             "functionName": "onDestruction",
                             "line": 122,
                             "message": ""
@@ -392,7 +392,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 57,
+                            "durationMicroseconds": 46,
                             "functionName": "color",
                             "line": 136,
                             "message": "Cannot access value for name window"
@@ -400,7 +400,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 102,
+                            "durationMicroseconds": 79,
                             "functionName": "fill",
                             "line": 135,
                             "message": ""
@@ -408,7 +408,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 166,
+                            "durationMicroseconds": 216,
                             "functionName": "fillMode",
                             "line": 142,
                             "message": ""
@@ -416,7 +416,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 283,
+                            "durationMicroseconds": 177,
                             "functionName": "updateLayout",
                             "line": 154,
                             "message": "Cannot access value for name window"
@@ -424,7 +424,7 @@
                         {
                             "codegenResult": 0,
                             "column": 40,
-                            "durationMicroseconds": 415,
+                            "durationMicroseconds": 337,
                             "functionName": "onCompleted",
                             "line": 144,
                             "message": ""
@@ -432,7 +432,7 @@
                         {
                             "codegenResult": 2,
                             "column": 29,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 50,
                             "functionName": "target",
                             "line": 149,
                             "message": "Cannot access value for name window"
@@ -440,7 +440,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 161,
+                            "durationMicroseconds": 130,
                             "functionName": "onScreenChanged",
                             "line": 150,
                             "message": ""
@@ -456,7 +456,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 125,
+                            "durationMicroseconds": 102,
                             "functionName": "onDesktopImagePathChanged",
                             "line": 162,
                             "message": ""
@@ -464,7 +464,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 610,
+                            "durationMicroseconds": 555,
                             "functionName": "onBlurBehindWindowEnabledChanged",
                             "line": 165,
                             "message": ""
@@ -472,7 +472,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 641,
+                            "durationMicroseconds": 365,
                             "functionName": "onTriggered",
                             "line": 176,
                             "message": ""
@@ -480,7 +480,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 176,
+                            "durationMicroseconds": 93,
                             "functionName": "target",
                             "line": 184,
                             "message": ""
@@ -488,7 +488,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 76,
+                            "durationMicroseconds": 68,
                             "functionName": "tintOpacity",
                             "line": 185,
                             "message": "Cannot access value for name window"
@@ -496,7 +496,7 @@
                         {
                             "codegenResult": 2,
                             "column": 29,
-                            "durationMicroseconds": 42,
+                            "durationMicroseconds": 64,
                             "functionName": "blurRadius",
                             "line": 186,
                             "message": "Cannot access value for name window"
@@ -504,7 +504,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 121,
+                            "durationMicroseconds": 190,
                             "functionName": "visible",
                             "line": 187,
                             "message": "Cannot access value for name window"
@@ -512,7 +512,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 1302,
+                            "durationMicroseconds": 828,
                             "functionName": "tintColor",
                             "line": 188,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -520,7 +520,7 @@
                         {
                             "codegenResult": 2,
                             "column": 29,
-                            "durationMicroseconds": 391,
+                            "durationMicroseconds": 222,
                             "functionName": "targetRect",
                             "line": 189,
                             "message": "Cannot access value for name window"
@@ -528,7 +528,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 114,
+                            "durationMicroseconds": 70,
                             "functionName": "fill",
                             "line": 183,
                             "message": ""
@@ -536,7 +536,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 36,
                             "functionName": "data",
                             "line": 196,
                             "message": "Cannot access value for name window"
@@ -544,7 +544,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 84,
+                            "durationMicroseconds": 58,
                             "functionName": "onCompleted",
                             "line": 197,
                             "message": "Cannot access value for name window"
@@ -592,7 +592,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 68,
+                            "durationMicroseconds": 34,
                             "functionName": "onCompleted",
                             "line": 237,
                             "message": "Cannot find name opacity"
@@ -600,7 +600,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 475,
+                            "durationMicroseconds": 315,
                             "functionName": "onClicked",
                             "line": 246,
                             "message": "Cannot access value for name cancel"
@@ -608,7 +608,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 229,
+                            "durationMicroseconds": 105,
                             "functionName": "fill",
                             "line": 245,
                             "message": ""
@@ -616,7 +616,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 95,
+                            "durationMicroseconds": 87,
                             "functionName": "centerIn",
                             "line": 254,
                             "message": ""
@@ -624,7 +624,7 @@
                         {
                             "codegenResult": 0,
                             "column": 43,
-                            "durationMicroseconds": 313,
+                            "durationMicroseconds": 96,
                             "functionName": "alignment",
                             "line": 256,
                             "message": ""
@@ -632,7 +632,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 972,
+                            "durationMicroseconds": 375,
                             "functionName": "text",
                             "line": 259,
                             "message": "Cannot access value for name loadingText"
@@ -640,7 +640,7 @@
                         {
                             "codegenResult": 0,
                             "column": 43,
-                            "durationMicroseconds": 168,
+                            "durationMicroseconds": 85,
                             "functionName": "alignment",
                             "line": 260,
                             "message": ""
@@ -648,7 +648,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 78,
+                            "durationMicroseconds": 42,
                             "functionName": "width",
                             "line": 270,
                             "message": "Cannot access value for name window"
@@ -656,7 +656,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 31,
                             "functionName": "color",
                             "line": 271,
                             "message": "Cannot access value for name window"
@@ -664,7 +664,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 109,
+                            "durationMicroseconds": 66,
                             "functionName": "fill",
                             "line": 276,
                             "message": ""
@@ -672,7 +672,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 165,
+                            "durationMicroseconds": 109,
                             "functionName": "margins",
                             "line": 277,
                             "message": ""
@@ -680,7 +680,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 38,
                             "functionName": "sourceComponent",
                             "line": 280,
                             "message": "Cannot access value for name background"
@@ -688,7 +688,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 109,
+                            "durationMicroseconds": 74,
                             "functionName": "fill",
                             "line": 279,
                             "message": ""
@@ -696,7 +696,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 177,
+                            "durationMicroseconds": 113,
                             "functionName": "top",
                             "line": 285,
                             "message": ""
@@ -704,7 +704,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 150,
+                            "durationMicroseconds": 92,
                             "functionName": "left",
                             "line": 286,
                             "message": ""
@@ -712,7 +712,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 134,
+                            "durationMicroseconds": 85,
                             "functionName": "right",
                             "line": 287,
                             "message": ""
@@ -720,7 +720,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 131,
+                            "durationMicroseconds": 165,
                             "functionName": "bottom",
                             "line": 288,
                             "message": ""
@@ -728,7 +728,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 446,
+                            "durationMicroseconds": 362,
                             "functionName": "height",
                             "line": 299,
                             "message": ""
@@ -736,7 +736,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 216,
+                            "durationMicroseconds": 177,
                             "functionName": "sourceComponent",
                             "line": 305,
                             "message": ""
@@ -744,7 +744,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 146,
+                            "durationMicroseconds": 115,
                             "functionName": "top",
                             "line": 295,
                             "message": ""
@@ -752,7 +752,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 131,
+                            "durationMicroseconds": 98,
                             "functionName": "left",
                             "line": 296,
                             "message": ""
@@ -760,7 +760,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 124,
+                            "durationMicroseconds": 95,
                             "functionName": "right",
                             "line": 297,
                             "message": ""
@@ -768,7 +768,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 141,
+                            "durationMicroseconds": 66,
                             "functionName": "fill",
                             "line": 311,
                             "message": ""
@@ -776,7 +776,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 97,
+                            "durationMicroseconds": 78,
                             "functionName": "root",
                             "line": 315,
                             "message": ""
@@ -784,7 +784,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 1015,
+                            "durationMicroseconds": 731,
                             "functionName": "sourceComponent",
                             "line": 320,
                             "message": ""
@@ -792,7 +792,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 303,
+                            "durationMicroseconds": 80,
                             "functionName": "fill",
                             "line": 319,
                             "message": ""

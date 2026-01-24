@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 352,
+                            "durationMicroseconds": 413,
                             "functionName": "statusMode",
                             "line": 9,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 539,
+                            "durationMicroseconds": 366,
                             "functionName": "color",
                             "line": 14,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 115,
+                            "durationMicroseconds": 90,
                             "functionName": "loadingItem",
                             "line": 16,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 85,
+                            "durationMicroseconds": 71,
                             "functionName": "emptyItem",
                             "line": 17,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 104,
+                            "durationMicroseconds": 89,
                             "functionName": "errorItem",
                             "line": 18,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 5,
-                            "durationMicroseconds": 159,
+                            "durationMicroseconds": 92,
                             "functionName": "showSuccessView",
                             "line": 104,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 5,
-                            "durationMicroseconds": 100,
+                            "durationMicroseconds": 77,
                             "functionName": "showLoadingView",
                             "line": 107,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 5,
-                            "durationMicroseconds": 131,
+                            "durationMicroseconds": 88,
                             "functionName": "showEmptyView",
                             "line": 110,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 5,
-                            "durationMicroseconds": 106,
+                            "durationMicroseconds": 63,
                             "functionName": "showErrorView",
                             "line": 113,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 78,
+                            "durationMicroseconds": 93,
                             "functionName": "visible",
                             "line": 23,
                             "message": "Cannot access value for name statusMode"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 96,
+                            "durationMicroseconds": 64,
                             "functionName": "fill",
                             "line": 22,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 47,
                             "functionName": "visible",
                             "line": 28,
                             "message": "Cannot access value for name statusMode"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 237,
+                            "durationMicroseconds": 275,
                             "functionName": "sourceComponent",
                             "line": 29,
                             "message": "Cannot access value for name statusMode"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 91,
+                            "durationMicroseconds": 209,
                             "functionName": "fill",
                             "line": 27,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 65,
+                            "durationMicroseconds": 84,
                             "functionName": "color",
                             "line": 48,
                             "message": "Cannot access value for name control"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 109,
+                            "durationMicroseconds": 90,
                             "functionName": "centerIn",
                             "line": 50,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 154,
+                            "durationMicroseconds": 136,
                             "functionName": "alignment",
                             "line": 53,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 63,
+                            "durationMicroseconds": 59,
                             "functionName": "text",
                             "line": 56,
                             "message": "Cannot access value for name control"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 116,
+                            "durationMicroseconds": 106,
                             "functionName": "alignment",
                             "line": 57,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 52,
                             "functionName": "color",
                             "line": 68,
                             "message": "Cannot access value for name control"
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 96,
+                            "durationMicroseconds": 100,
                             "functionName": "centerIn",
                             "line": 70,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 83,
+                            "durationMicroseconds": 52,
                             "functionName": "text",
                             "line": 72,
                             "message": "Cannot access value for name control"
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 190,
+                            "durationMicroseconds": 163,
                             "functionName": "font",
                             "line": 73,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::BodyStrong with type QFont (stored as QVariant) -> FluTextStyle::BodyStrong with type QFont (adjusted to QFont, stored as QVariant)"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 125,
                             "functionName": "alignment",
                             "line": 74,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 61,
+                            "durationMicroseconds": 127,
                             "functionName": "color",
                             "line": 85,
                             "message": "Cannot access value for name control"
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 87,
+                            "durationMicroseconds": 94,
                             "functionName": "centerIn",
                             "line": 87,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 59,
+                            "durationMicroseconds": 64,
                             "functionName": "text",
                             "line": 89,
                             "message": "Cannot access value for name control"
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 165,
+                            "durationMicroseconds": 185,
                             "functionName": "font",
                             "line": 90,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::BodyStrong with type QFont (stored as QVariant) -> FluTextStyle::BodyStrong with type QFont (adjusted to QFont, stored as QVariant)"
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 261,
                             "functionName": "alignment",
                             "line": 91,
                             "message": ""
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 82,
+                            "durationMicroseconds": 71,
                             "functionName": "text",
                             "line": 96,
                             "message": "Cannot access value for name control"
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 66,
+                            "durationMicroseconds": 64,
                             "functionName": "onClicked",
                             "line": 97,
                             "message": "Cannot access value for name control"
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 117,
+                            "durationMicroseconds": 129,
                             "functionName": "alignment",
                             "line": 95,
                             "message": ""

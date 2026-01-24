@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 192,
+                            "durationMicroseconds": 181,
                             "functionName": "onClicked",
                             "line": 37,
                             "message": "Cannot retrieve a non-object type by ID: popup"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 3061,
+                            "durationMicroseconds": 4931,
                             "functionName": "onCompleted",
                             "line": 19,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 172,
+                            "durationMicroseconds": 173,
                             "functionName": "window",
                             "line": 32,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 249,
+                            "durationMicroseconds": 200,
                             "functionName": "rowData",
                             "line": 34,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 224,
+                            "durationMicroseconds": 177,
                             "functionName": "x",
                             "line": 43,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 155,
+                            "durationMicroseconds": 127,
                             "functionName": "height",
                             "line": 44,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 175,
+                            "durationMicroseconds": 146,
                             "functionName": "color",
                             "line": 45,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 61,
+                            "durationMicroseconds": 48,
                             "functionName": "visible",
                             "line": 46,
                             "message": "Cannot access value for name showYear"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 201,
+                            "durationMicroseconds": 151,
                             "functionName": "x",
                             "line": 51,
                             "message": "Cannot access value for name showYear"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 165,
+                            "durationMicroseconds": 115,
                             "functionName": "height",
                             "line": 52,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 128,
                             "functionName": "color",
                             "line": 53,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 49,
+                            "durationMicroseconds": 39,
                             "functionName": "visible",
                             "line": 63,
                             "message": "Cannot access value for name showYear"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 127,
+                            "durationMicroseconds": 118,
                             "functionName": "verticalAlignment",
                             "line": 64,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 149,
+                            "durationMicroseconds": 138,
                             "functionName": "horizontalAlignment",
                             "line": 65,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 118,
+                            "durationMicroseconds": 112,
                             "functionName": "text",
                             "line": 66,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 133,
                             "functionName": "color",
                             "line": 67,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 159,
+                            "durationMicroseconds": 130,
                             "functionName": "left",
                             "line": 58,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 136,
+                            "durationMicroseconds": 124,
                             "functionName": "right",
                             "line": 59,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 200,
                             "functionName": "top",
                             "line": 60,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 160,
+                            "durationMicroseconds": 164,
                             "functionName": "bottom",
                             "line": 61,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 122,
+                            "durationMicroseconds": 169,
                             "functionName": "verticalAlignment",
                             "line": 77,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 98,
+                            "durationMicroseconds": 89,
                             "functionName": "horizontalAlignment",
                             "line": 78,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 134,
+                            "durationMicroseconds": 117,
                             "functionName": "text",
                             "line": 79,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 133,
+                            "durationMicroseconds": 284,
                             "functionName": "color",
                             "line": 80,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 218,
+                            "durationMicroseconds": 129,
                             "functionName": "left",
                             "line": 72,
                             "message": "Cannot access value for name showYear"
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 169,
                             "functionName": "right",
                             "line": 73,
                             "message": ""
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 121,
+                            "durationMicroseconds": 2447,
                             "functionName": "top",
                             "line": 74,
                             "message": ""
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 147,
+                            "durationMicroseconds": 326,
                             "functionName": "bottom",
                             "line": 75,
                             "message": ""
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 112,
+                            "durationMicroseconds": 145,
                             "functionName": "verticalAlignment",
                             "line": 90,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 95,
+                            "durationMicroseconds": 91,
                             "functionName": "horizontalAlignment",
                             "line": 91,
                             "message": ""
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 120,
+                            "durationMicroseconds": 115,
                             "functionName": "text",
                             "line": 92,
                             "message": ""
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 138,
+                            "durationMicroseconds": 131,
                             "functionName": "color",
                             "line": 93,
                             "message": ""
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 161,
+                            "durationMicroseconds": 152,
                             "functionName": "left",
                             "line": 85,
                             "message": ""
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 129,
+                            "durationMicroseconds": 116,
                             "functionName": "right",
                             "line": 86,
                             "message": ""
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 210,
+                            "durationMicroseconds": 168,
                             "functionName": "top",
                             "line": 87,
                             "message": ""
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 126,
+                            "durationMicroseconds": 120,
                             "functionName": "bottom",
                             "line": 88,
                             "message": ""
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 2066,
+                            "durationMicroseconds": 2178,
                             "functionName": "showPopup",
                             "line": 340,
                             "message": "Cannot access value for name list_view_1"
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 400,
+                            "durationMicroseconds": 297,
                             "functionName": "duration",
                             "line": 105,
                             "message": ""
@@ -344,7 +344,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 268,
+                            "durationMicroseconds": 193,
                             "functionName": "duration",
                             "line": 113,
                             "message": ""
@@ -352,7 +352,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 1157,
+                            "durationMicroseconds": 939,
                             "functionName": "color",
                             "line": 118,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -360,7 +360,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 1122,
+                            "durationMicroseconds": 890,
                             "functionName": "color",
                             "line": 119,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -368,7 +368,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 82,
                             "functionName": "fill",
                             "line": 129,
                             "message": ""
@@ -376,7 +376,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 118,
+                            "durationMicroseconds": 97,
                             "functionName": "width",
                             "line": 134,
                             "message": ""
@@ -384,7 +384,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 29,
                             "functionName": "width",
                             "line": 140,
                             "message": "Cannot load property width from call to method getListView, returning QVariant."
@@ -392,7 +392,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 655,
+                            "durationMicroseconds": 1226,
                             "functionName": "getListView",
                             "line": 141,
                             "message": "Cannot access value for name type"
@@ -400,7 +400,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 1295,
+                            "durationMicroseconds": 819,
                             "functionName": "color",
                             "line": 155,
                             "message": "method getListView cannot be resolved."
@@ -408,7 +408,7 @@
                         {
                             "codegenResult": 0,
                             "column": 43,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 99,
                             "functionName": "fill",
                             "line": 150,
                             "message": ""
@@ -416,7 +416,7 @@
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 7097,
+                            "durationMicroseconds": 5613,
                             "functionName": "onClicked",
                             "line": 169,
                             "message": "method getListView cannot be resolved."
@@ -424,7 +424,7 @@
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 158,
+                            "durationMicroseconds": 134,
                             "functionName": "fill",
                             "line": 167,
                             "message": ""
@@ -432,7 +432,7 @@
                         {
                             "codegenResult": 2,
                             "column": 38,
-                            "durationMicroseconds": 405,
+                            "durationMicroseconds": 345,
                             "functionName": "text",
                             "line": 196,
                             "message": "Cannot access value for name model"
@@ -440,7 +440,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 970,
+                            "durationMicroseconds": 789,
                             "functionName": "color",
                             "line": 197,
                             "message": "method getListView cannot be resolved."
@@ -448,7 +448,7 @@
                         {
                             "codegenResult": 0,
                             "column": 51,
-                            "durationMicroseconds": 137,
+                            "durationMicroseconds": 99,
                             "functionName": "centerIn",
                             "line": 208,
                             "message": ""
@@ -456,7 +456,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 134,
+                            "durationMicroseconds": 103,
                             "functionName": "boundsBehavior",
                             "line": 218,
                             "message": ""
@@ -464,7 +464,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 1216,
+                            "durationMicroseconds": 841,
                             "functionName": "model",
                             "line": 220,
                             "message": "method generateYearArray cannot be resolved."
@@ -472,7 +472,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 278,
+                            "durationMicroseconds": 120,
                             "functionName": "visible",
                             "line": 225,
                             "message": "Cannot access value for name showYear"
@@ -480,7 +480,7 @@
                         {
                             "codegenResult": 0,
                             "column": 45,
-                            "durationMicroseconds": 376,
+                            "durationMicroseconds": 196,
                             "functionName": "preferredHeight",
                             "line": 216,
                             "message": ""
@@ -488,7 +488,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 308,
+                            "durationMicroseconds": 110,
                             "functionName": "alignment",
                             "line": 217,
                             "message": ""
@@ -496,7 +496,7 @@
                         {
                             "codegenResult": 2,
                             "column": 45,
-                            "durationMicroseconds": 369,
+                            "durationMicroseconds": 258,
                             "functionName": "model",
                             "line": 227,
                             "message": "Cannot access value for name modelData"
@@ -504,7 +504,7 @@
                         {
                             "codegenResult": 2,
                             "column": 47,
-                            "durationMicroseconds": 43,
+                            "durationMicroseconds": 33,
                             "functionName": "position",
                             "line": 229,
                             "message": "Cannot access value for name index"
@@ -512,7 +512,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 171,
+                            "durationMicroseconds": 42,
                             "functionName": "sourceComponent",
                             "line": 230,
                             "message": "Cannot access value for name list_delegate"
@@ -520,7 +520,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 61,
+                            "durationMicroseconds": 52,
                             "functionName": "color",
                             "line": 236,
                             "message": "Cannot access value for name control"
@@ -528,7 +528,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 53,
                             "functionName": "visible",
                             "line": 237,
                             "message": "Cannot access value for name showYear"
@@ -536,7 +536,7 @@
                         {
                             "codegenResult": 0,
                             "column": 45,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 360,
                             "functionName": "preferredHeight",
                             "line": 235,
                             "message": ""
@@ -544,7 +544,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 111,
+                            "durationMicroseconds": 101,
                             "functionName": "boundsBehavior",
                             "line": 249,
                             "message": ""
@@ -552,7 +552,7 @@
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 71,
+                            "durationMicroseconds": 91,
                             "functionName": "preferredWidth",
                             "line": 241,
                             "message": "Cannot access value for name showYear"
@@ -560,7 +560,7 @@
                         {
                             "codegenResult": 0,
                             "column": 45,
-                            "durationMicroseconds": 209,
+                            "durationMicroseconds": 179,
                             "functionName": "preferredHeight",
                             "line": 242,
                             "message": ""
@@ -568,7 +568,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 118,
+                            "durationMicroseconds": 87,
                             "functionName": "alignment",
                             "line": 243,
                             "message": ""
@@ -576,7 +576,7 @@
                         {
                             "codegenResult": 2,
                             "column": 45,
-                            "durationMicroseconds": 344,
+                            "durationMicroseconds": 272,
                             "functionName": "model",
                             "line": 251,
                             "message": "Cannot access value for name modelData"
@@ -584,7 +584,7 @@
                         {
                             "codegenResult": 2,
                             "column": 47,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 28,
                             "functionName": "position",
                             "line": 253,
                             "message": "Cannot access value for name index"
@@ -592,7 +592,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 68,
+                            "durationMicroseconds": 38,
                             "functionName": "sourceComponent",
                             "line": 254,
                             "message": "Cannot access value for name list_delegate"
@@ -600,7 +600,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 64,
+                            "durationMicroseconds": 51,
                             "functionName": "color",
                             "line": 260,
                             "message": "Cannot access value for name control"
@@ -608,7 +608,7 @@
                         {
                             "codegenResult": 0,
                             "column": 45,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 102,
                             "functionName": "preferredHeight",
                             "line": 259,
                             "message": ""
@@ -616,7 +616,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 126,
+                            "durationMicroseconds": 91,
                             "functionName": "boundsBehavior",
                             "line": 272,
                             "message": ""
@@ -624,7 +624,7 @@
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 84,
+                            "durationMicroseconds": 68,
                             "functionName": "preferredWidth",
                             "line": 264,
                             "message": "Cannot access value for name showYear"
@@ -632,7 +632,7 @@
                         {
                             "codegenResult": 0,
                             "column": 45,
-                            "durationMicroseconds": 222,
+                            "durationMicroseconds": 218,
                             "functionName": "preferredHeight",
                             "line": 265,
                             "message": ""
@@ -640,7 +640,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 123,
+                            "durationMicroseconds": 96,
                             "functionName": "alignment",
                             "line": 266,
                             "message": ""
@@ -648,7 +648,7 @@
                         {
                             "codegenResult": 2,
                             "column": 45,
-                            "durationMicroseconds": 366,
+                            "durationMicroseconds": 316,
                             "functionName": "model",
                             "line": 274,
                             "message": "Cannot access value for name modelData"
@@ -656,7 +656,7 @@
                         {
                             "codegenResult": 2,
                             "column": 47,
-                            "durationMicroseconds": 42,
+                            "durationMicroseconds": 37,
                             "functionName": "position",
                             "line": 276,
                             "message": "Cannot access value for name index"
@@ -664,7 +664,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 51,
+                            "durationMicroseconds": 45,
                             "functionName": "sourceComponent",
                             "line": 277,
                             "message": "Cannot access value for name list_delegate"
@@ -672,7 +672,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 1770,
+                            "durationMicroseconds": 1195,
                             "functionName": "color",
                             "line": 284,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -680,7 +680,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 1196,
+                            "durationMicroseconds": 1088,
                             "functionName": "color",
                             "line": 285,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -688,7 +688,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 190,
+                            "durationMicroseconds": 144,
                             "functionName": "bottom",
                             "line": 288,
                             "message": ""
@@ -696,7 +696,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 150,
+                            "durationMicroseconds": 107,
                             "functionName": "left",
                             "line": 289,
                             "message": ""
@@ -704,7 +704,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 128,
+                            "durationMicroseconds": 95,
                             "functionName": "right",
                             "line": 290,
                             "message": ""
@@ -712,7 +712,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 121,
+                            "durationMicroseconds": 85,
                             "functionName": "height",
                             "line": 295,
                             "message": ""
@@ -720,7 +720,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 91,
+                            "durationMicroseconds": 72,
                             "functionName": "centerIn",
                             "line": 296,
                             "message": ""
@@ -728,7 +728,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 80,
+                            "durationMicroseconds": 71,
                             "functionName": "text",
                             "line": 306,
                             "message": "Cannot access value for name control"
@@ -736,7 +736,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 54,
+                            "durationMicroseconds": 53,
                             "functionName": "onClicked",
                             "line": 307,
                             "message": "Cannot access value for name popup"
@@ -744,7 +744,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 155,
+                            "durationMicroseconds": 142,
                             "functionName": "left",
                             "line": 300,
                             "message": ""
@@ -752,7 +752,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 54,
+                            "durationMicroseconds": 56,
                             "functionName": "right",
                             "line": 303,
                             "message": "Cannot access value for name divider"
@@ -760,7 +760,7 @@
                         {
                             "codegenResult": 0,
                             "column": 41,
-                            "durationMicroseconds": 131,
+                            "durationMicroseconds": 119,
                             "functionName": "verticalCenter",
                             "line": 304,
                             "message": ""
@@ -768,7 +768,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 162,
                             "functionName": "text",
                             "line": 319,
                             "message": "Cannot access value for name control"
@@ -776,7 +776,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 546,
+                            "durationMicroseconds": 447,
                             "functionName": "onClicked",
                             "line": 320,
                             "message": "Cannot access value for name d"
@@ -792,7 +792,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 62,
+                            "durationMicroseconds": 55,
                             "functionName": "left",
                             "line": 314,
                             "message": "Cannot access value for name divider"
@@ -800,7 +800,7 @@
                         {
                             "codegenResult": 0,
                             "column": 41,
-                            "durationMicroseconds": 141,
+                            "durationMicroseconds": 128,
                             "functionName": "verticalCenter",
                             "line": 317,
                             "message": ""

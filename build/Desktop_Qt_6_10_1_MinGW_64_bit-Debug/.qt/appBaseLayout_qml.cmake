@@ -4,6 +4,12 @@ set(working_dir "D:/Study/QTQMLStudy/code/BaseLayout")
 set(src_and_dest_list
     "D:/Study/QTQMLStudy/code/BaseLayout/Main.qml"
     "D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/BaseLayout/Main.qml"
+    "D:/Study/QTQMLStudy/code/BaseLayout/qml/BaseComponent/BizBaseComponent.qml"
+    "D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/BaseLayout/BizBaseComponent.qml"
+    "D:/Study/QTQMLStudy/code/BaseLayout/qml/BaseComponent/BizDocNumComponent.qml"
+    "D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/BaseLayout/BizDocNumComponent.qml"
+    "D:/Study/QTQMLStudy/code/BaseLayout/qml/BaseComponent/DataBaseItem.qml"
+    "D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/BaseLayout/DataBaseItem.qml"
     "D:/Study/QTQMLStudy/code/BaseLayout/qml/BaseComponent/ShadowBox.qml"
     "D:/Study/QTQMLStudy/code/BaseLayout/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/BaseLayout/ShadowBox.qml"
     "D:/Study/QTQMLStudy/code/BaseLayout/qml/Layout/SearchLayoutTemplate/DefaultLayoutHeader.qml"

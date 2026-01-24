@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 533,
+                            "durationMicroseconds": 540,
                             "functionName": "color",
                             "line": 10,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 38,
-                            "durationMicroseconds": 1392,
+                            "durationMicroseconds": 1248,
                             "functionName": "backgroundColor",
                             "line": 11,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 162,
+                            "durationMicroseconds": 60,
                             "functionName": "_radius",
                             "line": 16,
                             "message": "Cannot access value for name strokeWidth"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 116,
                             "functionName": "implicitHeight",
                             "line": 20,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 157,
+                            "durationMicroseconds": 146,
                             "functionName": "color",
                             "line": 21,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 106,
+                            "durationMicroseconds": 88,
                             "functionName": "radius",
                             "line": 22,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 574,
+                            "durationMicroseconds": 1896,
                             "functionName": "radius",
                             "line": 26,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 511,
+                            "durationMicroseconds": 518,
                             "functionName": "width",
                             "line": 29,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 127,
+                            "durationMicroseconds": 121,
                             "functionName": "height",
                             "line": 35,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 258,
+                            "durationMicroseconds": 100,
                             "functionName": "radius",
                             "line": 36,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 271,
+                            "durationMicroseconds": 128,
                             "functionName": "color",
                             "line": 37,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 289,
+                            "durationMicroseconds": 270,
                             "functionName": "running",
                             "line": 40,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 162,
+                            "durationMicroseconds": 104,
                             "functionName": "loops",
                             "line": 41,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 289,
+                            "durationMicroseconds": 284,
                             "functionName": "onRunningChanged",
                             "line": 42,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 167,
+                            "durationMicroseconds": 192,
                             "functionName": "from",
                             "line": 48,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 246,
+                            "durationMicroseconds": 247,
                             "functionName": "to",
                             "line": 49,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 179,
+                            "durationMicroseconds": 109,
                             "functionName": "duration",
                             "line": 50,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 475,
+                            "durationMicroseconds": 404,
                             "functionName": "text",
                             "line": 56,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 258,
+                            "durationMicroseconds": 218,
                             "functionName": "visible",
                             "line": 57,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 153,
+                            "durationMicroseconds": 148,
                             "functionName": "left",
                             "line": 64,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 187,
+                            "durationMicroseconds": 184,
                             "functionName": "leftMargin",
                             "line": 65,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 134,
+                            "durationMicroseconds": 316,
                             "functionName": "verticalCenter",
                             "line": 66,
                             "message": ""

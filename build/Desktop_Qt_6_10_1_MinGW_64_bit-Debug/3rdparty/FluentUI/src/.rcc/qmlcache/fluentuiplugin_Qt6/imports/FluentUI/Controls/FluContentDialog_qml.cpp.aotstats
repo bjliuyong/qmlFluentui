@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 470,
+                            "durationMicroseconds": 430,
                             "functionName": "messageTextFormart",
                             "line": 14,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 4460,
+                            "durationMicroseconds": 218,
                             "functionName": "buttonFlags",
                             "line": 16,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 203,
+                            "durationMicroseconds": 144,
                             "functionName": "contentHeight",
                             "line": 34,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 90,
+                            "durationMicroseconds": 66,
                             "functionName": "contentWidth",
                             "line": 35,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 121,
+                            "durationMicroseconds": 91,
                             "functionName": "boundsBehavior",
                             "line": 37,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 232,
+                            "durationMicroseconds": 102,
                             "functionName": "width",
                             "line": 38,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 212,
+                            "durationMicroseconds": 205,
                             "functionName": "height",
                             "line": 39,
                             "message": "Cannot access value for name message"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 665,
+                            "durationMicroseconds": 191,
                             "functionName": "font",
                             "line": 43,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Body with type QFont (stored as QVariant) -> FluTextStyle::Body with type QFont (adjusted to QFont, stored as QVariant)"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 71,
+                            "durationMicroseconds": 56,
                             "functionName": "text",
                             "line": 45,
                             "message": "Cannot access value for name message"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 157,
+                            "durationMicroseconds": 109,
                             "functionName": "width",
                             "line": 46,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 117,
+                            "durationMicroseconds": 92,
                             "functionName": "width",
                             "line": 56,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 2343,
+                            "durationMicroseconds": 155,
                             "functionName": "height",
                             "line": 57,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 164,
+                            "durationMicroseconds": 106,
                             "functionName": "width",
                             "line": 62,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 267,
+                            "durationMicroseconds": 173,
                             "functionName": "font",
                             "line": 65,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Title with type QFont (stored as QVariant) -> FluTextStyle::Title with type QFont (adjusted to QFont, stored as QVariant)"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 99,
+                            "durationMicroseconds": 47,
                             "functionName": "text",
                             "line": 66,
                             "message": "Cannot access value for name title"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 164,
+                            "durationMicroseconds": 107,
                             "functionName": "wrapMode",
                             "line": 70,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 3104,
+                            "durationMicroseconds": 114,
                             "functionName": "sourceComponent",
                             "line": 73,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 41,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 111,
                             "functionName": "preferredHeight",
                             "line": 75,
                             "message": "Cannot load property height from (component in D:/Study/QTQMLStudy/code/BaseLayout/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluContentDialog.qml)::item with type QObject."
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 153,
+                            "durationMicroseconds": 140,
                             "functionName": "sourceComponent",
                             "line": 78,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 171,
+                            "durationMicroseconds": 160,
                             "functionName": "onStatusChanged",
                             "line": 80,
                             "message": "Cannot load property implicitHeight from (component in D:/Study/QTQMLStudy/code/BaseLayout/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluContentDialog.qml)::item with type QObject."
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 247,
+                            "durationMicroseconds": 179,
                             "functionName": "visible",
                             "line": 92,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 1325,
+                            "durationMicroseconds": 1197,
                             "functionName": "color",
                             "line": 96,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 119,
+                            "durationMicroseconds": 95,
                             "functionName": "centerIn",
                             "line": 100,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 77,
+                            "durationMicroseconds": 72,
                             "functionName": "margins",
                             "line": 101,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 77,
+                            "durationMicroseconds": 70,
                             "functionName": "fill",
                             "line": 102,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 2,
                             "column": 38,
-                            "durationMicroseconds": 70,
+                            "durationMicroseconds": 58,
                             "functionName": "visible",
                             "line": 110,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 63,
+                            "durationMicroseconds": 54,
                             "functionName": "text",
                             "line": 111,
                             "message": "Cannot access value for name neutralText"
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 119,
+                            "durationMicroseconds": 111,
                             "functionName": "width",
                             "line": 112,
                             "message": ""
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 4936,
+                            "durationMicroseconds": 813,
                             "functionName": "onClicked",
                             "line": 114,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 108,
                             "functionName": "centerIn",
                             "line": 113,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 2,
                             "column": 38,
-                            "durationMicroseconds": 135,
+                            "durationMicroseconds": 60,
                             "functionName": "visible",
                             "line": 129,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 137,
+                            "durationMicroseconds": 119,
                             "functionName": "width",
                             "line": 130,
                             "message": ""
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 71,
+                            "durationMicroseconds": 58,
                             "functionName": "text",
                             "line": 132,
                             "message": "Cannot access value for name negativeText"
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 863,
+                            "durationMicroseconds": 1429,
                             "functionName": "onClicked",
                             "line": 133,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 130,
+                            "durationMicroseconds": 118,
                             "functionName": "centerIn",
                             "line": 131,
                             "message": ""
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 2,
                             "column": 38,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 66,
                             "functionName": "visible",
                             "line": 148,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 63,
+                            "durationMicroseconds": 59,
                             "functionName": "text",
                             "line": 149,
                             "message": "Cannot access value for name positiveText"
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 132,
+                            "durationMicroseconds": 128,
                             "functionName": "width",
                             "line": 150,
                             "message": ""
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 817,
+                            "durationMicroseconds": 802,
                             "functionName": "onClicked",
                             "line": 152,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 109,
+                            "durationMicroseconds": 101,
                             "functionName": "centerIn",
                             "line": 151,
                             "message": ""

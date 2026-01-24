@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 3833,
+                            "durationMicroseconds": 718,
                             "functionName": "color",
                             "line": 7,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 111,
+                            "durationMicroseconds": 98,
                             "functionName": "fill",
                             "line": 11,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 59,
+                            "durationMicroseconds": 52,
                             "functionName": "model",
                             "line": 13,
                             "message": "Cannot access value for name elevation"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 112,
+                            "durationMicroseconds": 87,
                             "functionName": "opacity",
                             "line": 17,
                             "message": "Cannot access value for name elevation"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 87,
                             "functionName": "radius",
                             "line": 19,
                             "message": "Cannot access value for name control"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 112,
+                            "durationMicroseconds": 96,
                             "functionName": "fill",
                             "line": 15,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 37,
+                            "durationMicroseconds": 40,
                             "functionName": "margins",
                             "line": 18,
                             "message": "Cannot access value for name index"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 36,
+                            "durationMicroseconds": 30,
                             "functionName": "width",
                             "line": 20,
                             "message": "Cannot access value for name index"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 49,
+                            "durationMicroseconds": 44,
                             "functionName": "color",
                             "line": 21,
                             "message": "Cannot access value for name control"

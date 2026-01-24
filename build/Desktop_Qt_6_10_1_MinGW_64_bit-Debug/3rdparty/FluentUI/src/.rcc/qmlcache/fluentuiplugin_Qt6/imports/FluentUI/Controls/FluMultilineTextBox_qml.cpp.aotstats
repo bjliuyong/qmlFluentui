@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 2447,
+                            "durationMicroseconds": 1478,
                             "functionName": "normalColor",
                             "line": 9,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 1145,
+                            "durationMicroseconds": 1063,
                             "functionName": "disableColor",
                             "line": 10,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 1125,
+                            "durationMicroseconds": 954,
                             "functionName": "placeholderNormalColor",
                             "line": 11,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 43,
-                            "durationMicroseconds": 3911,
+                            "durationMicroseconds": 948,
                             "functionName": "placeholderFocusColor",
                             "line": 12,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 45,
-                            "durationMicroseconds": 1932,
+                            "durationMicroseconds": 940,
                             "functionName": "placeholderDisableColor",
                             "line": 13,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 208,
                             "functionName": "enabled",
                             "line": 16,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 259,
+                            "durationMicroseconds": 265,
                             "functionName": "color",
                             "line": 17,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 10,
-                            "durationMicroseconds": 182,
+                            "durationMicroseconds": 185,
                             "functionName": "font",
                             "line": 23,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Body with type QFont (stored as QVariant) -> FluTextStyle::Body with type QFont (adjusted to QFont, stored as QVariant)"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 117,
+                            "durationMicroseconds": 103,
                             "functionName": "wrapMode",
                             "line": 24,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 129,
                             "functionName": "leftPadding",
                             "line": 26,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 397,
+                            "durationMicroseconds": 267,
                             "functionName": "renderType",
                             "line": 27,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 93,
+                            "durationMicroseconds": 99,
                             "functionName": "selectedTextColor",
                             "line": 28,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 359,
+                            "durationMicroseconds": 407,
                             "functionName": "selectionColor",
                             "line": 29,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method withOpacity, returning QColor -> call to method withOpacity, returning QColor"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 333,
+                            "durationMicroseconds": 293,
                             "functionName": "placeholderTextColor",
                             "line": 30,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 96,
+                            "durationMicroseconds": 90,
                             "functionName": "inputItem",
                             "line": 42,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 162,
+                            "durationMicroseconds": 142,
                             "functionName": "onEnterPressed",
                             "line": 44,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 59,
+                            "durationMicroseconds": 54,
                             "functionName": "onEnterPressed",
                             "line": 44,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 221,
+                            "durationMicroseconds": 134,
                             "functionName": "onReturnPressed",
                             "line": 45,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 67,
+                            "durationMicroseconds": 49,
                             "functionName": "onReturnPressed",
                             "line": 45,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 152,
+                            "durationMicroseconds": 127,
                             "functionName": "cursorShape",
                             "line": 66,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 192,
                             "functionName": "acceptedButtons",
                             "line": 67,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 502,
+                            "durationMicroseconds": 862,
                             "functionName": "onClicked",
                             "line": 68,
                             "message": "Cannot load property echoMode from ."
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 116,
+                            "durationMicroseconds": 104,
                             "functionName": "fill",
                             "line": 65,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 9,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 82,
                             "functionName": "popup",
                             "line": 80,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 77,
+                            "durationMicroseconds": 67,
                             "functionName": "inputItem",
                             "line": 87,
                             "message": "Cannot access value for name control"
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 64,
+                            "durationMicroseconds": 56,
                             "functionName": "onClosed",
                             "line": 91,
                             "message": "Cannot access value for name menu_loader"
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 127,
+                            "durationMicroseconds": 338,
                             "functionName": "onCompleted",
                             "line": 88,
                             "message": ""

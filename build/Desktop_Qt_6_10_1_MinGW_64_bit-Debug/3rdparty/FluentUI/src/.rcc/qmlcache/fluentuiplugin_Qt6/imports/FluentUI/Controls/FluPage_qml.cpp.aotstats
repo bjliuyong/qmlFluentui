@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 519,
+                            "durationMicroseconds": 393,
                             "functionName": "launchMode",
                             "line": 8,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 231,
+                            "durationMicroseconds": 192,
                             "functionName": "animationEnabled",
                             "line": 9,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 156,
+                            "durationMicroseconds": 102,
                             "functionName": "y",
                             "line": 17,
                             "message": "Cannot access value for name control"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 119,
+                            "durationMicroseconds": 93,
                             "functionName": "enabled",
                             "line": 19,
                             "message": "Cannot access value for name control"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 177,
+                            "durationMicroseconds": 122,
                             "functionName": "type",
                             "line": 22,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 152,
+                            "durationMicroseconds": 82,
                             "functionName": "enabled",
                             "line": 27,
                             "message": "Cannot access value for name control"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 110,
+                            "durationMicroseconds": 97,
                             "functionName": "sourceComponent",
                             "line": 34,
                             "message": "Cannot access value for name control"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 59,
+                            "durationMicroseconds": 60,
                             "functionName": "text",
                             "line": 42,
                             "message": "Cannot access value for name control"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 222,
+                            "durationMicroseconds": 197,
                             "functionName": "font",
                             "line": 43,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTextStyle::Title with type QFont (stored as QVariant) -> FluTextStyle::Title with type QFont (adjusted to QFont, stored as QVariant)"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 231,
+                            "durationMicroseconds": 159,
                             "functionName": "left",
                             "line": 45,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 50,
+                            "durationMicroseconds": 42,
                             "functionName": "onCompleted",
                             "line": 51,
                             "message": "Cannot retrieve a non-object type by ID: control"

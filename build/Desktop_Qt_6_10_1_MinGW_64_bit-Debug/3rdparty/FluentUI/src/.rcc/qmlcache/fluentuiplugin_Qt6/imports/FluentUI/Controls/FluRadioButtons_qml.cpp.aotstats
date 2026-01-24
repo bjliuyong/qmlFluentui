@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 433,
+                            "durationMicroseconds": 500,
                             "functionName": "orientation",
                             "line": 12,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 156,
+                            "durationMicroseconds": 145,
                             "functionName": "implicitWidth",
                             "line": 34,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 117,
+                            "durationMicroseconds": 98,
                             "functionName": "implicitHeight",
                             "line": 35,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 201,
+                            "durationMicroseconds": 168,
                             "functionName": "onCurrentIndexChanged",
                             "line": 36,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 133,
+                            "durationMicroseconds": 120,
                             "functionName": "onDisabledChanged",
                             "line": 39,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 387,
+                            "durationMicroseconds": 113,
                             "functionName": "onManuallyDisabledChanged",
                             "line": 42,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 1575,
+                            "durationMicroseconds": 1158,
                             "functionName": "updateChecked",
                             "line": 17,
                             "message": "Cannot access value for name buttons"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 1519,
+                            "durationMicroseconds": 600,
                             "functionName": "refreshButtonStatus",
                             "line": 28,
                             "message": "Cannot access value for name buttons"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 51,
                             "functionName": "data",
                             "line": 48,
                             "message": "Cannot access value for name control"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 40,
+                            "durationMicroseconds": 37,
                             "functionName": "spacing",
                             "line": 49,
                             "message": "Cannot access value for name control"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 538,
+                            "durationMicroseconds": 546,
                             "functionName": "onCompleted",
                             "line": 50,
                             "message": "Instruction \"generate_StoreLocal\" not implemented"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 85,
+                            "durationMicroseconds": 56,
                             "functionName": "data",
                             "line": 69,
                             "message": "Cannot access value for name control"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 47,
+                            "durationMicroseconds": 45,
                             "functionName": "spacing",
                             "line": 70,
                             "message": "Cannot access value for name control"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 541,
+                            "durationMicroseconds": 477,
                             "functionName": "onCompleted",
                             "line": 71,
                             "message": "Instruction \"generate_StoreLocal\" not implemented"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 610,
+                            "durationMicroseconds": 400,
                             "functionName": "sourceComponent",
                             "line": 88,
                             "message": ""

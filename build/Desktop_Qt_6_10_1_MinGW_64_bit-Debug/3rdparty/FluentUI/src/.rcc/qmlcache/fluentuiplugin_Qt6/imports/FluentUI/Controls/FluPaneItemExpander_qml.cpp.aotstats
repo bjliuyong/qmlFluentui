@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 637,
+                            "durationMicroseconds": 567,
                             "functionName": "onCompleted",
                             "line": 18,
                             "message": ""

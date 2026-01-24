@@ -9,10 +9,11 @@ Window {
     visible: true
     visibility: Window.Maximized
     title: "布局设计"
-    minimumWidth: searchLayout.implicitWidth + searchLayout.spacing * 2
-    minimumHeight: searchLayout.implicitHeight
+    minimumWidth: searchLayout.staticMinWidth + searchLayout.spacing * 2
+    minimumHeight: searchLayout.staticMinHeight
     SearchLayoutTemplate {
         id: searchLayout
         anchors.fill: parent
+
     }
 }

@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 434,
+                            "durationMicroseconds": 402,
                             "functionName": "onDestruction",
                             "line": 4,
                             "message": ""

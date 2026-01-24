@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 347,
+                            "durationMicroseconds": 2219,
                             "functionName": "items",
                             "line": 9,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 474,
+                            "durationMicroseconds": 365,
                             "functionName": "onItemsChanged",
                             "line": 15,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 5,
-                            "durationMicroseconds": 57,
+                            "durationMicroseconds": 38,
                             "functionName": "count",
                             "line": 89,
                             "message": "function without return type annotation returns QQmlListModel::count with type int. This may prevent proper compilation to Cpp."
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 174,
+                            "durationMicroseconds": 117,
                             "functionName": "width",
                             "line": 24,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 172,
+                            "durationMicroseconds": 135,
                             "functionName": "orientation",
                             "line": 26,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 117,
+                            "durationMicroseconds": 94,
                             "functionName": "model",
                             "line": 27,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 133,
+                            "durationMicroseconds": 114,
                             "functionName": "spacing",
                             "line": 29,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 122,
+                            "durationMicroseconds": 109,
                             "functionName": "boundsBehavior",
                             "line": 30,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 307,
+                            "durationMicroseconds": 252,
                             "functionName": "duration",
                             "line": 36,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 283,
+                            "durationMicroseconds": 204,
                             "functionName": "duration",
                             "line": 44,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 135,
+                            "durationMicroseconds": 104,
                             "functionName": "height",
                             "line": 48,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 125,
                             "functionName": "width",
                             "line": 49,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 88,
+                            "durationMicroseconds": 71,
                             "functionName": "spacing",
                             "line": 52,
                             "message": "Cannot access value for name list_view"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 45,
                             "functionName": "height",
                             "line": 53,
                             "message": "Cannot access value for name list_view"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 66,
+                            "durationMicroseconds": 57,
                             "functionName": "text",
                             "line": 56,
                             "message": "Cannot access value for name model"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 4337,
+                            "durationMicroseconds": 29434,
                             "functionName": "color",
                             "line": 58,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 13674,
+                            "durationMicroseconds": 160,
                             "functionName": "alignment",
                             "line": 57,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 198,
+                            "durationMicroseconds": 117,
                             "functionName": "onClicked",
                             "line": 71,
                             "message": "Cannot access value for name control"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 148,
+                            "durationMicroseconds": 81,
                             "functionName": "fill",
                             "line": 69,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 85,
+                            "durationMicroseconds": 56,
                             "functionName": "text",
                             "line": 78,
                             "message": "Cannot access value for name control"
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 477,
+                            "durationMicroseconds": 406,
                             "functionName": "visible",
                             "line": 80,
                             "message": "Cannot access value for name list_view"
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 38,
-                            "durationMicroseconds": 75,
+                            "durationMicroseconds": 115,
                             "functionName": "pixelSize",
                             "line": 79,
                             "message": "Cannot access value for name control"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 706,
+                            "durationMicroseconds": 104,
                             "functionName": "alignment",
                             "line": 81,
                             "message": ""

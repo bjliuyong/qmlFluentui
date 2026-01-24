@@ -2,6 +2,9 @@ module BaseLayout
 typeinfo appBaseLayout.qmltypes
 prefer :/BaseLayout/
 Main 1.0 Main.qml
+BizBaseComponent 1.0 BizBaseComponent.qml
+BizDocNumComponent 1.0 BizDocNumComponent.qml
+DataBaseItem 1.0 DataBaseItem.qml
 ShadowBox 1.0 ShadowBox.qml
 DefaultLayoutHeader 1.0 DefaultLayoutHeader.qml
 SearchLayoutTemplate 1.0 SearchLayoutTemplate.qml

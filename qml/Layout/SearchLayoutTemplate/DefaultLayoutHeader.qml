@@ -7,8 +7,8 @@ import QtQuick.Layouts
 Rectangle {
     id: headerRoot
     anchors.fill: parent
+    color: "transparent"
     height: 60
-    color: "white"
 
     // 按钮配置数据：可以通过 JS 动态修改
     property var buttonModel: [
@@ -30,6 +30,7 @@ Rectangle {
     ]
 
     RowLayout {
+        id: headerLayout
         anchors.fill: parent
         anchors.leftMargin: 15
         anchors.rightMargin: 15
@@ -67,4 +68,5 @@ Rectangle {
             Layout.fillWidth: true
         }
     }
+
 }

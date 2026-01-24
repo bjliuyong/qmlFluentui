@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 2098,
+                            "durationMicroseconds": 1791,
                             "functionName": "normalColor",
                             "line": 9,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 2349,
+                            "durationMicroseconds": 2745,
                             "functionName": "hoverColor",
                             "line": 16,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 3272,
+                            "durationMicroseconds": 2233,
                             "functionName": "disableColor",
                             "line": 23,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 186,
+                            "durationMicroseconds": 181,
                             "functionName": "clickListener",
                             "line": 30,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 87,
                             "functionName": "clickListener",
                             "line": 30,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 797,
+                            "durationMicroseconds": 627,
                             "functionName": "pressedColor",
                             "line": 33,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 141,
+                            "durationMicroseconds": 126,
                             "functionName": "focusPolicy",
                             "line": 38,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 119,
+                            "durationMicroseconds": 95,
                             "functionName": "enabled",
                             "line": 40,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 61,
+                            "durationMicroseconds": 50,
                             "functionName": "onClicked",
                             "line": 43,
                             "message": "method clickListener cannot be resolved."
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 244,
+                            "durationMicroseconds": 138,
                             "functionName": "role",
                             "line": 34,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 172,
+                            "durationMicroseconds": 109,
                             "functionName": "name",
                             "line": 35,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 85,
+                            "durationMicroseconds": 69,
                             "functionName": "description",
                             "line": 36,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 195,
+                            "durationMicroseconds": 146,
                             "functionName": "onPressAction",
                             "line": 37,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 15,
-                            "durationMicroseconds": 313,
+                            "durationMicroseconds": 336,
                             "functionName": "color",
                             "line": 52,
                             "message": "Cannot access value for name disableColor"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 73,
+                            "durationMicroseconds": 65,
                             "functionName": "bottomMargin",
                             "line": 63,
                             "message": "Cannot access value for name checked"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 93,
                             "functionName": "shadow",
                             "line": 77,
                             "message": "Cannot access value for name checked"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 157,
+                            "durationMicroseconds": 130,
                             "functionName": "visible",
                             "line": 49,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 85,
+                            "durationMicroseconds": 58,
                             "functionName": "width",
                             "line": 70,
                             "message": "Cannot access value for name checked"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 1950,
+                            "durationMicroseconds": 370,
                             "functionName": "color",
                             "line": 84,
                             "message": "Cannot access value for name checked"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 221,
+                            "durationMicroseconds": 147,
                             "functionName": "text",
                             "line": 93,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 30,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 118,
                             "functionName": "horizontalAlignment",
                             "line": 94,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 112,
+                            "durationMicroseconds": 84,
                             "functionName": "verticalAlignment",
                             "line": 95,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 810,
+                            "durationMicroseconds": 685,
                             "functionName": "color",
                             "line": 96,
                             "message": "Cannot access value for name checked"

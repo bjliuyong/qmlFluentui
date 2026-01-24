@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 1190,
+                            "durationMicroseconds": 811,
                             "functionName": "implicitWidth",
                             "line": 8,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 1033,
+                            "durationMicroseconds": 458,
                             "functionName": "implicitHeight",
                             "line": 10,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 332,
+                            "durationMicroseconds": 231,
                             "functionName": "color",
                             "line": 19,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 306,
+                            "durationMicroseconds": 216,
                             "functionName": "visible",
                             "line": 20,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 178,
+                            "durationMicroseconds": 125,
                             "functionName": "when",
                             "line": 25,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 111,
+                            "durationMicroseconds": 99,
                             "functionName": "target",
                             "line": 27,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 157,
+                            "durationMicroseconds": 103,
                             "functionName": "target",
                             "line": 40,
                             "message": ""

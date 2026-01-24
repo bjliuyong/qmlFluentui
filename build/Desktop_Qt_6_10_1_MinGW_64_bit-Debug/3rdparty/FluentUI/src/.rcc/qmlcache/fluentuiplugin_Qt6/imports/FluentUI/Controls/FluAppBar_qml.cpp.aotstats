@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 525,
+                            "durationMicroseconds": 469,
                             "functionName": "textColor",
                             "line": 17,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::fontPrimaryColor with type QColor (stored as QVariant) -> FluTheme::fontPrimaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 41,
-                            "durationMicroseconds": 198,
+                            "durationMicroseconds": 203,
                             "functionName": "minimizeNormalColor",
                             "line": 18,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemNormalColor with type QColor (stored as QVariant) -> FluTheme::itemNormalColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 171,
+                            "durationMicroseconds": 145,
                             "functionName": "minimizeHoverColor",
                             "line": 19,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemHoverColor with type QColor (stored as QVariant) -> FluTheme::itemHoverColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 163,
+                            "durationMicroseconds": 136,
                             "functionName": "minimizePressColor",
                             "line": 20,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemPressColor with type QColor (stored as QVariant) -> FluTheme::itemPressColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 41,
-                            "durationMicroseconds": 159,
+                            "durationMicroseconds": 148,
                             "functionName": "maximizeNormalColor",
                             "line": 21,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemNormalColor with type QColor (stored as QVariant) -> FluTheme::itemNormalColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 169,
+                            "durationMicroseconds": 130,
                             "functionName": "maximizeHoverColor",
                             "line": 22,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemHoverColor with type QColor (stored as QVariant) -> FluTheme::itemHoverColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 186,
+                            "durationMicroseconds": 128,
                             "functionName": "maximizePressColor",
                             "line": 23,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::itemPressColor with type QColor (stored as QVariant) -> FluTheme::itemPressColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 38,
-                            "durationMicroseconds": 392,
+                            "durationMicroseconds": 339,
                             "functionName": "closeNormalColor",
                             "line": 24,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 542,
+                            "durationMicroseconds": 432,
                             "functionName": "closeHoverColor",
                             "line": 25,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 525,
+                            "durationMicroseconds": 470,
                             "functionName": "closePressColor",
                             "line": 26,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 222,
+                            "durationMicroseconds": 342,
                             "functionName": "isMac",
                             "line": 35,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 257,
+                            "durationMicroseconds": 200,
                             "functionName": "borerlessColor",
                             "line": 36,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 701,
+                            "durationMicroseconds": 797,
                             "functionName": "maxClickListener",
                             "line": 44,
                             "message": "Cannot load property visibility from (component in D:/Study/QTQMLStudy/code/BaseLayout/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluAppBar.qml)::win with type QVariant."
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 111,
                             "functionName": "maxClickListener",
                             "line": 44,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 218,
+                            "durationMicroseconds": 189,
                             "functionName": "minClickListener",
                             "line": 58,
                             "message": "Cannot load property transientParent from (component in D:/Study/QTQMLStudy/code/BaseLayout/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluAppBar.qml)::win with type QVariant."
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 95,
+                            "durationMicroseconds": 89,
                             "functionName": "minClickListener",
                             "line": 58,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 39,
-                            "durationMicroseconds": 195,
+                            "durationMicroseconds": 174,
                             "functionName": "closeClickListener",
                             "line": 65,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 39,
-                            "durationMicroseconds": 82,
+                            "durationMicroseconds": 75,
                             "functionName": "closeClickListener",
                             "line": 65,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 131490,
+                            "durationMicroseconds": 123479,
                             "functionName": "stayTopClickListener",
                             "line": 68,
                             "message": "Instruction \"generate_CmpInstanceOf\" not implemented"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 128,
+                            "durationMicroseconds": 119,
                             "functionName": "stayTopClickListener",
                             "line": 68,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 547,
+                            "durationMicroseconds": 3486,
                             "functionName": "darkClickListener",
                             "line": 73,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 96,
+                            "durationMicroseconds": 207,
                             "functionName": "darkClickListener",
                             "line": 73,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 376,
+                            "durationMicroseconds": 314,
                             "functionName": "color",
                             "line": 81,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 187,
+                            "durationMicroseconds": 186,
                             "functionName": "height",
                             "line": 82,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 89,
                             "functionName": "opacity",
                             "line": 83,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 136,
+                            "durationMicroseconds": 188,
                             "functionName": "hitTestList",
                             "line": 87,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 153,
+                            "durationMicroseconds": 130,
                             "functionName": "win",
                             "line": 89,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 149,
+                            "durationMicroseconds": 187,
                             "functionName": "stayTop",
                             "line": 90,
                             "message": "Instruction \"generate_CmpInstanceOf\" not implemented"
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 172,
+                            "durationMicroseconds": 8635,
                             "functionName": "isRestore",
                             "line": 96,
                             "message": "Cannot load property visibility from (component in D:/Study/QTQMLStudy/code/BaseLayout/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluAppBar.qml)::win with type QVariant."
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 207,
+                            "durationMicroseconds": 268,
                             "functionName": "resizable",
                             "line": 97,
                             "message": "Cannot load property height from (component in D:/Study/QTQMLStudy/code/BaseLayout/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluAppBar.qml)::win with type QVariant."
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 180,
+                            "durationMicroseconds": 165,
                             "functionName": "verticalCenter",
                             "line": 109,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 122,
+                            "durationMicroseconds": 102,
                             "functionName": "left",
                             "line": 110,
                             "message": "Cannot access value for name isMac"
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 2,
                             "column": 25,
-                            "durationMicroseconds": 54,
+                            "durationMicroseconds": 41,
                             "functionName": "leftMargin",
                             "line": 111,
                             "message": "Cannot access value for name isMac"
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 78,
+                            "durationMicroseconds": 65,
                             "functionName": "horizontalCenter",
                             "line": 112,
                             "message": "Cannot access value for name isMac"
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 164,
+                            "durationMicroseconds": 133,
                             "functionName": "width",
                             "line": 116,
                             "message": ""
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 205,
+                            "durationMicroseconds": 130,
                             "functionName": "height",
                             "line": 117,
                             "message": ""
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 330,
+                            "durationMicroseconds": 290,
                             "functionName": "visible",
                             "line": 118,
                             "message": ""
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 147,
+                            "durationMicroseconds": 118,
                             "functionName": "source",
                             "line": 119,
                             "message": ""
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 159,
+                            "durationMicroseconds": 143,
                             "functionName": "verticalCenter",
                             "line": 120,
                             "message": ""
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 64,
+                            "durationMicroseconds": 57,
                             "functionName": "text",
                             "line": 123,
                             "message": "Cannot access value for name title"
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 133,
+                            "durationMicroseconds": 199,
                             "functionName": "visible",
                             "line": 124,
                             "message": ""
@@ -344,7 +344,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 167,
+                            "durationMicroseconds": 125,
                             "functionName": "color",
                             "line": 125,
                             "message": ""
@@ -352,7 +352,7 @@
                         {
                             "codegenResult": 0,
                             "column": 37,
-                            "durationMicroseconds": 151,
+                            "durationMicroseconds": 121,
                             "functionName": "verticalCenter",
                             "line": 126,
                             "message": ""
@@ -360,7 +360,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 73,
+                            "durationMicroseconds": 57,
                             "functionName": "visible",
                             "line": 138,
                             "message": "Cannot access value for name showClose"
@@ -368,7 +368,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 74,
+                            "durationMicroseconds": 52,
                             "functionName": "onClicked",
                             "line": 139,
                             "message": "method closeClickListener cannot be resolved."
@@ -376,7 +376,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 81,
+                            "durationMicroseconds": 90,
                             "functionName": "onClicked",
                             "line": 147,
                             "message": "method minClickListener cannot be resolved."
@@ -384,7 +384,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 61,
                             "functionName": "visible",
                             "line": 148,
                             "message": "Cannot access value for name showMinimize"
@@ -392,7 +392,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 65,
+                            "durationMicroseconds": 82,
                             "functionName": "onClicked",
                             "line": 156,
                             "message": "method maxClickListener cannot be resolved."
@@ -400,7 +400,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 128,
+                            "durationMicroseconds": 118,
                             "functionName": "visible",
                             "line": 157,
                             "message": "Cannot access value for name d"
@@ -408,7 +408,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 144,
+                            "durationMicroseconds": 136,
                             "functionName": "height",
                             "line": 163,
                             "message": ""
@@ -416,7 +416,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 164,
+                            "durationMicroseconds": 146,
                             "functionName": "right",
                             "line": 164,
                             "message": ""
@@ -424,7 +424,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 3578,
+                            "durationMicroseconds": 347,
                             "functionName": "iconSource",
                             "line": 174,
                             "message": ""
@@ -432,7 +432,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 55,
                             "functionName": "visible",
                             "line": 177,
                             "message": "Cannot access value for name showDark"
@@ -440,7 +440,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 371,
+                            "durationMicroseconds": 424,
                             "functionName": "text",
                             "line": 178,
                             "message": ""
@@ -448,7 +448,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 158,
+                            "durationMicroseconds": 170,
                             "functionName": "iconColor",
                             "line": 180,
                             "message": ""
@@ -456,7 +456,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 83,
+                            "durationMicroseconds": 140,
                             "functionName": "onClicked",
                             "line": 181,
                             "message": "method darkClickListener cannot be resolved."
@@ -472,7 +472,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 125,
+                            "durationMicroseconds": 197,
                             "functionName": "alignment",
                             "line": 175,
                             "message": ""
@@ -480,7 +480,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 152,
+                            "durationMicroseconds": 133,
                             "functionName": "iconSource",
                             "line": 190,
                             "message": ""
@@ -488,7 +488,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 192,
+                            "durationMicroseconds": 136,
                             "functionName": "visible",
                             "line": 193,
                             "message": "Instruction \"generate_CmpInstanceOf\" not implemented"
@@ -496,7 +496,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 350,
+                            "durationMicroseconds": 313,
                             "functionName": "text",
                             "line": 199,
                             "message": ""
@@ -504,7 +504,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 573,
+                            "durationMicroseconds": 371,
                             "functionName": "iconColor",
                             "line": 201,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -512,7 +512,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 112,
+                            "durationMicroseconds": 136,
                             "functionName": "onClicked",
                             "line": 202,
                             "message": "method stayTopClickListener cannot be resolved."
@@ -520,7 +520,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 151,
+                            "durationMicroseconds": 109,
                             "functionName": "alignment",
                             "line": 191,
                             "message": ""
@@ -528,7 +528,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 178,
+                            "durationMicroseconds": 161,
                             "functionName": "iconSource",
                             "line": 211,
                             "message": ""
@@ -536,7 +536,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 62,
+                            "durationMicroseconds": 50,
                             "functionName": "text",
                             "line": 214,
                             "message": "Cannot access value for name minimizeText"
@@ -544,7 +544,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 89,
                             "functionName": "visible",
                             "line": 216,
                             "message": "Cannot access value for name isMac"
@@ -552,7 +552,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 180,
+                            "durationMicroseconds": 184,
                             "functionName": "iconColor",
                             "line": 217,
                             "message": ""
@@ -560,7 +560,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 166,
+                            "durationMicroseconds": 138,
                             "functionName": "color",
                             "line": 218,
                             "message": "Cannot access value for name minimizePressColor"
@@ -568,7 +568,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 48,
                             "functionName": "onClicked",
                             "line": 224,
                             "message": "method minClickListener cannot be resolved."
@@ -576,7 +576,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 646,
+                            "durationMicroseconds": 103,
                             "functionName": "alignment",
                             "line": 212,
                             "message": ""
@@ -584,7 +584,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 238,
+                            "durationMicroseconds": 185,
                             "functionName": "hover",
                             "line": 228,
                             "message": ""
@@ -592,7 +592,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 382,
+                            "durationMicroseconds": 405,
                             "functionName": "iconSource",
                             "line": 234,
                             "message": ""
@@ -600,7 +600,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 220,
+                            "durationMicroseconds": 169,
                             "functionName": "color",
                             "line": 235,
                             "message": "Cannot access value for name maximizePressColor"
@@ -608,7 +608,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 156,
+                            "durationMicroseconds": 130,
                             "functionName": "visible",
                             "line": 242,
                             "message": "Cannot access value for name isMac"
@@ -616,7 +616,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 151,
+                            "durationMicroseconds": 125,
                             "functionName": "iconColor",
                             "line": 244,
                             "message": ""
@@ -624,7 +624,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 110,
+                            "durationMicroseconds": 91,
                             "functionName": "text",
                             "line": 245,
                             "message": "Cannot access value for name restoreText"
@@ -632,7 +632,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 59,
+                            "durationMicroseconds": 47,
                             "functionName": "onClicked",
                             "line": 247,
                             "message": "method maxClickListener cannot be resolved."
@@ -640,7 +640,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 1038,
+                            "durationMicroseconds": 130,
                             "functionName": "alignment",
                             "line": 241,
                             "message": ""
@@ -648,7 +648,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 154,
+                            "durationMicroseconds": 115,
                             "functionName": "iconSource",
                             "line": 256,
                             "message": ""
@@ -656,7 +656,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 70,
+                            "durationMicroseconds": 48,
                             "functionName": "text",
                             "line": 258,
                             "message": "Cannot access value for name closeText"
@@ -664,7 +664,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 97,
                             "functionName": "visible",
                             "line": 259,
                             "message": "Cannot access value for name isMac"
@@ -672,7 +672,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 726,
+                            "durationMicroseconds": 712,
                             "functionName": "iconColor",
                             "line": 262,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -680,7 +680,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 172,
+                            "durationMicroseconds": 162,
                             "functionName": "color",
                             "line": 263,
                             "message": "Cannot access value for name closePressColor"
@@ -688,7 +688,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 55,
                             "functionName": "onClicked",
                             "line": 269,
                             "message": "method closeClickListener cannot be resolved."
@@ -696,7 +696,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 124,
+                            "durationMicroseconds": 224,
                             "functionName": "alignment",
                             "line": 257,
                             "message": ""
@@ -704,7 +704,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 80,
+                            "durationMicroseconds": 95,
                             "functionName": "sourceComponent",
                             "line": 279,
                             "message": "Cannot access value for name isMac"
@@ -712,7 +712,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 204,
+                            "durationMicroseconds": 150,
                             "functionName": "verticalCenter",
                             "line": 275,
                             "message": ""
@@ -720,7 +720,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 143,
+                            "durationMicroseconds": 112,
                             "functionName": "left",
                             "line": 276,
                             "message": ""

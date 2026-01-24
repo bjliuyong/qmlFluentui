@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 3050,
+                            "durationMicroseconds": 2438,
                             "functionName": "iconColor",
                             "line": 8,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 156,
+                            "durationMicroseconds": 188,
                             "functionName": "horizontalAlignment",
                             "line": 24,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 112,
+                            "durationMicroseconds": 83,
                             "functionName": "verticalAlignment",
                             "line": 25,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 108,
+                            "durationMicroseconds": 84,
                             "functionName": "color",
                             "line": 26,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 11,
-                            "durationMicroseconds": 324,
+                            "durationMicroseconds": 491,
                             "functionName": "text",
                             "line": 27,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 14,
-                            "durationMicroseconds": 161,
+                            "durationMicroseconds": 175,
                             "functionName": "opacity",
                             "line": 28,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 154,
+                            "durationMicroseconds": 117,
                             "functionName": "family",
                             "line": 22,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 76,
+                            "durationMicroseconds": 73,
                             "functionName": "pixelSize",
                             "line": 23,
                             "message": ""

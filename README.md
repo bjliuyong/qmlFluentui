@@ -236,3 +236,151 @@ Item {
     }
 }
 ```
+
+
+
+
+
+
+
+```
+TextField {
+    id: inputUser
+    objectName: "userName" // 1. 必须定义 ID
+    placeholderText: "请输入用户名"
+
+    // 2. 定义协议属性 formValue
+    // logic: 读取时取 text，写入时修改 text
+    property var formValue: text 
+    
+    // 3. 响应恢复操作
+    // 当模板调用 item.formValue = xxx 时，这个信号被触发
+    onFormValueChanged: {
+        // 只有当新值和当前 text 不一样时才赋值，避免循环（虽然 QML 内部有保护）
+        if (text !== formValue) {
+            text = formValue
+        }
+    }
+}
+```
+
+
+
+```
+import QtQuick
+import QtQuick.Layouts
+import "./FormManager.js" as FormMgr
+
+ColumnLayout {
+    id: root
+    
+    // ... 其他布局代码 (Header, Body, Footer) ...
+
+    property alias bodyContent: bodyContainer.data
+    Item {
+        id: bodyContainer
+        // ...
+    }
+
+    // ==========================================
+    // 状态管理功能区
+    // ==========================================
+    
+    // 内部变量：用于存储暂存的数据快照
+    property var _snapshotData: null
+
+    // 功能 1：暂存
+    function stash() {
+        _snapshotData = FormMgr.saveState(bodyContainer);
+        console.log("Body区状态已暂存");
+    }
+
+    // 功能 2：恢复
+    function restore() {
+        if (_snapshotData) {
+            FormMgr.restoreState(bodyContainer, _snapshotData);
+            console.log("Body区状态已恢复");
+        } else {
+            console.warn("没有可恢复的暂存数据");
+        }
+    }
+    
+    // 功能 3：重置 (可选)
+    // 也可以扩展一个 resetValue 属性来实现清空表单
+}
+```
+
+
+
+
+
+```
+// FormManager.js
+.pragma library
+
+/**
+ * 递归保存状态
+ * @param {Item} rootItem - 要遍历的根节点 (如 bodyContainer)
+ * @returns {Object} - 包含所有数据的 JSON 对象 { "key": value }
+ */
+function saveState(rootItem) {
+    var data = {};
+    _traverseAndSave(rootItem, data);
+    return data;
+}
+
+/**
+ * 递归恢复状态
+ * @param {Item} rootItem - 要遍历的根节点
+ * @param {Object} savedData - 之前保存的 JSON 数据
+ */
+function restoreState(rootItem, savedData) {
+    if (!savedData) return;
+    _traverseAndRestore(rootItem, savedData);
+}
+
+// --- 私有辅助函数 ---
+
+function _traverseAndSave(item, data) {
+    // 核心契约检查：
+    // 1. 必须有 objectName (作为存储的 Key)
+    // 2. 必须有 formValue 属性 (作为存储的 Value)
+    if (item.objectName && item.hasOwnProperty("formValue")) {
+        // 直接读取 formValue，不在乎它是 text 还是 int 还是 object
+        data[item.objectName] = item.formValue;
+        
+        console.log(`[Save] Key: ${item.objectName}, Value: ${item.formValue}`);
+    }
+
+    // 继续递归子节点
+    if (item.children) {
+        for (var i = 0; i < item.children.length; i++) {
+            _traverseAndSave(item.children[i], data);
+        }
+    }
+}
+
+function _traverseAndRestore(item, data) {
+    // 核心契约检查
+    if (item.objectName && item.hasOwnProperty("formValue")) {
+        // 检查数据源里有没有这个 Key
+        if (data.hasOwnProperty(item.objectName)) {
+            var val = data[item.objectName];
+            
+            // 直接写入 formValue
+            // 控件内部的 onFormValueChanged 会负责将这个值同步给 UI
+            item.formValue = val;
+            
+            console.log(`[Restore] Key: ${item.objectName}, Value: ${val}`);
+        }
+    }
+
+    // 继续递归子节点
+    if (item.children) {
+        for (var i = 0; i < item.children.length; i++) {
+            _traverseAndRestore(item.children[i], data);
+        }
+    }
+}
+```
+

@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 616,
+                            "durationMicroseconds": 448,
                             "functionName": "current",
                             "line": 7,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 757,
+                            "durationMicroseconds": 664,
                             "functionName": "errorColor",
                             "line": 14,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 105,
+                            "durationMicroseconds": 71,
                             "functionName": "syncHotkey",
                             "line": 15,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 333,
+                            "durationMicroseconds": 202,
                             "functionName": "onSyncHotkeyChanged",
                             "line": 20,
                             "message": "Cannot use shadowable base type for further lookups: FluHotkey::sequence with type QString"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 522,
+                            "durationMicroseconds": 513,
                             "functionName": "color",
                             "line": 28,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 135,
+                            "durationMicroseconds": 107,
                             "functionName": "onClicked",
                             "line": 299,
                             "message": "Cannot retrieve a non-object type by ID: content_dialog"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 250,
+                            "durationMicroseconds": 150,
                             "functionName": "implicitWidth",
                             "line": 143,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 139,
+                            "durationMicroseconds": 111,
                             "functionName": "implicitHeight",
                             "line": 144,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 156,
+                            "durationMicroseconds": 168,
                             "functionName": "text",
                             "line": 148,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 207,
+                            "durationMicroseconds": 412,
                             "functionName": "visible",
                             "line": 149,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 177,
+                            "durationMicroseconds": 195,
                             "functionName": "verticalCenter",
                             "line": 152,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 118,
+                            "durationMicroseconds": 124,
                             "functionName": "radius",
                             "line": 160,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 180,
+                            "durationMicroseconds": 353,
                             "functionName": "color",
                             "line": 161,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 139,
+                            "durationMicroseconds": 166,
                             "functionName": "height",
                             "line": 162,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 115,
+                            "durationMicroseconds": 600,
                             "functionName": "width",
                             "line": 163,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 412,
+                            "durationMicroseconds": 605,
                             "functionName": "color",
                             "line": 158,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 228,
+                            "durationMicroseconds": 156,
                             "functionName": "left",
                             "line": 165,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 198,
+                            "durationMicroseconds": 134,
                             "functionName": "visible",
                             "line": 168,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 327,
+                            "durationMicroseconds": 95,
                             "functionName": "centerIn",
                             "line": 173,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 465,
+                            "durationMicroseconds": 228,
                             "functionName": "model",
                             "line": 179,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 2,
                             "column": 47,
-                            "durationMicroseconds": 378,
+                            "durationMicroseconds": 396,
                             "functionName": "keyText",
                             "line": 181,
                             "message": "Cannot access value for name modelData"
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 585,
+                            "durationMicroseconds": 59,
                             "functionName": "sourceComponent",
                             "line": 182,
                             "message": "Cannot access value for name com_item_key"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 170,
+                            "durationMicroseconds": 172,
                             "functionName": "iconSource",
                             "line": 190,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 41,
-                            "durationMicroseconds": 230,
+                            "durationMicroseconds": 169,
                             "functionName": "verticalCenter",
                             "line": 193,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 217,
+                            "durationMicroseconds": 205,
                             "functionName": "color",
                             "line": 205,
                             "message": ""
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 375,
+                            "durationMicroseconds": 213,
                             "functionName": "visible",
                             "line": 206,
                             "message": ""
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 33,
-                            "durationMicroseconds": 253,
+                            "durationMicroseconds": 175,
                             "functionName": "verticalCenter",
                             "line": 208,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 149,
+                            "durationMicroseconds": 107,
                             "functionName": "left",
                             "line": 209,
                             "message": ""
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 204,
+                            "durationMicroseconds": 166,
                             "functionName": "color",
                             "line": 218,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 481,
+                            "durationMicroseconds": 382,
                             "functionName": "width",
                             "line": 219,
                             "message": ""
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 275,
+                            "durationMicroseconds": 471,
                             "functionName": "height",
                             "line": 220,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 893,
+                            "durationMicroseconds": 808,
                             "functionName": "color",
                             "line": 224,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 405,
+                            "durationMicroseconds": 357,
                             "functionName": "text",
                             "line": 225,
                             "message": "Cannot access value for name keyText"
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 106,
+                            "durationMicroseconds": 90,
                             "functionName": "centerIn",
                             "line": 226,
                             "message": ""
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 127,
+                            "durationMicroseconds": 102,
                             "functionName": "keysModel",
                             "line": 232,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 138,
+                            "durationMicroseconds": 118,
                             "functionName": "title",
                             "line": 233,
                             "message": ""
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 121,
+                            "durationMicroseconds": 104,
                             "functionName": "message",
                             "line": 234,
                             "message": ""
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 312,
+                            "durationMicroseconds": 246,
                             "functionName": "buttonFlags",
                             "line": 235,
                             "message": ""
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 130,
+                            "durationMicroseconds": 110,
                             "functionName": "positiveText",
                             "line": 236,
                             "message": ""
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 119,
+                            "durationMicroseconds": 113,
                             "functionName": "neutralText",
                             "line": 237,
                             "message": ""
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 122,
+                            "durationMicroseconds": 101,
                             "functionName": "negativeText",
                             "line": 238,
                             "message": ""
@@ -352,7 +352,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 432,
+                            "durationMicroseconds": 363,
                             "functionName": "onPositiveClicked",
                             "line": 244,
                             "message": "Cannot retrieve a non-object type by ID: content_dialog"
@@ -360,7 +360,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 47,
+                            "durationMicroseconds": 36,
                             "functionName": "onNegativeClickListener",
                             "line": 251,
                             "message": "Cannot retrieve a non-object type by ID: content_dialog"
@@ -368,7 +368,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 131,
                             "functionName": "onNegativeClickListener",
                             "line": 251,
                             "message": "Cannot generate efficient code for LoadClosure"
@@ -376,7 +376,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 112,
+                            "durationMicroseconds": 100,
                             "functionName": "implicitWidth",
                             "line": 256,
                             "message": ""
@@ -384,7 +384,7 @@
                         {
                             "codegenResult": 0,
                             "column": 40,
-                            "durationMicroseconds": 119,
+                            "durationMicroseconds": 89,
                             "functionName": "onCompleted",
                             "line": 258,
                             "message": ""
@@ -392,7 +392,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 411,
+                            "durationMicroseconds": 387,
                             "functionName": "onPressed",
                             "line": 263,
                             "message": "Cannot access value for name d"
@@ -400,7 +400,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 71,
+                            "durationMicroseconds": 60,
                             "functionName": "onPressed",
                             "line": 263,
                             "message": ""
@@ -408,7 +408,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 111,
+                            "durationMicroseconds": 100,
                             "functionName": "onTabPressed",
                             "line": 282,
                             "message": ""
@@ -416,7 +416,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 47,
                             "functionName": "onTabPressed",
                             "line": 282,
                             "message": ""
@@ -424,7 +424,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 125,
+                            "durationMicroseconds": 108,
                             "functionName": "centerIn",
                             "line": 287,
                             "message": ""
@@ -432,7 +432,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 80,
+                            "durationMicroseconds": 87,
                             "functionName": "model",
                             "line": 289,
                             "message": "Cannot access value for name content_dialog"
@@ -440,7 +440,7 @@
                         {
                             "codegenResult": 2,
                             "column": 51,
-                            "durationMicroseconds": 359,
+                            "durationMicroseconds": 348,
                             "functionName": "keyText",
                             "line": 291,
                             "message": "Cannot access value for name modelData"
@@ -448,7 +448,7 @@
                         {
                             "codegenResult": 2,
                             "column": 46,
-                            "durationMicroseconds": 68,
+                            "durationMicroseconds": 53,
                             "functionName": "sourceComponent",
                             "line": 292,
                             "message": "Cannot access value for name com_item_key"

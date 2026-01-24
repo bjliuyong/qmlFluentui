@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 935,
+                            "durationMicroseconds": 608,
                             "functionName": "color",
                             "line": 10,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluTheme::primaryColor with type QColor (stored as QVariant) -> FluTheme::primaryColor with type QColor (adjusted to QColor, stored as QVariant)"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 38,
-                            "durationMicroseconds": 1328,
+                            "durationMicroseconds": 1285,
                             "functionName": "backgroundColor",
                             "line": 11,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 179,
+                            "durationMicroseconds": 182,
                             "functionName": "onIndeterminateChanged",
                             "line": 23,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 9213,
+                            "durationMicroseconds": 323,
                             "functionName": "radius",
                             "line": 18,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 209,
+                            "durationMicroseconds": 140,
                             "functionName": "color",
                             "line": 20,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 128,
+                            "durationMicroseconds": 286,
                             "functionName": "width",
                             "line": 21,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 420,
+                            "durationMicroseconds": 338,
                             "functionName": "_radius",
                             "line": 28,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 1252,
+                            "durationMicroseconds": 243,
                             "functionName": "_progress",
                             "line": 29,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 276,
+                            "durationMicroseconds": 143,
                             "functionName": "on_ProgressChanged",
                             "line": 30,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 114,
+                            "durationMicroseconds": 80,
                             "functionName": "target",
                             "line": 35,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 9,
-                            "durationMicroseconds": 153,
+                            "durationMicroseconds": 112,
                             "functionName": "onDarkChanged",
                             "line": 36,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 184,
+                            "durationMicroseconds": 225,
                             "functionName": "renderTarget",
                             "line": 46,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 34,
-                            "durationMicroseconds": 131,
+                            "durationMicroseconds": 186,
                             "functionName": "onStartAngleChanged",
                             "line": 61,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 5570,
+                            "durationMicroseconds": 5785,
                             "functionName": "onPaint",
                             "line": 64,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 137,
+                            "durationMicroseconds": 122,
                             "functionName": "fill",
                             "line": 44,
                             "message": ""
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 118,
+                            "durationMicroseconds": 111,
                             "functionName": "loops",
                             "line": 50,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 271,
+                            "durationMicroseconds": 499,
                             "functionName": "running",
                             "line": 51,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 65,
-                            "durationMicroseconds": 196,
+                            "durationMicroseconds": 217,
                             "functionName": "duration",
                             "line": 52,
                             "message": ""
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 68,
-                            "durationMicroseconds": 189,
+                            "durationMicroseconds": 177,
                             "functionName": "duration",
                             "line": 53,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 112,
+                            "durationMicroseconds": 93,
                             "functionName": "loops",
                             "line": 56,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 652,
+                            "durationMicroseconds": 324,
                             "functionName": "running",
                             "line": 57,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 65,
-                            "durationMicroseconds": 296,
+                            "durationMicroseconds": 171,
                             "functionName": "duration",
                             "line": 58,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 65,
-                            "durationMicroseconds": 205,
+                            "durationMicroseconds": 180,
                             "functionName": "duration",
                             "line": 59,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 376,
+                            "durationMicroseconds": 343,
                             "functionName": "text",
                             "line": 84,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 18,
-                            "durationMicroseconds": 218,
+                            "durationMicroseconds": 220,
                             "functionName": "visible",
                             "line": 85,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 87,
+                            "durationMicroseconds": 79,
                             "functionName": "centerIn",
                             "line": 91,
                             "message": ""

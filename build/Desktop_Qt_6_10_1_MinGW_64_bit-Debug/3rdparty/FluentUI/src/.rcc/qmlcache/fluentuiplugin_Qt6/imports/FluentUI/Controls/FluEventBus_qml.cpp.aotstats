@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 383,
+                            "durationMicroseconds": 364,
                             "functionName": "events",
                             "line": 6,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"

@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 11,
-                            "durationMicroseconds": 950,
+                            "durationMicroseconds": 878,
                             "functionName": "color",
                             "line": 12,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 332,
+                            "durationMicroseconds": 334,
                             "functionName": "width",
                             "line": 13,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 163,
+                            "durationMicroseconds": 166,
                             "functionName": "height",
                             "line": 18,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 13,
-                            "durationMicroseconds": 230,
+                            "durationMicroseconds": 150,
                             "functionName": "radius",
                             "line": 23,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 548,
+                            "durationMicroseconds": 521,
                             "functionName": "visible",
                             "line": 80,
                             "message": "Cannot generate efficient code for TypeofName"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 432,
+                            "durationMicroseconds": 323,
                             "functionName": "color",
                             "line": 29,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 15,
-                            "durationMicroseconds": 717,
+                            "durationMicroseconds": 519,
                             "functionName": "left",
                             "line": 31,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: void -> QQuickAnchorLine stored as QVariant"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 585,
+                            "durationMicroseconds": 503,
                             "functionName": "right",
                             "line": 37,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: void -> QQuickAnchorLine stored as QVariant"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 591,
+                            "durationMicroseconds": 11092,
                             "functionName": "top",
                             "line": 43,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: void -> QQuickAnchorLine stored as QVariant"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 622,
+                            "durationMicroseconds": 597,
                             "functionName": "bottom",
                             "line": 49,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: void -> QQuickAnchorLine stored as QVariant"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 854,
+                            "durationMicroseconds": 3492,
                             "functionName": "leftMargin",
                             "line": 55,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 722,
+                            "durationMicroseconds": 736,
                             "functionName": "rightMargin",
                             "line": 61,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 554,
+                            "durationMicroseconds": 523,
                             "functionName": "topMargin",
                             "line": 67,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 958,
+                            "durationMicroseconds": 558,
                             "functionName": "bottomMargin",
                             "line": 73,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 409,
+                            "durationMicroseconds": 508,
                             "functionName": "color",
                             "line": 89,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 71,
+                            "durationMicroseconds": 73,
                             "functionName": "visible",
                             "line": 90,
                             "message": "Cannot access value for name isDot"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 14,
-                            "durationMicroseconds": 299,
+                            "durationMicroseconds": 463,
                             "functionName": "text",
                             "line": 91,
                             "message": "Cannot access value for name count"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 122,
+                            "durationMicroseconds": 105,
                             "functionName": "centerIn",
                             "line": 88,
                             "message": ""

@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 7030,
+                            "durationMicroseconds": 6420,
                             "functionName": "onCompleted",
                             "line": 9,
                             "message": "Type const QMetaObject does not have a property register for calling"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 55,
                             "functionName": "onDestruction",
                             "line": 12,
                             "message": "Type const QMetaObject does not have a property unregister for calling"

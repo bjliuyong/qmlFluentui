@@ -7,42 +7,50 @@
                     "entries": [
                         {
                             "codegenResult": 0,
-                            "column": 23,
-                            "durationMicroseconds": 393,
-                            "functionName": "fill",
-                            "line": 19,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 27,
-                            "durationMicroseconds": 128,
-                            "functionName": "fill",
-                            "line": 23,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 141,
+                            "durationMicroseconds": 248,
                             "functionName": "source",
-                            "line": 28,
+                            "line": 55,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 286,
+                            "durationMicroseconds": 243,
                             "functionName": "shadowColor",
-                            "line": 31,
-                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluColors::Grey50 with type QColor (stored as QVariant) -> FluColors::Grey50 with type QColor (adjusted to QColor, stored as QVariant)"
+                            "line": 61,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluColors::Grey80 with type QColor (stored as QVariant) -> FluColors::Grey80 with type QColor (adjusted to QColor, stored as QVariant)"
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 114,
+                            "durationMicroseconds": 72,
                             "functionName": "fill",
-                            "line": 29,
+                            "line": 56,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 61,
+                            "functionName": "fill",
+                            "line": 73,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 115,
+                            "functionName": "color",
+                            "line": 80,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: FluColors::Grey10 with type QColor (stored as QVariant) -> FluColors::Grey10 with type QColor (adjusted to QColor, stored as QVariant)"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 50,
+                            "functionName": "fill",
+                            "line": 81,
                             "message": ""
                         }
                     ],
