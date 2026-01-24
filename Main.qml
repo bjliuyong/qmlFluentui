@@ -9,11 +9,13 @@ Window {
     visible: true
     visibility: Window.Maximized
     title: "布局设计"
-    minimumWidth: searchLayout.staticMinWidth + searchLayout.spacing * 2
-    minimumHeight: searchLayout.staticMinHeight
+    // minimumWidth: searchLayout.staticMinWidth + searchLayout.spacing * 2
+    // minimumHeight: searchLayout.staticMinHeight
 
     ViewUserInfo{
         anchors.fill: width
+        width: rootWindow.width
+        height: rootWindow.height
     }
 
 
