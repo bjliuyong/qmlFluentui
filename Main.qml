@@ -9,13 +9,14 @@ Window {
     visible: true
     visibility: Window.Maximized
     title: "布局设计"
-    // minimumWidth: searchLayout.staticMinWidth + searchLayout.spacing * 2
-    // minimumHeight: searchLayout.staticMinHeight
+
+    minimumWidth: viewUser.implicitWidth
+    minimumHeight: viewUser.implicitHeight
 
     ViewUserInfo{
-        anchors.fill: width
-        width: rootWindow.width
-        height: rootWindow.height
+        id: viewUser
+        anchors.fill: parent
+
     }
 
 
