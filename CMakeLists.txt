@@ -44,6 +44,7 @@ qt_add_qml_module(appBaseLayout
         ${ALL_LAYOUT_FILES_ABS}
         QML_FILES qml/View/ViewUserInfo/RegionUserInfoBody.qml
         QML_FILES qml/View/ViewUserInfo/RegionUserInfoFooter.qml
+        QML_FILES qml/LayoutTemplate/LayoutHeaderBodyFooterTempDraggable.qml
 )
 
 

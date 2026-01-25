@@ -14,8 +14,9 @@ Window {
     minimumHeight: viewUser.implicitHeight
 
     ViewUserInfo{
-        id: viewUser
+
         anchors.fill: parent
+        id: viewUser
 
     }
 
