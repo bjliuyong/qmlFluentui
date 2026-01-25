@@ -4,36 +4,41 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import FluentUI
 import "../../BizComponent"
-RowLayout {
+import "../../LayoutTemplate/HeaderBodyFooter"
+BaseHeaderBodyFooterItem{
     id: root
-    // 【规范执行】父级是 footerContainer (Item)
-    anchors.fill: parent
 
-    Layout.margins: 10 // 这里的 margins 对 anchors 无效，但作为 Layout 属性保留无害
+    RowLayout {
+        id: footerItem
+        // 【规范执行】父级是 footerContainer (Item)
+        anchors.fill: root
 
-    function setDocNum(newDocNum){
-        docNum.setValue(newDocNum)
+
+        Layout.margins: 10 // 这里的 margins 对 anchors 无效，但作为 Layout 属性保留无害
+
+        function setDocNum(newDocNum){
+            docNum.setValue(newDocNum)
+        }
+        function setName(newName){
+            name.setValue(newName)
+        }
+
+        Item { Layout.fillWidth: true } // 占位符，把按钮顶到右边
+
+        BizTextInput {
+            id: docNum
+            formId: "userForm"
+            key: "docNum"
+            label: "证件号"
+
+        }
+
+
+        BizTextInput {
+            id: name
+            formId: "userForm"
+            key: "name"
+            label: "姓名"
+        }
     }
-    function setName(newName){
-        name.setValue(newName)
-    }
-
-    Item { Layout.fillWidth: true } // 占位符，把按钮顶到右边
-
-    BizTextInput {
-        id: docNum
-        formId: "userForm"
-        key: "docNum"
-        label: "证件号"
-    }
-
-
-    BizTextInput {
-        id: name
-        formId: "userForm"
-        key: "name"
-        label: "姓名"
-    }
-
-
 }

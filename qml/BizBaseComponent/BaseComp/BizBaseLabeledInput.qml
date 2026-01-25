@@ -3,8 +3,8 @@ import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls
 import FluentUI
-
-BizBaseData {
+import "../DataManager"
+BizBaseCompDataManager {
     id: control
 
     /* ========= 公共属性 ========= */
@@ -49,7 +49,7 @@ BizBaseData {
 
             spacing: 2
 
-            // ... (内部 FluCopyableText 内容不变) ...
+
             FluCopyableText {
                 text: "*"
                 color: "red"
@@ -65,6 +65,7 @@ BizBaseData {
         }
 
         /* --- B. 中间输入区 (插槽) --- */
+        //TODO 设置tab focus
         Item {
             id: contentSlot
             Layout.fillWidth: true

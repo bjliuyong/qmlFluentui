@@ -3,7 +3,7 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import FluentUI
-import "../BizBaseComponent"
+import "../BizBaseComponent/BaseComp"
 
 BizBaseLabeledInput {
     id: root

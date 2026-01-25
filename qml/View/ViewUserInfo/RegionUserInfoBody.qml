@@ -3,25 +3,28 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import FluentUI
-
-ColumnLayout {
+import "../../LayoutTemplate/HeaderBodyFooter"
+BaseHeaderBodyFooterItem{
     id: root
+    ColumnLayout {
+        id: bodyItem
 
-    width: parent.width
-    spacing: 10
+        width: parent.width
+        spacing: 10
 
-    Repeater {
-        model: 15
-        FluRectangle {
+        Repeater {
+            model: 15
+            FluRectangle {
             // 父级是 ColumnLayout，使用 Layout
-            Layout.fillWidth: true
-            height: 60
-            color: index % 2 === 0 ? "#f9f9f9" : "#ffffff"
-            radius: 4
+                Layout.fillWidth: true
+                height: 60
+                color: index % 2 === 0 ? "#f9f9f9" : "#ffffff"
+                radius: 4
 
-            FluText {
-                text: "表单项 " + (index + 1)
-                anchors.centerIn: parent
+                FluText {
+                    text: "表单项 " + (index + 1)
+                    anchors.centerIn: parent
+                }
             }
         }
     }

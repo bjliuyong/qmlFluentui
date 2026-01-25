@@ -2,8 +2,8 @@
 import QtQuick 2.15
 import QtQuick.Controls
 import QtQuick.Layouts
-import "../../LayoutTemplate"
-
+import "../../LayoutTemplate/HeaderBodyFooter"
+import "../../BizBaseComponent/BaseComp"
 Item {
     id: viewUserInfoRoot
 
@@ -13,46 +13,55 @@ Item {
 
     LayoutHeaderBodyFooterTempDraggable {
         id: searchLayout
+
+
         anchors.fill: viewUserInfoRoot
-
-        //=============================方案A常用信号模板层写好信号和方法
-        /*
-
-        onEditStatusChangedAction:function(headerItem, footerItem) {
-            console.log("=== 这是从 View 层传入的自定义逻辑 ===")
-            // 这里可以直接操作模板传出来的 footerItem
-            if (footerItem) {
-                console.log("正在操作 Footer...")
-                footerItem.setName("来自外部的修改")
-
-            }
-
-            // 甚至可以做一些 View 层特有的逻辑（模板里做不到的）
-            // root.showToast("状态已改变")
-        }
-        */
 
         //头部区域组件
         headerContent: RegionUserInfoHeader{
            anchors.fill: parent
-
-
-           //=================方案A非常用信号，view层补充==============
-           /*
-           onSubmitClicked: (DocNum)=>{
-               regionUserInfoFooter.setDocNum(DocNum)
-           }
-           */
         }
 
 
         //中间区域组件
-        bodyContent: RegionUserInfoBody{}
+        bodyContent: RegionUserInfoBody{
+            anchors.fill: parent
+        }
 
         //尾部区域组件
         footerContent: RegionUserInfoFooter{
             id:regionUserInfoFooter
+            anchors.fill: parent
 
         }
+        // ===========================弹框
+        ///*
+        dialogContent: [
+            RegionUserInfoEditDialog {
+                id: editDialog
+                objectName: "editDialog"
+                // 【通信】弹窗点击确定 -> View 层捕获 -> 更新 Footer
+                onConfirmed: (data) => {
+                    console.log("弹窗返回数据:", JSON.stringify(data))
+
+                    // 操作 Footer 组件更新界面
+                    regionUserInfoFooter.setName(data.name)
+                    regionUserInfoFooter.setDocNum(data.docNum)
+
+                    // 也可以在这里调用 Body 的刷新方法
+                    // bodyContentItem.refresh()
+                }
+            },
+
+            // 如果有其他弹窗，继续添加
+            BizBaseDialogItem {
+                id: deleteConfirmDialog
+                objectName: "deleteDialog"
+                title: "确认删除？"
+                message: "删除后无法恢复"
+                onConfirmed: console.log("执行删除逻辑...")
+            }
+        ]
+        //*/
     }
 }
