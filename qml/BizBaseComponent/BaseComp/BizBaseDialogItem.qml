@@ -4,6 +4,8 @@ import "../DataManager"
 FluContentDialog {
     id: root
 
+    property bool editStatus:false
+
     signal confirmed(var data)
 
     // 内部集成逻辑引擎 (自动指向 contentItem)

@@ -37,6 +37,11 @@ FocusScope {
         console.log(getValue(),"校验通过")
     }
 
+    //下拉框等需要处理，需要默认值
+    function reset(){
+        setValue("")
+    }
+
     // 复用之前的 getValue/setValue
     function getValue() {
         if (inputTarget) return inputTarget[inputProperty];

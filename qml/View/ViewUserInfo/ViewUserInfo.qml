@@ -13,13 +13,16 @@ Item {
 
     LayoutHeaderBodyFooterTempDraggable {
         id: searchLayout
-
+        headerWeight: 1
+        bodyWeight: 7
+        footerWeight: 3
 
         anchors.fill: viewUserInfoRoot
 
         //头部区域组件
         headerContent: RegionUserInfoHeader{
            anchors.fill: parent
+
         }
 
 
@@ -42,14 +45,9 @@ Item {
                 objectName: "editDialog"
                 // 【通信】弹窗点击确定 -> View 层捕获 -> 更新 Footer
                 onConfirmed: (data) => {
-                    console.log("弹窗返回数据:", JSON.stringify(data))
 
-                    // 操作 Footer 组件更新界面
-                    regionUserInfoFooter.setName(data.name)
-                    regionUserInfoFooter.setDocNum(data.docNum)
-
-                    // 也可以在这里调用 Body 的刷新方法
-                    // bodyContentItem.refresh()
+                    regionUserInfoFooter.setDocNum("123")
+                    searchLayout.editStatus = true
                 }
             },
 

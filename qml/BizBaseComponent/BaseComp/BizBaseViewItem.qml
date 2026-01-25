@@ -3,6 +3,8 @@ import "../DataManager"
 Item {
     id: root
 
+    property bool editStatus:false
+
     // 内部集成逻辑引擎
     BizBaseFormDataManager {
         id: _formEngine

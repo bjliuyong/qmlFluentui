@@ -35,88 +35,12 @@ Item {
     property alias headerContent: headerContainer.data
     property alias bodyContent: bodyContainer.data
     property alias footerContent: footerContainer.data
+    property bool editStatus:false
 
     readonly property int staticMinHeight: (kMargin * 4)
                                            + kHeaderMinH + kBodyMinH + kFooterMinH
     readonly property int staticMinWidth: kLayoutMinW + (kMargin * 2)
 
-    //=====================方案A常用信号模板层声明好================
-    /*
-    property var _injectedHeader: headerContainer.children.length > 0 ? headerContainer.children[0] : null
-    property var _injectedFooter: footerContainer.children.length > 0 ? footerContainer.children[0] : null
-
-
-    property var onEditStatusChangedAction: editStatusChangedMethod
-    function editStatusChangedMethod(headerItem, footerItem) {
-            if (footerItem) {
-                console.log("正在操作 Footer...")
-                footerItem.setName("来自模板的修改")
-            }
-    }
-    // 3. 自动连接 Footer 的提交信号
-    Connections {
-        id: cancleSignal
-        target: _injectedHeader
-        ignoreUnknownSignals: true
-
-        function onChangedEditStatus() {
-            console.log("[Template] 检测到 Header 编辑状态变更...")
-            // 【第二步】判断外部有没有传入自定义函数
-            if (baseRoot.onEditStatusChangedAction && typeof baseRoot.onEditStatusChangedAction === "function") {
-                // 【关键点】把模板内部的私有对象 (_injectedFooter, _injectedHeader) 传给外部函数
-                // 这样外部函数才能操作这些内部控件
-                baseRoot.onEditStatusChangedAction(_injectedHeader, _injectedFooter)
-            } else {
-                // (可选) 如果外部没传函数，执行默认逻辑
-                console.log("[Template] 执行默认逻辑")
-                if (_injectedHeader && _injectedFooter && typeof _injectedFooter.setName === "function") {
-                    _injectedFooter.setName("test")
-                }
-            }
-        }
-    }
-
-    */
-
-
-    //================================方案B模板层面的自动注入
-    /*
-    property var _injectedHeader: headerContainer.children[0] || null
-    property var _injectedFooter: footerContainer.children[0] || null
-
-    // 监听注入对象变化，一旦就位，开始连线
-    on_InjectedHeaderChanged: autoWire()
-    on_InjectedFooterChanged: autoWire()
-
-    function autoWire() {
-        if (_injectedHeader && _injectedFooter) {
-            console.log("[Template] 开始自动装配 Header 和 Footer...")
-
-            // 1. 把 Footer 塞给 Header (如果 Header 有 contextFooter 属性)
-            if ("contextFooter" in _injectedHeader) {
-                _injectedHeader.contextFooter = _injectedFooter
-            }
-            // 2. 把 Header 塞给 Footer (如果 Footer 有 contextHeader 属性)
-            if ("contextHeader" in _injectedFooter) {
-                _injectedFooter.contextHeader = _injectedHeader
-            }
-        }
-        if ("disabled" in _injectedHeader) {
-            _injectedHeader.disabled = Qt.binding(function() { return baseRoot.globalDisabled })
-        }
-
-        // 绑定 Footer
-        if ("disabled" in _injectedFooter) {
-            _injectedFooter.disabled = Qt.binding(function() { return baseRoot.globalDisabled })
-        }
-
-        console.log("[Template] 共享状态绑定完成")
-    }
-*/
-
-
-    //================================弹窗
-    ///*
 
     property alias dialogContent: dialogContainer.data
     Item {
@@ -194,17 +118,24 @@ Item {
 
         targets.forEach(function(target) {
             // 只有继承了 BizViewItem (拥有对应属性) 的组件才会被注入
+            console.log("target:",target,"headerContent" in target)
 
             // 1. 互相注入引用
-            if ("contextHeader" in target) target.contextHeader = _injectedHeader
-            if ("contextFooter" in target) target.contextFooter = _injectedFooter
-            if ("contextBody" in target)   target.contextBody   = _injectedBody
+            if ("headerContent" in target) target.headerContent = _injectedHeader
+            if ("footerContent" in target) target.footerContent = _injectedFooter
+            if ("bodyContent" in target)   target.bodyContent   = _injectedBody
 
             // 2. 注入弹窗字典 (关键)
-            if ("contextDialogs" in target) target.contextDialogs = _dialogMap
+            if ("dialogContent" in target) target.dialogContent = _dialogMap
 
             // 3. 注入根节点
-            if ("contextRoot" in target)    target.contextRoot    = baseRoot
+            if ("rootContent" in target)    target.rootContent    = baseRoot
+
+            //TODO editStatus还没有实现全局同步
+            if ("editStatus" in target) {
+                target.editStatus = Qt.binding(function() { return baseRoot.editStatus })
+                console.log("[Template] 已绑定 Disabled 状态 ->", target)
+            }
         })
     }
     //*/
@@ -245,20 +176,26 @@ Item {
             SplitView.minimumHeight: kBodyMinH
             SplitView.minimumWidth: kLayoutMinW
 
-            ScrollView {
-                id: bodyScrollView
+            // ScrollView {
+            //     id: bodyScrollView
+            //     anchors.fill: parent
+            //     anchors.margins: 2
+            //     clip: true
+            //     ScrollBar.horizontal.policy: ScrollBar.AsNeeded
+            //     ScrollBar.vertical.policy: ScrollBar.AsNeeded
+
+            //     Item {
+            //         id: bodyContainer
+            //         width: bodyScrollView.availableWidth
+            //         implicitHeight: childrenRect.height
+            //     }
+            // }
+            FluRectangle {
+                id: bodyContainer
                 anchors.fill: parent
-                anchors.margins: 2
+                anchors.margins: 10
+                radius: 4
                 clip: true
-
-                ScrollBar.horizontal.policy: ScrollBar.AsNeeded
-                ScrollBar.vertical.policy: ScrollBar.AsNeeded
-
-                Item {
-                    id: bodyContainer
-                    width: bodyScrollView.availableWidth
-                    implicitHeight: childrenRect.height
-                }
             }
         }
 

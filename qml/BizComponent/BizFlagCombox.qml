@@ -4,20 +4,23 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import FluentUI
 import "../BizBaseComponent/BaseComp"
-
+import "../FluComponent"
 BizBaseLabeledInput {
     id: root
 
     // 绑定数据属性，供 BizBaseData 自动处理
     inputTarget: textInput
-    inputProperty: "text"
+    inputProperty: "currentIndex"
+    property var modelName
     labelRatio: 1
     inputRatio: 6
     tailRatio: 1
     minInputWidth: 100
-    content: FluTextBox {
+    //TODO 为什么不能写property var modelName：textInput.modelName
+    // 不会触发changed信号
+    content: FluFlagCombox {
         id: textInput
         anchors.fill: parent
-        onTextChanged: root.validInput()
+        modelName: root.modelName
     }
 }

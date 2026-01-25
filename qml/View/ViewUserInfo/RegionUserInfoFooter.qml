@@ -1,44 +1,109 @@
-// BaseLayout/qml/View/ViewUserInfo/RegionUserInfoFooter.qml
+
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import FluentUI
 import "../../BizComponent"
 import "../../LayoutTemplate/HeaderBodyFooter"
-BaseHeaderBodyFooterItem{
+
+BaseHeaderBodyFooterItem {
     id: root
+    enabled: rootContent.editStatus
+    // 暴露给外部调用的函数保持不变
+    function setDocNum(newDocNum) {
+        console.log(newDocNum)
+        id_num.setValue(newDocNum)
+    }
 
-    RowLayout {
-        id: footerItem
-        // 【规范执行】父级是 footerContainer (Item)
-        anchors.fill: root
+
+    GridLayout {
+        id: footerGrid
+        anchors.fill: parent
+        anchors.margins: 50 // 给整个网格一点边距
+
+        // 【关键配置】设置为4列，行数会自动根据子元素数量计算
+        columns: 4
+        rowSpacing: 40
+        columnSpacing: 50
 
 
-        Layout.margins: 10 // 这里的 margins 对 anchors 无效，但作为 Layout 属性保留无害
-
-        function setDocNum(newDocNum){
-            docNum.setValue(newDocNum)
-        }
-        function setName(newName){
-            name.setValue(newName)
-        }
-
-        Item { Layout.fillWidth: true } // 占位符，把按钮顶到右边
-
+        // 1. 身份证号
         BizTextInput {
-            id: docNum
-            formId: "userForm"
-            key: "docNum"
-            label: "证件号"
+            id: id_num
+            formId: "biis_sys_user_code"
+            key: "id_num"
+            label: "身份证号"
+
+            Layout.fillWidth: true // 填满单元格
+        }
+
+        // 2. 性别
+        BizFlagCombox {
+            id: version_num
+            formId: "biis_sys_user_code"
+            modelName: "genderCode"
+            key: "genderCode"
+            label: "性别"
+            Layout.fillWidth: true
 
         }
 
-
+        // 3. 警号
         BizTextInput {
-            id: name
-            formId: "userForm"
-            key: "name"
+            formId: "biis_sys_user_code"
+            key: "police_id"
+            label: "警号"
+            Layout.fillWidth: true
+        }
+
+        // 4. 姓名
+        BizTextInput {
+            formId: "biis_sys_user_code"
+            key: "person_name"
             label: "姓名"
+            Layout.fillWidth: true
+        }
+
+        // ==================== 第二行 (4个) ====================
+
+        // 5. 部门ID
+        BizTextInput {
+            formId: "biis_sys_user_code"
+            key: "dept_id"
+            label: "部门ID"
+            Layout.fillWidth: true
+        }
+
+        // 6. 排序号
+        BizTextInput {
+            formId: "biis_sys_user_code"
+            key: "order_num"
+            label: "排序号"
+            Layout.fillWidth: true
+        }
+
+        // 7. 考勤卡号
+        BizTextInput {
+            formId: "biis_sys_user_code"
+            key: "attendance_num"
+            label: "考勤卡号"
+            Layout.fillWidth: true
+        }
+
+        // 8. 用户类型
+        BizTextInput {
+            formId: "biis_sys_user_code"
+            key: "user_type_code"
+            label: "用户类型"
+            Layout.fillWidth: true
+        }
+        // 9. 【弹簧组件】填充最后剩余空间
+        Item {
+            // 如果你想让这个弹簧占满最后一行剩余的所有列（不仅仅是一格），可以解开下面的注释：
+            // Layout.columnSpan: 1
+
+            Layout.fillWidth: true
+            Layout.fillHeight: true
         }
     }
 }
