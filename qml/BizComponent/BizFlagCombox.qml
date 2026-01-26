@@ -10,7 +10,7 @@ BizBaseLabeledInput {
 
     // 绑定数据属性，供 BizBaseData 自动处理
     inputTarget: textInput
-    inputProperty: "currentIndex"
+    inputProperty: "currentValue"
     property var modelName
     labelRatio: 1
     inputRatio: 6

@@ -1,14 +1,35 @@
 import QtQuick
 import "../DataManager"
+import FluentUI
 Item {
     id: root
 
     property bool editStatus:false
-
+    property string scopeFormId: ""
     // 内部集成逻辑引擎
     BizBaseFormDataManager {
         id: _formEngine
         target: root
+    }
+
+    // 错误弹窗
+    FluContentDialog {
+        id: errDlg
+        title: "区域配置异常"
+        negativeText: "关闭"
+        buttonFlags: FluContentDialogType.NegativeButton
+    }
+
+    Component.onCompleted: {
+        // 传入 scopeFormId 作为最顶层的默认值
+        var result = _formEngine.refreshCache(root.scopeFormId)
+
+        if (!result.success) {
+            console.error(`[BizBaseViewItem] ${result.error}`)
+            root.visible = false // 隐藏界面防止误操作
+            errDlg.message = result.error
+            errDlg.open()
+        }
     }
 
     // ================== 公共 API ==================

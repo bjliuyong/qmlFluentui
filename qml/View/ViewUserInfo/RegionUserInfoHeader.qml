@@ -36,7 +36,11 @@ BaseHeaderBodyFooterItem {
             text: "增加"
             Layout.preferredWidth: 100
             disabled: rootContent.editStatus
-            onClicked: rootContent.editStatus = true
+            onClicked: function(){
+                rootContent.editStatus = true
+                var result = footerContent.getFormData("mag")
+                console.log("====================",JSON.stringify(result))
+            }
         }
 
         FluFilledButton {

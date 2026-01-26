@@ -6,7 +6,7 @@ FocusScope {
     id: baseRoot
 
     required property string key;
-    required property string formId;
+    property string formId;
     property bool disabled: false;
     property var value
 
@@ -32,9 +32,18 @@ FocusScope {
         when: baseRoot.inputTarget !== null
     }
 
+    onValueChanged: _tryValidate()
+    onFormIdChanged: _tryValidate()
+
+    function _tryValidate() {
+        if (baseRoot.formId !== "") {
+                validInput()
+        }
+    }
+
     function validInput(){
         // 调用C++函数
-        console.log(getValue(),"校验通过")
+        console.log(formId,getValue(),"校验通过")
     }
 
     //下拉框等需要处理，需要默认值

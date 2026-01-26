@@ -9,6 +9,7 @@ import "../../LayoutTemplate/HeaderBodyFooter"
 BaseHeaderBodyFooterItem {
     id: root
     enabled: rootContent.editStatus
+
     // 暴露给外部调用的函数保持不变
     function setDocNum(newDocNum) {
         console.log(newDocNum)
@@ -16,11 +17,14 @@ BaseHeaderBodyFooterItem {
     }
 
 
+
+
+
     GridLayout {
         id: footerGrid
         anchors.fill: parent
         anchors.margins: 50 // 给整个网格一点边距
-
+property string scopeFormId: "userInfo"
         // 【关键配置】设置为4列，行数会自动根据子元素数量计算
         columns: 4
         rowSpacing: 40
@@ -30,7 +34,6 @@ BaseHeaderBodyFooterItem {
         // 1. 身份证号
         BizTextInput {
             id: id_num
-            formId: "biis_sys_user_code"
             key: "id_num"
             label: "身份证号"
             Layout.fillWidth: true // 填满单元格
@@ -39,7 +42,6 @@ BaseHeaderBodyFooterItem {
         // 2. 性别
         BizFlagCombox {
             id: version_num
-            formId: "biis_sys_user_code"
             modelName: "genderCode"
             key: "genderCode"
             label: "性别"
@@ -53,7 +55,7 @@ BaseHeaderBodyFooterItem {
 
         // 3. 警号//
         BizTextInput {
-            formId: "biis_sys_user_code"
+
             key: "police_id"
             label: "警号"
             Layout.fillWidth: true
@@ -61,17 +63,18 @@ BaseHeaderBodyFooterItem {
 
         // 4. 姓名
         BizTextInput {
-            formId: "biis_sys_user_code"
+            //formId: "biis_sys_user_code"
             key: "person_name"
             label: "姓名"
             Layout.fillWidth: true
         }
 
         // ==================== 第二行 (4个) ====================
-
+//Item{
+    //property string scopeFormId: "mag"
         // 5. 部门ID
         BizTextInput {
-            formId: "biis_sys_user_code"
+            //formId: "biis_sys_user_code"
             key: "dept_id"
             label: "部门ID"
             Layout.fillWidth: true
@@ -79,7 +82,7 @@ BaseHeaderBodyFooterItem {
 
         // 6. 排序号
         BizTextInput {
-            formId: "biis_sys_user_code"
+            //formId: "biis_sys_user_code"
             key: "order_num"
             label: "排序号"
             Layout.fillWidth: true
@@ -87,15 +90,16 @@ BaseHeaderBodyFooterItem {
 
         // 7. 考勤卡号
         BizTextInput {
-            formId: "biis_sys_user_code"
+            //formId: "biis_sys_user_code"
             key: "attendance_num"
             label: "考勤卡号"
             Layout.fillWidth: true
         }
 
+
         // 8. 用户类型
         BizTextInput {
-            formId: "biis_sys_user_code"
+            //formId: "biis_sys_user_code"
             key: "user_type_code"
             label: "用户类型"
             Layout.fillWidth: true
@@ -108,5 +112,6 @@ BaseHeaderBodyFooterItem {
             Layout.fillWidth: true
             Layout.fillHeight: true
         }
+//}
     }
 }
