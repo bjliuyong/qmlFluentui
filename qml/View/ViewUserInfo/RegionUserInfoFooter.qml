@@ -33,7 +33,6 @@ BaseHeaderBodyFooterItem {
             formId: "biis_sys_user_code"
             key: "id_num"
             label: "身份证号"
-
             Layout.fillWidth: true // 填满单元格
         }
 
@@ -44,11 +43,15 @@ BaseHeaderBodyFooterItem {
             modelName: "genderCode"
             key: "genderCode"
             label: "性别"
+            onValueChanged: {
+                console.log("======================",value)
+            }
+
             Layout.fillWidth: true
 
         }
 
-        // 3. 警号
+        // 3. 警号//
         BizTextInput {
             formId: "biis_sys_user_code"
             key: "police_id"

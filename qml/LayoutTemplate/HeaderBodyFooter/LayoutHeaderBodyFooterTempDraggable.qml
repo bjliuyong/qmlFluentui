@@ -158,11 +158,11 @@ Item {
             SplitView.minimumHeight: kHeaderMinH
             SplitView.minimumWidth: kLayoutMinW
 
-            FluRectangle {
+            Item {
                 id: headerContainer
                 anchors.fill: parent
                 anchors.margins: 10
-                radius: 4
+                //radius: 4
                 clip: true
             }
         }
@@ -190,11 +190,11 @@ Item {
             //         implicitHeight: childrenRect.height
             //     }
             // }
-            FluRectangle {
+            Item {
                 id: bodyContainer
                 anchors.fill: parent
                 anchors.margins: 10
-                radius: 4
+                //radius: 4
                 clip: true
             }
         }
