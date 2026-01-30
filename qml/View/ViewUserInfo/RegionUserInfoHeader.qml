@@ -28,7 +28,7 @@ BaseHeaderBodyFooterItem {
             Layout.preferredWidth: 100
             disabled: rootContent.editStatus
             onClicked: {
-                dialogContent["editDialog"].open()
+                dialogContent["searchDialog"].open()
             }
         }
 

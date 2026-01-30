@@ -3,6 +3,7 @@ import QtQuick 2.15
 import QtQuick.Controls
 import QtQuick.Layouts
 import "../../LayoutTemplate/HeaderBodyFooter"
+import "../../LayoutTemplate/TopBottomSplit"
 import "../../BizBaseComponent/BaseComp"
 Item {
     id: viewUserInfoRoot
@@ -10,7 +11,12 @@ Item {
     // 使用模板的最小尺寸作为自身的隐式尺寸
     implicitWidth: searchLayout.staticMinWidth
     implicitHeight: searchLayout.staticMinHeight
+    LayoutTopBottomSplitTempDraggable{
+        id: searchLayout
+        anchors.fill: viewUserInfoRoot
+    }
 
+    /*
     LayoutHeaderBodyFooterTempDraggable {
         id: searchLayout
         headerWeight: 1
@@ -42,12 +48,11 @@ Item {
         dialogContent: [
             RegionUserInfoEditDialog {
                 id: editDialog
-                objectName: "editDialog"
+                objectName: "searchDialog"
                 // 【通信】弹窗点击确定 -> View 层捕获 -> 更新 Footer
                 onConfirmed: (data) => {
 
-                    regionUserInfoFooter.setDocNum("123")
-                    searchLayout.editStatus = true
+                    console.log(JSON.stringify(dialogContent["searchDialog"].getFormData("searchForm")))
                 }
             },
 
@@ -60,6 +65,6 @@ Item {
                 onConfirmed: console.log("执行删除逻辑...")
             }
         ]
-        //*/
-    }
+
+    }*/
 }

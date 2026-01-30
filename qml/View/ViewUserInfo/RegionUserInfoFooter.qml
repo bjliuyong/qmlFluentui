@@ -17,9 +17,6 @@ BaseHeaderBodyFooterItem {
     }
 
 
-
-
-
     GridLayout {
         id: footerGrid
         anchors.fill: parent
@@ -70,11 +67,9 @@ property string scopeFormId: "userInfo"
         }
 
         // ==================== 第二行 (4个) ====================
-//Item{
-    //property string scopeFormId: "mag"
+
         // 5. 部门ID
         BizTextInput {
-            //formId: "biis_sys_user_code"
             key: "dept_id"
             label: "部门ID"
             Layout.fillWidth: true
@@ -82,7 +77,6 @@ property string scopeFormId: "userInfo"
 
         // 6. 排序号
         BizTextInput {
-            //formId: "biis_sys_user_code"
             key: "order_num"
             label: "排序号"
             Layout.fillWidth: true
@@ -90,7 +84,6 @@ property string scopeFormId: "userInfo"
 
         // 7. 考勤卡号
         BizTextInput {
-            //formId: "biis_sys_user_code"
             key: "attendance_num"
             label: "考勤卡号"
             Layout.fillWidth: true
@@ -99,7 +92,6 @@ property string scopeFormId: "userInfo"
 
         // 8. 用户类型
         BizTextInput {
-            //formId: "biis_sys_user_code"
             key: "user_type_code"
             label: "用户类型"
             Layout.fillWidth: true

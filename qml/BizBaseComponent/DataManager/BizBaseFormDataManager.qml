@@ -10,13 +10,25 @@ QtObject {
     property var _cacheMap: ({})
 
 
+    Component.onCompleted: {
+        console.log("数据管理器初始化")
+    }
+    Component.onDestruction: {
+            console.log("数据管理器被销毁了")
+    }
+
+
     // ---------------------------------------------------------
     // 内部逻辑：穿透查找 & 缓存构建
     // ---------------------------------------------------------
     // 返回对象结构: { success: bool, error: string }
         function refreshCache(rootDefaultId) {
+            console.log("数据管理器refreshCache")
             var realTarget = _resolveRealTarget(manager.target)
-            if (!realTarget) return { success: true }
+            if (!realTarget) {
+                _cacheMap = {}
+                return { success: true }
+            }
 
             var newCache = {}
             var errorMsg = ""
@@ -98,21 +110,47 @@ QtObject {
             return item
         }
 
-    function _getFields(formId) {
-        if (Object.keys(_cacheMap).length === 0) refreshCache()
-        var fid = formId || "default"
-        return _cacheMap[fid] || []
-    }
+        function _getFields(formId) {
+                var fid = formId || "default"
+                var items = _cacheMap[fid]
+
+                // 1. 判断是否需要刷新缓存
+                var needRefresh = false
+
+                if (!items || items.length === 0) {
+                    // 情况A：缓存本来就是空的
+                    needRefresh = true
+                } else {
+                    // 【核心修复】情况B：缓存不为空，但里面的对象可能已经销毁了
+                    // 随便取第一个对象检测，如果它丢失了 getValue 方法，说明是无效的“僵尸”对象
+                    var firstItem = items[0]
+                    // 注意：被销毁的 QML 对象不一定是 null，但访问其属性/方法会返回 undefined
+                    if (typeof firstItem.getValue !== "function") {
+                        console.log(`[BizBaseFormDataManager] 检测到失效的控件引用 (FormID:${fid})，强制重新扫描...`)
+                        needRefresh = true
+                    }
+                }
+
+                // 2. 如果需要刷新，执行扫描
+                if (needRefresh) {
+                    refreshCache()
+                    items = _cacheMap[fid] // 获取最新扫描的结果
+                }
+
+                return items || []
+            }
 
     // ---------------------------------------------------------
     // 功能 1: 数据存取 (Get / Set)
     // ---------------------------------------------------------
     function setData(data, formId) {
         var fields = _getFields(formId)
+
         if (!data) return
         for (var i = 0; i < fields.length; i++) {
             var item = fields[i]
             if (data.hasOwnProperty(item.key)) {
+                console.log("data.hasOwnProperty(item.key)",item.key,data[item.key])
                 item.setValue(data[item.key])
             }
         }
@@ -120,10 +158,13 @@ QtObject {
 
     function getData(formId) {
         var fields = _getFields(formId)
+        console.log("formId",formId,"fields",fields.length)
         var result = {}
         for (var i = 0; i < fields.length; i++) {
             var item = fields[i]
+                console.log(item.getValue())
             if (typeof item.getValue === "function") {
+                console.log(item.getValue())
                 result[item.key] = item.getValue()
             }
         }

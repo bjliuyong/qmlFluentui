@@ -49,11 +49,11 @@ Item {
             Layout.minimumWidth: kLayoutMinW
 
 
-            FluRectangle {
+            Item {
                 id: headerContainer
                 anchors.fill: parent
                 anchors.margins: 10
-                radius: 4
+
                 clip: true
             }
         }
