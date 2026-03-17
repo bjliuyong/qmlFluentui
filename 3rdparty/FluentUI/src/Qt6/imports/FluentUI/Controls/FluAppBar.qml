@@ -71,11 +71,17 @@ Rectangle{
         }
     }
     property var darkClickListener: function(){
-        if(FluTheme.dark){
-            FluTheme.darkMode = FluThemeType.Light
-        }else{
+        var themes = ["Light", "Dark", "Blue", "Green"]
+        var idx = themes.indexOf(FluTheme.theme)
+        if(idx === -1) idx = 0
+        idx = (idx + 1) % themes.length
+        var nextTheme = themes[idx]
+        if (nextTheme === "Dark") {
             FluTheme.darkMode = FluThemeType.Dark
+        } else {
+            FluTheme.darkMode = FluThemeType.Light
         }
+        FluTheme.theme = nextTheme
     }
     id:control
     color: Qt.rgba(0,0,0,0)
@@ -171,11 +177,16 @@ Rectangle{
             verticalPadding: 0
             horizontalPadding: 0
             rightPadding: 2
-            iconSource: FluTheme.dark ? FluentIcons.Brightness : FluentIcons.QuietHours
+            iconSource: {
+                if(FluTheme.theme === "Dark") return FluentIcons.QuietHours
+                if(FluTheme.theme === "Blue") return FluentIcons.Color
+                if(FluTheme.theme === "Green") return FluentIcons.Leaf
+                return FluentIcons.Brightness
+            }
             Layout.alignment: Qt.AlignVCenter
             iconSize: 15
             visible: showDark
-            text: FluTheme.dark ? control.lightText : control.darkText
+            text: qsTr("Theme: ") + FluTheme.theme
             radius: 0
             iconColor:control.textColor
             onClicked:()=> darkClickListener(btn_dark)

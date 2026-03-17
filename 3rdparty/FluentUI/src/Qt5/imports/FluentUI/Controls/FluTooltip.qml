@@ -20,10 +20,11 @@ T.ToolTip {
         wrapMode: Text.Wrap
     }
     background: Rectangle {
-        color: FluTheme.dark ? Qt.rgba(50/255,49/255,48/255,1) : Qt.rgba(1,1,1,1)
+        color:  FluTheme.windowActiveBackgroundColor
         radius: 3
         FluShadow{
             radius: 3
         }
     }
 }
+

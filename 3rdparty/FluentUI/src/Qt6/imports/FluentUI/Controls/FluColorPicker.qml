@@ -29,7 +29,7 @@ Button{
         border.color: {
             if(hovered)
                 return FluTheme.primaryColor
-            return FluTheme.dark ? Qt.rgba(100/255,100/255,100/255,1) : Qt.rgba(200/255,200/255,200/255,1)
+            return  FluTheme.borderNormalColor
         }
         border.width: 1
         Rectangle{
@@ -66,7 +66,7 @@ Button{
             radius: 5
             z:999
             anchors.bottom: parent.bottom
-            color: FluTheme.dark ? Qt.rgba(32/255,32/255,32/255,1) : Qt.rgba(243/255,243/255,243/255,1)
+            color:  FluTheme.windowBackgroundColor
             RowLayout{
                 anchors
                 {
@@ -620,3 +620,4 @@ Button{
         }
     }
 }
+

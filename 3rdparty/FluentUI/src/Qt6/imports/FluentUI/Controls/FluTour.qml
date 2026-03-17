@@ -67,7 +67,7 @@ Popup{
                         if(current === index){
                             return FluTheme.primaryColor
                         }
-                        return FluTheme.dark ? Qt.rgba(99/255,99/255,99/255,1) : Qt.rgba(214/255,214/255,214/255,1)
+                        return  FluTheme.backgroundColor
                     }
                 }
             }
@@ -249,7 +249,7 @@ Popup{
         radius: 5
         width: 500
         height: 88 + text_desc.height
-        color: FluTheme.dark ? Qt.rgba(39/255,39/255,39/255,1) : Qt.rgba(251/255,251/255,253/255,1)
+        color:  FluTheme.windowBackgroundColor
         property int dir : {
             if(y<d.pos.y)
                 return 1
@@ -403,3 +403,4 @@ Popup{
         }
     }
 }
+

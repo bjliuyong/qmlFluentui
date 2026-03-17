@@ -57,7 +57,7 @@ endif ()
 file(GLOB QM_FILE_PATHS ${CMAKE_CURRENT_LIST_DIR}/ *.qm)
 file(COPY ${QM_FILE_PATHS} DESTINATION "${CMAKE_CURRENT_SOURCE_DIR}/Qt${QT_VERSION_MAJOR}/imports/FluentUI/i18n")
 
-#遍历所有Cpp文件
+# 遍历所有Cpp文件
 file(GLOB_RECURSE CPP_FILES *.cpp *.h *.cxx)
 foreach (filepath ${CPP_FILES})
     string(REPLACE "${CMAKE_CURRENT_SOURCE_DIR}/" "" filename ${filepath})

@@ -132,8 +132,8 @@ FluButton {
         }
         background:Rectangle{
             radius: 5
-            color: FluTheme.dark ? Qt.rgba(43/255,43/255,43/255,1) : Qt.rgba(1,1,1,1)
-            border.color: FluTheme.dark ? Qt.rgba(26/255,26/255,26/255,1) : Qt.rgba(191/255,191/255,191/255,1)
+            color:  FluTheme.windowActiveBackgroundColor
+            border.color:  FluTheme.borderNormalColor
             FluShadow{
                 radius: 5
             }
@@ -206,7 +206,7 @@ FluButton {
                                             return Qt.rgba(1,1,1,1)
                                         }
                                     }else{
-                                        return FluTheme.dark ? "#FFFFFF" : "#1A1A1A"
+                                        return  FluTheme.whiteColor
                                     }
                                 }
                                 anchors.centerIn: parent
@@ -287,8 +287,8 @@ FluButton {
             Rectangle{
                 id:layout_actions
                 height: 60
-                color: FluTheme.dark ? Qt.rgba(32/255,32/255,32/255,1) : Qt.rgba(243/255,243/255,243/255,1)
-                border.color: FluTheme.dark ? Qt.rgba(26/255,26/255,26/255,1) : Qt.rgba(191/255,191/255,191/255,1)
+                color:  FluTheme.windowBackgroundColor
+                border.color:  FluTheme.borderNormalColor
                 radius: 5
                 anchors{
                     bottom:parent.bottom
@@ -404,3 +404,4 @@ FluButton {
         return arr;
     }
 }
+

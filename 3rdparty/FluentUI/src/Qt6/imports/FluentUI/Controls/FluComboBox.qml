@@ -8,9 +8,9 @@ T.ComboBox {
     id: control
     signal commit(string text)
     property bool disabled: false
-    property color normalColor: FluTheme.dark ? Qt.rgba(62/255,62/255,62/255,1) : Qt.rgba(254/255,254/255,254/255,1)
-    property color hoverColor: FluTheme.dark ? Qt.rgba(68/255,68/255,68/255,1) : Qt.rgba(251/255,251/255,251/255,1)
-    property color disableColor: FluTheme.dark ? Qt.rgba(59/255,59/255,59/255,1) : Qt.rgba(252/255,252/255,252/255,1)
+    property color normalColor:  FluTheme.normalColor
+    property color hoverColor: FluTheme.hoverColor
+    property color disableColor:  FluTheme.disableColor
     property alias textBox: text_field
     implicitWidth: Math.max(implicitBackgroundWidth + leftInset + rightInset,
                             implicitContentWidth + leftPadding + rightPadding)
@@ -56,23 +56,29 @@ T.ComboBox {
         readOnly: control.down
         color: {
             if(!control.enabled) {
-                return FluTheme.dark ? Qt.rgba(131/255,131/255,131/255,1) : Qt.rgba(160/255,160/255,160/255,1)
+                return  FluTheme.itemDisableColor
             }
-            return FluTheme.dark ?  Qt.rgba(255/255,255/255,255/255,1) : Qt.rgba(27/255,27/255,27/255,1)
+            return  FluTheme.textHighlightColor
         }
         inputMethodHints: control.inputMethodHints
         validator: control.validator
         selectByMouse: true
         verticalAlignment: Text.AlignVCenter
-        background: FluTextBoxBackground{
-            border.width: 1
-            bottomMargin: {
-                if(!control.editable){
-                    return 1
+        background: Item {
+            Rectangle{
+                width: parent.width
+                height: contentItem.activeFocus ? 2 : 1
+                anchors.bottom: parent.bottom
+                visible: contentItem.enabled && control.editable
+                color: contentItem.activeFocus ? FluTheme.primaryColor : FluTheme.dividerColor
+                Behavior on height{
+                    enabled: FluTheme.animationEnabled
+                    NumberAnimation{
+                        duration: 83
+                        easing.type: Easing.OutCubic
+                    }
                 }
-                return contentItem && contentItem.activeFocus ? 2 : 1
             }
-            inputItem: contentItem
         }
         Component.onCompleted: {
             forceActiveFocus()
@@ -87,7 +93,7 @@ T.ComboBox {
     background: Rectangle {
         implicitWidth: 140
         implicitHeight: 32
-        border.color: FluTheme.dark ? "#505050" : "#DFDFDF"
+        border.color:  FluTheme.borderNormalColor
         border.width: 1
         visible: !control.flat || control.down
         radius: 4
@@ -137,11 +143,12 @@ T.ComboBox {
         }
         background:Rectangle{
             radius: 5
-            color: FluTheme.dark ? Qt.rgba(43/255,43/255,43/255,1) : Qt.rgba(1,1,1,1)
-            border.color: FluTheme.dark ? Qt.rgba(26/255,26/255,26/255,1) : Qt.rgba(191/255,191/255,191/255,1)
+            color:  FluTheme.windowActiveBackgroundColor
+            border.color:  FluTheme.borderNormalColor
             FluShadow{
                 radius: 5
             }
         }
     }
 }
+

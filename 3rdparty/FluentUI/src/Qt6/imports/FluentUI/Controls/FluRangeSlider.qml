@@ -27,7 +27,7 @@ T.RangeSlider {
         implicitWidth: 20
         implicitHeight: 20
         radius: width / 2
-        color:FluTheme.dark ? Qt.rgba(69/255,69/255,69/255,1) :Qt.rgba(1,1,1,1)
+        color: FluTheme.normalColor
         FluShadow{
             radius: 10
         }
@@ -58,7 +58,7 @@ T.RangeSlider {
         implicitWidth: 20
         implicitHeight: 20
         radius: width / 2
-        color:FluTheme.dark ? Qt.rgba(69/255,69/255,69/255,1) :Qt.rgba(1,1,1,1)
+        color: FluTheme.normalColor
         FluShadow{
             radius: 10
         }
@@ -95,7 +95,7 @@ T.RangeSlider {
             anchors.fill: parent
             anchors.margins: 1
             radius: 2
-            color:FluTheme.dark ? Qt.rgba(162/255,162/255,162/255,1) : Qt.rgba(138/255,138/255,138/255,1)
+            color: FluTheme.handleColor
         }
         Rectangle {
             x: control.horizontal ? control.first.position * parent.width + 3 : 0
@@ -116,3 +116,4 @@ T.RangeSlider {
         text:String(isTipInt?Math.round(control.second.value):control.second.value)
     }
 }
+

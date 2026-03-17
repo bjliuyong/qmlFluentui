@@ -7,7 +7,7 @@ FluControlBackground{
     id:control
     color: {
         if(inputItem && !inputItem.enabled){
-            return FluTheme.dark ? Qt.rgba(59/255,59/255,59/255,1) : Qt.rgba(252/255,252/255,252/255,1)
+            return  FluTheme.disableColor
         }
         if(inputItem && inputItem.activeFocus){
             return FluTheme.dark ? Qt.rgba(36/255,36/255,36/255,1) : Qt.rgba(1,1,1,1)
@@ -27,7 +27,7 @@ FluControlBackground{
     QtObject{
         id:d
         property int offsetSize :  3
-        property color startColor : FluTheme.dark ? Qt.rgba(66/255,66/255,66/255,1) : Qt.rgba(232/255,232/255,232/255,1)
+        property color startColor :  FluTheme.startColor
         property color endColor: {
             if(!control.enabled){
                 return d.startColor
@@ -47,3 +47,4 @@ FluControlBackground{
         }
     }
 }
+

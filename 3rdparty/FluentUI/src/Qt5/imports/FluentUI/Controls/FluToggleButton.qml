@@ -9,27 +9,27 @@ Button {
         if(checked){
             return FluTheme.primaryColor
         }else{
-            return FluTheme.dark ? Qt.rgba(62/255,62/255,62/255,1) : Qt.rgba(254/255,254/255,254/255,1)
+            return  FluTheme.normalColor
         }
     }
     property color hoverColor: {
         if(checked){
-            return FluTheme.dark ? Qt.darker(normalColor,1.1) : Qt.lighter(normalColor,1.1)
+            return  FluTheme.hoverColor
         }else{
-            return FluTheme.dark ? Qt.rgba(68/255,68/255,68/255,1) : Qt.rgba(246/255,246/255,246/255,1)
+            return  FluTheme.hoverColor
         }
     }
     property color disableColor: {
         if(checked){
-            return FluTheme.dark ? Qt.rgba(82/255,82/255,82/255,1) : Qt.rgba(199/255,199/255,199/255,1)
+            return  FluTheme.disableColor
         }else{
-            return FluTheme.dark ? Qt.rgba(59/255,59/255,59/255,1) : Qt.rgba(251/255,251/255,251/255,1)
+            return  FluTheme.disableColor
         }
     }
     property var clickListener : function(){
         checked = !checked
     }
-    property color pressedColor: FluTheme.dark ? Qt.darker(normalColor,1.2) : Qt.lighter(normalColor,1.2)
+    property color pressedColor:  FluTheme.pressedColor
     Accessible.role: Accessible.Button
     Accessible.name: control.text
     Accessible.description: contentDescription
@@ -89,7 +89,7 @@ Button {
             if(checked){
                 return enabled ? Qt.darker(control.normalColor,1.2) : disableColor
             }else{
-                return FluTheme.dark ? Qt.rgba(48/255,48/255,48/255,1) : Qt.rgba(188/255,188/255,188/255,1)
+                return  FluTheme.borderNormalColor
             }
         }
     }
@@ -133,3 +133,4 @@ Button {
         }
     }
 }
+

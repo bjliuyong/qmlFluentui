@@ -155,7 +155,7 @@ FluIconButton {
 
         Rectangle{
             id: layout_rect
-            border.color: FluTheme.dark ? "#505050" : "#DFDFDF"
+            border.color:  FluTheme.borderNormalColor
             border.width: 1
             radius: control.radius
             color: control.color
@@ -300,3 +300,4 @@ FluIconButton {
         content_dialog.open()
     }
 }
+

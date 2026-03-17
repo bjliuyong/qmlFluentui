@@ -103,7 +103,7 @@ T.CheckBox {
         Canvas {
             id: markCanvas
             property real strokeProgress: 0.0
-            property color strokeColor: FluTheme.dark ? "#000000" : "#FFFFFF"
+            property color strokeColor:  FluTheme.blackColor
             anchors.centerIn: parent
             width: size - 6
             height: width
@@ -209,3 +209,4 @@ T.CheckBox {
         clickListener()
     }
 }
+

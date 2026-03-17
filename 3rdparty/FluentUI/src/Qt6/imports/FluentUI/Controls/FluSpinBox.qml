@@ -6,9 +6,9 @@ import FluentUI
 T.SpinBox {
     id: control
     property bool disabled: false
-    property color normalColor: FluTheme.dark ? Qt.rgba(56/255,56/255,56/255,1) : Qt.rgba(232/255,232/255,232/255,1)
-    property color hoverColor: FluTheme.dark ? Qt.rgba(64/255,64/255,64/255,1) : Qt.rgba(224/255,224/255,224/255,1)
-    property color pressedColor: FluTheme.dark ? Qt.rgba(72/255,72/255,72/255,1) : Qt.rgba(216/255,216/255,216/255,1)
+    property color normalColor:  FluTheme.normalColor
+    property color hoverColor:  FluTheme.hoverColor
+    property color pressedColor:  FluTheme.pressedColor
     implicitWidth: Math.max(implicitBackgroundWidth + leftInset + rightInset,
                             contentItem.implicitWidth + leftPadding + rightPadding)
     implicitHeight: Math.max(implicitBackgroundHeight + topInset + bottomInset,
@@ -25,11 +25,11 @@ T.SpinBox {
     font: FluTextStyle.Body
 
     contentItem: TextInput {
-        property color normalColor: FluTheme.dark ?  Qt.rgba(255/255,255/255,255/255,1) : Qt.rgba(27/255,27/255,27/255,1)
-        property color disableColor: FluTheme.dark ? Qt.rgba(131/255,131/255,131/255,1) : Qt.rgba(160/255,160/255,160/255,1)
-        property color placeholderNormalColor: FluTheme.dark ? Qt.rgba(210/255,210/255,210/255,1) : Qt.rgba(96/255,96/255,96/255,1)
-        property color placeholderFocusColor: FluTheme.dark ? Qt.rgba(152/255,152/255,152/255,1) : Qt.rgba(141/255,141/255,141/255,1)
-        property color placeholderDisableColor: FluTheme.dark ? Qt.rgba(131/255,131/255,131/255,1) : Qt.rgba(160/255,160/255,160/255,1)
+        property color normalColor:  FluTheme.textHighlightColor
+        property color disableColor:  FluTheme.itemDisableColor
+        property color placeholderNormalColor:  FluTheme.placeholderNormalColor
+        property color placeholderFocusColor:  FluTheme.placeholderFocusColor
+        property color placeholderDisableColor:  FluTheme.itemDisableColor
         z: 2
         text: control.displayText
         clip: width < implicitWidth
@@ -48,37 +48,16 @@ T.SpinBox {
         readOnly: !control.editable
         validator: control.validator
         inputMethodHints: control.inputMethodHints
-        Rectangle{
-            width: parent.width
-            height: contentItem.activeFocus ? 2 : 1
-            anchors.bottom: parent.bottom
-            visible: contentItem.enabled
-            color: {
-                if(contentItem.activeFocus){
-                    return FluTheme.primaryColor
-                }
-                if(FluTheme.dark){
-                    return Qt.rgba(166/255,166/255,166/255,1)
-                }else{
-                    return Qt.rgba(183/255,183/255,183/255,1)
-                }
-            }
-            Behavior on height{
-                enabled: FluTheme.animationEnabled
-                NumberAnimation{
-                    duration: 83
-                    easing.type: Easing.OutCubic
-                }
-            }
-        }
+
     }
 
     up.indicator: FluClip {
-        x: control.mirrored ? 0 : control.width - width
-        height: control.height
+        x: control.mirrored ? 1 : control.width - width - 1
+        y: 1
+        height: control.height - 2
         implicitWidth: 32
         implicitHeight: 32
-        radius: [0,4,4,0]
+        radius: [0,3,3,0]
         Rectangle{
             anchors.fill: parent
             color: {
@@ -96,24 +75,25 @@ T.SpinBox {
             y: (parent.height - height) / 2
             width: parent.width / 3
             height: 2
-            color: enabled ? FluTheme.dark ? Qt.rgba(1,1,1,1) : Qt.rgba(0,0,0,1) : FluColors.Grey90
+            color: enabled ?  FluTheme.textHighlightColor : FluColors.Grey90
         }
         Rectangle {
             x: (parent.width - width) / 2
             y: (parent.height - height) / 2
             width: 2
             height: parent.width / 3
-            color: enabled ? FluTheme.dark ? Qt.rgba(1,1,1,1) : Qt.rgba(0,0,0,1) : FluColors.Grey90
+            color: enabled ?  FluTheme.textHighlightColor : FluColors.Grey90
         }
     }
 
 
     down.indicator: FluClip {
-        x: control.mirrored ? parent.width - width : 0
-        height: control.height
+        x: control.mirrored ? control.width - width - 1 : 1
+        y: 1
+        height: control.height - 2
         implicitWidth: 32
         implicitHeight: 32
-        radius: [4,0,0,4]
+        radius: [3,0,0,3]
         Rectangle{
             anchors.fill: parent
             color: {
@@ -131,7 +111,7 @@ T.SpinBox {
             y: (parent.height - height) / 2
             width: parent.width / 3
             height: 2
-            color: enabled ? FluTheme.dark ? Qt.rgba(1,1,1,1) : Qt.rgba(0,0,0,1) : FluColors.Grey90
+            color: enabled ?  FluTheme.textHighlightColor : FluColors.Grey90
         }
     }
 
@@ -141,21 +121,22 @@ T.SpinBox {
         border.width: 1
         border.color: {
             if(!contentItem.enabled){
-                return FluTheme.dark ? Qt.rgba(73/255,73/255,73/255,1) : Qt.rgba(237/255,237/255,237/255,1)
+                return FluTheme.borderDisableColor
             }
-            return FluTheme.dark ? Qt.rgba(76/255,76/255,76/255,1) : Qt.rgba(240/255,240/255,240/255,1)
+            return FluTheme.borderNormalColor
         }
         color: {
             if(!contentItem.enabled){
-                return FluTheme.dark ? Qt.rgba(59/255,59/255,59/255,1) : Qt.rgba(252/255,252/255,252/255,1)
+                return  FluTheme.disableColor
             }
             if(contentItem.activeFocus){
-                return FluTheme.dark ? Qt.rgba(36/255,36/255,36/255,1) : Qt.rgba(1,1,1,1)
+                return FluTheme.pressedColor
             }
             if(contentItem.hovered){
-                return FluTheme.dark ? Qt.rgba(68/255,68/255,68/255,1) : Qt.rgba(251/255,251/255,251/255,1)
+                return FluTheme.hoverColor
             }
-            return FluTheme.dark ? Qt.rgba(62/255,62/255,62/255,1) : Qt.rgba(1,1,1,1)
+            return FluTheme.normalColor
         }
     }
 }
+

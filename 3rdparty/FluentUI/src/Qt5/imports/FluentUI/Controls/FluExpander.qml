@@ -74,7 +74,7 @@ Item {
             }
             color:{
                 if(control_mouse.containsMouse || hovered){
-                    return FluTheme.dark ? Qt.rgba(73/255,73/255,73/255,1) : Qt.rgba(245/255,245/255,245/255,1)
+                    return  FluTheme.windowBackgroundColor
                 }
                 return FluTheme.dark ? Qt.rgba(0,0,0,0) : Qt.rgba(0,0,0,0)
             }
@@ -159,3 +159,4 @@ Item {
         }
     }
 }
+

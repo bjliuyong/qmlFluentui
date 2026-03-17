@@ -115,8 +115,8 @@ FluButton {
         }
         background:Rectangle{
             radius: 5
-            color: FluTheme.dark ? Qt.rgba(43/255,43/255,43/255,1) : Qt.rgba(1,1,1,1)
-            border.color: FluTheme.dark ? Qt.rgba(26/255,26/255,26/255,1) : Qt.rgba(191/255,191/255,191/255,1)
+            color:  FluTheme.windowActiveBackgroundColor
+            border.color:  FluTheme.borderNormalColor
             FluShadow{
                 radius: 5
             }
@@ -157,7 +157,7 @@ FluButton {
                                     return  item_mouse.containsMouse ? Qt.lighter(FluTheme.primaryColor,1.1): FluTheme.primaryColor
                                 }
                                 if(item_mouse.containsMouse){
-                                    return FluTheme.dark ? Qt.rgba(63/255,60/255,61/255,1) : Qt.rgba(237/255,237/255,242/255,1)
+                                    return FluTheme.backgroundColor
                                 }
                                 return Qt.rgba(0,0,0,0)
                             }
@@ -196,13 +196,9 @@ FluButton {
                                 text:model
                                 color: {
                                     if(getListView().currentIndex === position){
-                                        if(FluTheme.dark){
-                                            return Qt.rgba(0,0,0,1)
-                                        }else{
-                                            return Qt.rgba(1,1,1,1)
-                                        }
+                                        return FluTheme.strokeColor
                                     }else{
-                                        return FluTheme.dark ? "#FFFFFF" : "#1A1A1A"
+                                        return FluTheme.whiteColor
                                     }
                                 }
                                 anchors.centerIn: parent
@@ -281,8 +277,8 @@ FluButton {
             Rectangle{
                 id:layout_actions
                 height: 60
-                color: FluTheme.dark ? Qt.rgba(32/255,32/255,32/255,1) : Qt.rgba(243/255,243/255,243/255,1)
-                border.color: FluTheme.dark ? Qt.rgba(26/255,26/255,26/255,1) : Qt.rgba(191/255,191/255,191/255,1)
+                color:  FluTheme.windowBackgroundColor
+                border.color:  FluTheme.borderNormalColor
                 radius: 5
                 anchors{
                     bottom:parent.bottom
@@ -395,3 +391,4 @@ FluButton {
         return monthDaysArray;
     }
 }
+

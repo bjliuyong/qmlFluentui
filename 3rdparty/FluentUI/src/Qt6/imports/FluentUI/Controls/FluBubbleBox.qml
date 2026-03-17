@@ -38,9 +38,7 @@ Rectangle {
     implicitWidth: 100
     implicitHeight: 50
     radius: 4
-    color: FluTheme.dark ? Qt.rgba(
-                               32 / 255, 32 / 255, 32 / 255,
-                               1) : Qt.rgba(243 / 255, 243 / 255, 243 / 255, 1)
+    color: FluTheme.windowBackgroundColor
 
     x: {
         if (!attachTarget) {

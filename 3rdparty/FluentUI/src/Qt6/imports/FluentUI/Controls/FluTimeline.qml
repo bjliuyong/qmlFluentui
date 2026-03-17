@@ -5,7 +5,7 @@ import FluentUI
 Item{
     property int mode: FluTimelineType.Left
     property alias model: repeater.model
-    property color lineColor: FluTheme.dark ? Qt.rgba(80/255,80/255,80/255,1) : Qt.rgba(210/255,210/255,210/255,1)
+    property color lineColor:  FluTheme.lineColor
     id:control
     implicitWidth: 380
     implicitHeight: layout_column.height
@@ -90,7 +90,7 @@ Item{
             height: 16
             radius: 8
             border.width: 4
-            color:FluTheme.dark ? Qt.rgba(0,0,0,1) : Qt.rgba(1,1,1,1)
+            color:FluTheme.strokeColor
             border.color: FluTheme.primaryColor
         }
     }
@@ -307,3 +307,4 @@ Item{
         }
     }
 }
+

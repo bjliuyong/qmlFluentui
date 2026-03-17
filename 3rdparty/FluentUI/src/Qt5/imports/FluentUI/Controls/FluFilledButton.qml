@@ -6,9 +6,9 @@ Button {
     property bool disabled: false
     property string contentDescription: ""
     property color normalColor: FluTheme.primaryColor
-    property color hoverColor: FluTheme.dark ? Qt.darker(normalColor,1.1) : Qt.lighter(normalColor,1.1)
-    property color disableColor: FluTheme.dark ? Qt.rgba(82/255,82/255,82/255,1) : Qt.rgba(199/255,199/255,199/255,1)
-    property color pressedColor: FluTheme.dark ? Qt.darker(normalColor,1.2) : Qt.lighter(normalColor,1.2)
+    property color hoverColor:  FluTheme.hoverColor
+    property color disableColor:  FluTheme.disableColor
+    property color pressedColor:  FluTheme.pressedColor
     property color textColor: {
         if(FluTheme.dark){
             if(!enabled){
@@ -58,3 +58,4 @@ Button {
         color: control.textColor
     }
 }
+

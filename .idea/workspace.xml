@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="BaseLayout" targetName="appBaseLayout" />
+      <config projectName="BaseLayout" targetName="module_appBaseLayout_aotstats_target" />
+      <config projectName="BaseLayout" targetName="generate_qmlls_build_ini_file" />
+      <config projectName="BaseLayout" targetName="appBaseLayout_qmlimportscan" />
+      <config projectName="BaseLayout" targetName="appBaseLayout_qmllint_module" />
+      <config projectName="BaseLayout" targetName="all_qmltyperegistrations" />
+      <config projectName="BaseLayout" targetName="all_qmllint" />
+      <config projectName="BaseLayout" targetName="appBaseLayout_qmltyperegistration" />
+      <config projectName="BaseLayout" targetName="appBaseLayout_qmllint" />
+      <config projectName="BaseLayout" targetName="module_fluentuiplugin_aotstats_target" />
+      <config projectName="BaseLayout" targetName="fluentuiplugin_copy_res" />
+      <config projectName="BaseLayout" targetName="fluentuiplugin_qmllint_json" />
+      <config projectName="BaseLayout" targetName="fluentuiplugin_qmllint_module" />
+      <config projectName="BaseLayout" targetName="fluentuiplugin_qmltyperegistration" />
+      <config projectName="BaseLayout" targetName="appBaseLayout_copy_qml" />
+      <config projectName="BaseLayout" targetName="all_qmllint_module" />
+      <config projectName="BaseLayout" targetName="fluentuiplugin" />
+      <config projectName="BaseLayout" targetName="all_aotstats" />
+      <config projectName="BaseLayout" targetName="fluentuiplugin_qmllint" />
+      <config projectName="BaseLayout" targetName="all_qmllint_json" />
+      <config projectName="BaseLayout" targetName="appBaseLayout_qmllint_json" />
+      <config projectName="BaseLayout" targetName="fluentuiplugin_copy_qml" />
+      <config projectName="BaseLayout" targetName="appBaseLayout_copy_res" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="build/cmake-build-debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_PREFIX_PATH=&quot;D:/SoftWare/QT/6.10.2/mingw_64&quot;" BUILD_OPTIONS="-j 8" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9961c51d-cac8-4b2d-99ad-bda63727440d" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/biisglobalenums.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biisglobalenums.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qml/LayoutTemplate/HeaderBodyFooter/LayoutHeaderBodyFooterDraTabTempl.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/FluTheme.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/FluTheme.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/FluTheme.h" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/FluTheme.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluAutoSuggestBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluAutoSuggestBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluBadge.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluBadge.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluBreadcrumbBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluBreadcrumbBar.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluBubbleBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluBubbleBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluCalendarPicker.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluCalendarPicker.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluCarousel.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluCarousel.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluChart.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluChart.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluCheckBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluCheckBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluClip.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluClip.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluColorPicker.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluColorPicker.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluComboBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluComboBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluContentDialog.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluContentDialog.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluContentPage.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluContentPage.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluControl.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluControl.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluControlBackground.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluControlBackground.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluDatePicker.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluDatePicker.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluDivider.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluDivider.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluDropDownButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluDropDownButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluEvent.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluEvent.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluEventBus.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluEventBus.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluExpander.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluExpander.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluFilledButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluFilledButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluFlipView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluFlipView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluFocusRectangle.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluFocusRectangle.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluFrame.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluFrame.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluImage.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluImage.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluImageButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluImageButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluInfoBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluInfoBar.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluItemDelegate.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluItemDelegate.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluLauncher.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluLauncher.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluLoader.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluLoader.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluLoadingButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluLoadingButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluMenu.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluMenu.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluMenuBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluMenuBar.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluMenuSeparator.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluMenuSeparator.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluMultilineTextBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluMultilineTextBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluNavigationView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluNavigationView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluObject.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluObject.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPage.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPage.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPaneItem.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPaneItem.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPaneItemEmpty.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPaneItemEmpty.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPaneItemExpander.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPaneItemExpander.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPaneItemHeader.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPaneItemHeader.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPaneItemSeparator.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPaneItemSeparator.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluParallaxView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluParallaxView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPasswordBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPasswordBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPinyin.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPinyin.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPivotItem.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPivotItem.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPopup.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPopup.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluProgressBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluProgressBar.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluProgressButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluProgressButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluProgressRing.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluProgressRing.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluQRCode.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluQRCode.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluRadioButtons.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluRadioButtons.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluRangeSlider.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluRangeSlider.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluRatingControl.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluRatingControl.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluRemoteLoader.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluRemoteLoader.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluRouter.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluRouter.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluScrollBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluScrollBar.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluScrollIndicator.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluScrollIndicator.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluScrollablePage.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluScrollablePage.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluShadow.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluShadow.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluSheet.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluSheet.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluShortcutPicker.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluShortcutPicker.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluSlider.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluSlider.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluSpinBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluSpinBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluSplitLayout.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluSplitLayout.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluStaggeredLayout.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluStaggeredLayout.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluStatusLayout.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluStatusLayout.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTabView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTabView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTableView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTableView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluText.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluText.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTextBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTextBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTextBoxBackground.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTextBoxBackground.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTextBoxMenu.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTextBoxMenu.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTextButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTextButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTimePicker.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTimePicker.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTimeline.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTimeline.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluToggleButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluToggleButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluToggleSwitch.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluToggleSwitch.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTooltip.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTooltip.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTour.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTour.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTreeView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTreeView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluWindow.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluWindow.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluWindowDialog.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluWindowDialog.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluWindowResultLauncher.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluWindowResultLauncher.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluAppBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluAppBar.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluAutoSuggestBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluAutoSuggestBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluBadge.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluBadge.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluBreadcrumbBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluBreadcrumbBar.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluBubbleBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluBubbleBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluCalendarPicker.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluCalendarPicker.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluCarousel.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluCarousel.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluChart.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluChart.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluCheckBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluCheckBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluClip.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluClip.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluColorPicker.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluColorPicker.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluComboBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluComboBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluContentDialog.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluContentDialog.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluContentPage.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluContentPage.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluControl.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluControl.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluControlBackground.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluControlBackground.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluDatePicker.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluDatePicker.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluDivider.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluDivider.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluDropDownButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluDropDownButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluEvent.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluEvent.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluEventBus.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluEventBus.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluExpander.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluExpander.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluFilledButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluFilledButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluFlipView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluFlipView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluFocusRectangle.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluFocusRectangle.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluFrame.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluFrame.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluIcon.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluIcon.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluIconButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluIconButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluImage.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluImage.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluImageButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluImageButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluInfoBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluInfoBar.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluItemDelegate.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluItemDelegate.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluLauncher.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluLauncher.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluLoader.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluLoader.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluLoadingButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluLoadingButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMenu.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMenu.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMenuBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMenuBar.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMenuBarItem.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMenuBarItem.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMenuItem.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMenuItem.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMenuSeparator.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMenuSeparator.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMultilineTextBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluMultilineTextBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluNavigationView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluNavigationView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluObject.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluObject.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPage.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPage.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPaneItem.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPaneItem.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPaneItemEmpty.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPaneItemEmpty.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPaneItemExpander.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPaneItemExpander.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPaneItemHeader.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPaneItemHeader.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPaneItemSeparator.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPaneItemSeparator.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluParallaxView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluParallaxView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPasswordBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPasswordBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPinyin.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPinyin.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPivot.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPivot.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPivotItem.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPivotItem.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPopup.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPopup.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluProgressBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluProgressBar.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluProgressButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluProgressButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluProgressRing.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluProgressRing.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluQRCode.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluQRCode.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRadioButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRadioButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRadioButtons.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRadioButtons.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRangeSlider.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRangeSlider.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRatingControl.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRatingControl.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRemoteLoader.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRemoteLoader.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRouter.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluRouter.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluScrollBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluScrollBar.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluScrollIndicator.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluScrollIndicator.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluScrollablePage.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluScrollablePage.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluShadow.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluShadow.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluSheet.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluSheet.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluShortcutPicker.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluShortcutPicker.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluSlider.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluSlider.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluSpinBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluSpinBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluSplitLayout.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluSplitLayout.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluStaggeredLayout.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluStaggeredLayout.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluStatusLayout.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluStatusLayout.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTabView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTabView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTableView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTableView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluText.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluText.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTextBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTextBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTextBoxBackground.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTextBoxBackground.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTextBoxMenu.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTextBoxMenu.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTextButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTextButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTimePicker.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTimePicker.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTimeline.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTimeline.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluToggleButton.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluToggleButton.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluToggleSwitch.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluToggleSwitch.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTooltip.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTooltip.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTour.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTour.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTreeView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTreeView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluWindow.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluWindow.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluWindowDialog.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluWindowDialog.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluWindowResultLauncher.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluWindowResultLauncher.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/Main.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_1.7.7_win64_msvc2019_64_Qt6.6.2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/BizBaseComponent/BaseComp/BizBaseDialogItem.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/BizBaseComponent/BaseComp/BizBaseDialogItem.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/BizBaseComponent/BaseComp/BizBaseLabeledInput.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/BizBaseComponent/BaseComp/BizBaseLabeledInput.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/BizBaseComponent/BaseComp/BizBaseViewItem.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/BizBaseComponent/BaseComp/BizBaseViewItem.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/BizBaseComponent/DataManager/BizBaseCompDataManager.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/BizBaseComponent/DataManager/BizBaseCompDataManager.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/BizBaseComponent/DataManager/BizBaseFormDataManager.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/BizBaseComponent/DataManager/BizBaseFormDataManager.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/BizComponent/BizFlagCombox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/BizComponent/BizFlagCombox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/BizComponent/BizTextBox.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/BizComponent/BizTextInput.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/BizComponent/BizTextInput.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/FluComponent/FluFlagCombox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/FluComponent/FluFlagCombox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/FluComponent/FluLayoutPivotPane.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/FluComponent/FluShadowGroupBox.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/FluComponent/FluShadowGroupBox.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/FluComponent/FluTabViewManager.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/FluComponent/JsonListModel.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/HeaderBodyFooter/BaseHeaderBodyFooterDialog.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/HeaderBodyFooter/BaseHeaderBodyFooterItem.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/HeaderBodyFooter/LayoutHeaderBodyFooterDraTabVTempl.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/HeaderBodyFooter/LayoutHeaderBodyFooterTemp.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/HeaderBodyFooter/LayoutHeaderBodyFooterTempDraggable.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/TopBottomSplit/BaseTopBottomSplitDialog.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/TopBottomSplit/BaseTopBottomSplitItem.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/TopBottomSplit/BaseTopBottomSplitTabItem.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/TopBottomSplit/LayoutTopBottomSplitDraggableTabbed.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/TopBottomSplit/LayoutTopBottomSplitTabView.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/TopBottomSplit/LayoutTopBottomSplitTemp.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/TopBottomSplit/LayoutTopBottomSplitTempDraggable.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/View/ReadView.md" beforeDir="false" afterPath="$PROJECT_DIR$/qml/View/ReadView.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/View/ViewUserInfo/RegionTabTest.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/View/ViewUserInfo/RegionUserInfoBody.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/View/ViewUserInfo/RegionUserInfoBody.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/View/ViewUserInfo/RegionUserInfoEditDialog.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/View/ViewUserInfo/RegionUserInfoFooter.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/View/ViewUserInfo/RegionUserInfoFooter.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/View/ViewUserInfo/RegionUserInfoHeader.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/View/ViewUserInfo/RegionUserInfoHeader.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/View/ViewUserInfo/UserInfoContext.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qml/View/ViewUserInfo/ViewUserInfo.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/View/ViewUserInfo/ViewUserInfo.qml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3B3TwDpRijAERlb5LHGTMDRP9f5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake 应用程序.appBaseLayout.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake 应用程序.appBaseLayout">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all_aotstats" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="all_aotstats" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all_qmllint" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="all_qmllint" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all_qmllint_json" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="all_qmllint_json" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all_qmllint_module" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="all_qmllint_module" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all_qmltyperegistrations" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="all_qmltyperegistrations" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appBaseLayout" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BaseLayout" RUN_TARGET_NAME="appBaseLayout" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs>
+        <env name="PATh" value="D:\SoftWare\QT\6.10.2\mingw_64\bin;D:\SoftWare\CLion 2025.2\bin\mingw\bin;%PATH%" />
+      </envs>
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appBaseLayout_copy_qml" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="appBaseLayout_copy_qml" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appBaseLayout_copy_res" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="appBaseLayout_copy_res" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appBaseLayout_qmlimportscan" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="appBaseLayout_qmlimportscan" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appBaseLayout_qmllint" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="appBaseLayout_qmllint" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appBaseLayout_qmllint_json" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="appBaseLayout_qmllint_json" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appBaseLayout_qmllint_module" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="appBaseLayout_qmllint_module" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appBaseLayout_qmltyperegistration" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="appBaseLayout_qmltyperegistration" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fluentuiplugin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="fluentuiplugin" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fluentuiplugin_copy_qml" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="fluentuiplugin_copy_qml" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fluentuiplugin_copy_res" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="fluentuiplugin_copy_res" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fluentuiplugin_qmllint" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="fluentuiplugin_qmllint" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fluentuiplugin_qmllint_json" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="fluentuiplugin_qmllint_json" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fluentuiplugin_qmllint_module" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="fluentuiplugin_qmllint_module" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fluentuiplugin_qmltyperegistration" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="fluentuiplugin_qmltyperegistration" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generate_qmlls_build_ini_file" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="generate_qmlls_build_ini_file" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="module_appBaseLayout_aotstats_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="module_appBaseLayout_aotstats_target" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="module_fluentuiplugin_aotstats_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseLayout" TARGET_NAME="module_fluentuiplugin_aotstats_target" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.all_qmllint" />
+      <item itemvalue="CMake 应用程序.all_qmllint_json" />
+      <item itemvalue="CMake 应用程序.all_qmllint_module" />
+      <item itemvalue="CMake 应用程序.appBaseLayout" />
+      <item itemvalue="CMake 应用程序.fluentuiplugin" />
+      <item itemvalue="CMake 应用程序.all_aotstats" />
+      <item itemvalue="CMake 应用程序.all_qmltyperegistrations" />
+      <item itemvalue="CMake 应用程序.appBaseLayout_copy_qml" />
+      <item itemvalue="CMake 应用程序.appBaseLayout_copy_res" />
+      <item itemvalue="CMake 应用程序.appBaseLayout_qmlimportscan" />
+      <item itemvalue="CMake 应用程序.appBaseLayout_qmllint" />
+      <item itemvalue="CMake 应用程序.appBaseLayout_qmllint_json" />
+      <item itemvalue="CMake 应用程序.appBaseLayout_qmllint_module" />
+      <item itemvalue="CMake 应用程序.appBaseLayout_qmltyperegistration" />
+      <item itemvalue="CMake 应用程序.fluentuiplugin_copy_qml" />
+      <item itemvalue="CMake 应用程序.fluentuiplugin_copy_res" />
+      <item itemvalue="CMake 应用程序.fluentuiplugin_qmllint" />
+      <item itemvalue="CMake 应用程序.fluentuiplugin_qmllint_json" />
+      <item itemvalue="CMake 应用程序.fluentuiplugin_qmllint_module" />
+      <item itemvalue="CMake 应用程序.fluentuiplugin_qmltyperegistration" />
+      <item itemvalue="CMake 应用程序.generate_qmlls_build_ini_file" />
+      <item itemvalue="CMake 应用程序.module_appBaseLayout_aotstats_target" />
+      <item itemvalue="CMake 应用程序.module_fluentuiplugin_aotstats_target" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9961c51d-cac8-4b2d-99ad-bda63727440d" name="更改" comment="" />
+      <created>1773716993137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773716993137</updated>
+      <workItem from="1773716996785" duration="12835000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>

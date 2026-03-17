@@ -1,3 +1,5 @@
+
+
 #include <QDateTime>
 #include <QDebug>
 #include <QDir>
@@ -14,10 +16,11 @@
 int main(int argc, char *argv[]) {
   // 必须在 QGuiApplication 之前设置 Style
   QQuickStyle::setStyle("Basic");
-
+  qDebug()<<123;
   QGuiApplication app(argc, argv);
 
   QQmlApplicationEngine engine;
+
 
   // 处理加载失败
   QObject::connect(

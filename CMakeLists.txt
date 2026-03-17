@@ -42,6 +42,7 @@ qt_add_qml_module(appBaseLayout
     QML_FILES
         Main.qml
         ${ALL_LAYOUT_FILES_ABS}
+        SOURCES biisglobalenums.h biisglobalenums.cpp
 
 )
 
@@ -81,7 +82,7 @@ set_target_properties(appBaseLayout PROPERTIES
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
     MACOSX_BUNDLE TRUE
-    WIN32_EXECUTABLE TRUE
+#    WIN32_EXECUTABLE TRUE
 )
 
 target_link_libraries(appBaseLayout

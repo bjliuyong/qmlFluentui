@@ -7,31 +7,19 @@ import FluentUI
 Button {
     property bool disabled: false
     property string contentDescription: ""
-    property color disableColor: FluTheme.dark ? Qt.rgba(82/255,82/255,82/255,1) : Qt.rgba(233/255,233/255,233/255,1)
-    property color checkColor: FluTheme.primaryColor
-    property color hoverColor: FluTheme.dark ? Qt.rgba(62/255,62/255,62/255,1) : Qt.rgba(240/255,240/255,240/255,1)
-    property color normalColor: FluTheme.dark ? Qt.rgba(50/255,50/255,50/255,1) : Qt.rgba(253/255,253/255,253/255,1)
-    property color borderNormalColor: FluTheme.dark ? Qt.rgba(161/255,161/255,161/255,1) : Qt.rgba(141/255,141/255,141/255,1)
-    property color borderCheckColor: FluTheme.primaryColor
-    property color borderDisableColor: FluTheme.dark ? Qt.rgba(50/255,50/255,50/255,1) : Qt.rgba(200/255,200/255,200/255,1)
-    property color dotNormalColor: FluTheme.dark ? Qt.rgba(208/255,208/255,208/255,1) : Qt.rgba(93/255,93/255,93/255,1)
-    property color dotCheckColor: FluTheme.dark ? Qt.rgba(0/255,0/255,0/255,1) : Qt.rgba(255/255,255/255,255/255,1)
-    property color dotDisableColor: FluTheme.dark ? Qt.rgba(50/255,50/255,50/255,1) : Qt.rgba(150/255,150/255,150/255,1)
+    property color disableColor:  FluTheme.disableColor
+    property color checkColor: FluTheme.checkColor
+    property color hoverColor:  FluTheme.hoverColor
+    property color normalColor:  FluTheme.normalColor
+    property color borderNormalColor:  FluTheme.borderNormalColor
+    property color borderCheckColor: FluTheme.borderCheckColor
+    property color borderDisableColor:  FluTheme.borderDisableColor
+    property color dotNormalColor:  FluTheme.dotNormalColor
+    property color dotCheckColor:  FluTheme.dotCheckColor
+    property color dotDisableColor:  FluTheme.dotDisableColor
     property real textSpacing: 6
     property bool textRight: true
-    property color textColor: {
-        if(FluTheme.dark){
-            if(!enabled){
-                return Qt.rgba(130/255,130/255,130/255,1)
-            }
-            return Qt.rgba(1,1,1,1)
-        }else{
-            if(!enabled){
-                return Qt.rgba(161/255,161/255,161/255,1)
-            }
-            return Qt.rgba(0,0,0,1)
-        }
-    }
+    property color textColor: !enabled ? FluTheme.textDisableColor : FluTheme.textHighlightColor
     property var clickListener : function(){
         checked = !checked
     }
@@ -132,3 +120,4 @@ Button {
         }
     }
 }
+

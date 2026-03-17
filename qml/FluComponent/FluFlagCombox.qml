@@ -1,115 +1,58 @@
 import QtQuick
 import QtQuick.Controls
+
 import FluentUI
 FluComboBox {
     id : comboBoxId
     width: 100
     height: 30
-    textRole: "name"
-    valueRole: "code"
-    property var modelName:""
+    property alias customModel: comboBoxId.model
+    property string modelName:""
+    property var jsonObject
     onModelNameChanged: {
-      console.log("===================================")
-      cityModel.sourceArray = getNameAndCode(modelName)
-      customModel =  cityModel
+        getNameAndCode()
     }
 
-    property alias customModel: comboBoxId.model
-    // 加载字典项
-    property var dict: {
-      "placeCode": [
-        {
-          "name": "北京市",
-          "code": "110000"
-        },
-        {
-          "name": "上海市",
-          "code": "310000"
-        },
-        {
-          "name": "广州市",
-          "code": "440100"
-        },
-        {
-          "name": "深圳市",
-          "code": "440300"
-        },
-        {
-          "name": "成都市",
-          "code": "510100"
-        },
-        {
-          "name": "天津市",
-          "code": "120000"
-        },
-        {
-          "name": "重庆市",
-          "code": "500000"
-        },
-        {
-          "name": "杭州市",
-          "code": "330100"
-        },
-        {
-          "name": "南京市",
-          "code": "320100"
-        },
-        {
-          "name": "武汉市",
-          "code": "420100"
-        },
-        {
-          "name": "西安市",
-          "code": "610100"
-        },
-        {
-          "name": "沈阳市",
-          "code": "210100"
-        },
-        {
-          "name": "哈尔滨市",
-          "code": "230100"
-        },
-        {
-          "name": "昆明市",
-          "code": "530100"
-        },
-        {
-          "name": "乌鲁木齐市",
-          "code": "650100"
-        }
-      ],
-      "genderCode": [
-        {
-          "name": "男",
-          "code": "1"
-        },
-        {
-          "name": "女",
-          "code": "2"
-        },
-        {
-          "name": "其他",
-          "code": "9"
-        }
-      ]
+    onJsonObjectChanged: {
+        console.log("===================>comboBoxIdsys   onJsonObjectChanged")
+        customModel = comboBoxId.jsonArrayToList(dataModel,jsonObject)
     }
 
     // 获取JsonArray字典项数组
-    function getNameAndCode(name) {
-      var result = dict[name]
-      return Array.isArray(result) ? result : []
+    function getNameAndCode() {
+        var params = {}
+        params.key = modelName
+        params.flagType = modelName
+        params.enableFlag = "1"
+        // commonController.lookupFlagDataQml(params,function(result){
+        //     if(ServerApiUtil.isOk(result)) {
+        //         console.log("==========================>>>>>>")
+        //         console.log(JSON.stringify(result.data))
+        //         customModel = comboBoxId.jsonArrayToList(dataModel,result.data)
+        //     } else {
+        //         console.log("Result is fail.");
+        //     }
+
+        // })
     }
 
-    //JsonArray转化为ListModel的对象
-    JsonListModel {
-        id: cityModel
+    ListModel {
+        id: dataModel
     }
+    // 将jsonArray 转化为 ListModel
+    function jsonArrayToList(sourceModel, sourceArray) {
+        if(!sourceArray || !Array.isArray(sourceArray)) {
+            console.warn("sourceArray 不是有效数组")
+            return sourceModel
+        }
+        sourceModel.clear()
 
-    function findCodeOrKey(label) {
-        return cityModel.findCodeOrKey(label)
-    }
-    function findByField(fieldName, fieldValue) {
-        return cityModel.findByField(fieldName, fieldValue)
+        for(var i = 0; i < sourceArray.length; i++) {
+            var sourceItem = sourceArray[i]
+            if(sourceItem && typeof sourceItem === "object") {
+                sourceModel.append(sourceItem)
+            }
+        }
+        return sourceModel
     }
 }

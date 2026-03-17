@@ -93,7 +93,7 @@ FluPopup {
                          (control.buttonFlags & FluContentDialogType.NegativeButton) ||
                          (control.buttonFlags & FluContentDialogType.PositiveButton)
                 radius: 5
-                color: FluTheme.dark ? Qt.rgba(32/255,32/255,32/255,1) : Qt.rgba(243/255,243/255,243/255,1)
+                color:  FluTheme.windowBackgroundColor
                 RowLayout{
                     anchors
                     {
@@ -164,3 +164,4 @@ FluPopup {
         }
     }
 }
+

@@ -3,7 +3,7 @@ import QtQuick.Controls 2.15
 import FluentUI 1.0
 
 SplitView {
-    property color handleColor : FluTheme.dark ? Qt.rgba(159/255,159/255,159/255,1) : Qt.rgba(138/255,138/255,138/255,1)
+    property color handleColor :  FluTheme.handleColor
     id:control
     QtObject{
         id:d
@@ -28,3 +28,4 @@ SplitView {
         }
     }
 }
+

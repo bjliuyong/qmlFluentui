@@ -11,7 +11,7 @@ FluIconButton {
     property string neutralText: qsTr("Cancel")
     property string negativeText: qsTr("Reset")
     property bool registered: true
-    property color errorColor: Qt.rgba(250/255,85/255,85/255,1)
+    property color errorColor: FluTheme.errorColor
     property FluHotkey syncHotkey: undefined
     signal accepted()
     padding: 0
@@ -155,7 +155,7 @@ FluIconButton {
 
         Rectangle{
             id: layout_rect
-            border.color: FluTheme.dark ? "#505050" : "#DFDFDF"
+            border.color:  FluTheme.borderNormalColor
             border.width: 1
             radius: control.radius
             color: control.color
@@ -221,7 +221,7 @@ FluIconButton {
             radius: 4
             FluText{
                 id:item_text
-                color: FluTheme.dark ? Qt.rgba(0,0,0,1)  : Qt.rgba(1,1,1,1)
+                color: FluTheme.strokeColor
                 text: keyText
                 anchors.centerIn: parent
             }
@@ -300,3 +300,4 @@ FluIconButton {
         content_dialog.open()
     }
 }
+

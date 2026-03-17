@@ -14,6 +14,6 @@ T.MenuSeparator {
     contentItem: Rectangle {
         implicitWidth: 188
         implicitHeight: 1
-        color: FluTheme.dark ? Qt.rgba(60/255,60/255,60/255,1) : Qt.rgba(210/255,210/255,210/255,1)
+        color: FluTheme.dividerColor
     }
 }

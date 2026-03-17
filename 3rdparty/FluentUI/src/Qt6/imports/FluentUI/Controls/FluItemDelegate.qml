@@ -19,21 +19,15 @@ T.ItemDelegate {
         font: control.font
         color:{
             if(control.down){
-                return FluTheme.dark ? FluColors.Grey80 : FluColors.Grey120
+                return FluTheme.textNormalColor
             }
-            return FluTheme.dark ? FluColors.White : FluColors.Grey220
+            return FluTheme.textHighlightColor
         }
     }
     background: Rectangle {
         implicitWidth: 100
         implicitHeight: 30
-        color:{
-            if(FluTheme.dark){
-                return Qt.rgba(1,1,1,0.05)
-            }else{
-                return Qt.rgba(0,0,0,0.05)
-            }
-        }
+        color: FluTheme.itemHoverColor
         visible: control.down || control.highlighted || control.visualFocus
     }
 }

@@ -37,7 +37,7 @@ Item {
         property bool isCompactAndPanel: d.displayMode === FluNavigationViewType.Compact && d.enableNavigationPanel
         property bool isCompactAndNotPanel:d.displayMode === FluNavigationViewType.Compact && !d.enableNavigationPanel
         property bool isMinimalAndPanel: d.displayMode === FluNavigationViewType.Minimal && d.enableNavigationPanel
-        property color itemDisableColor: FluTheme.dark ? Qt.rgba(131/255,131/255,131/255,1) : Qt.rgba(160/255,160/255,160/255,1)
+        property color itemDisableColor:  FluTheme.itemDisableColor
         onIsCompactAndNotPanelChanged: {
             collapseAll()
         }
@@ -320,7 +320,7 @@ Item {
                             if(!item_control.enabled){
                                 return d.itemDisableColor
                             }
-                            return FluTheme.dark ? "#FFFFFF" : "#000000"
+                            return  FluTheme.whiteColor
                         }
                     }
                     color: {
@@ -349,7 +349,7 @@ Item {
                                 if(!item_control.enabled){
                                     return d.itemDisableColor
                                 }
-                                return FluTheme.dark ? "#FFFFFF" : "#000000"
+                                return  FluTheme.whiteColor
                             }
                         }
                     }
@@ -571,7 +571,7 @@ Item {
                                 if(!item_control.enabled){
                                     return d.itemDisableColor
                                 }
-                                return FluTheme.dark ? "#FFFFFF" : "#000000"
+                                return  FluTheme.whiteColor
                             }
                             iconSize: 15
                         }
@@ -911,11 +911,11 @@ Item {
             topMargin: control.navTopMargin
             bottom: parent.bottom
         }
-        border.color: FluTheme.dark ? Qt.rgba(45/255,45/255,45/255,1) : Qt.rgba(226/255,230/255,234/255,1)
+        border.color:  FluTheme.windowBackgroundColor
         border.width:  d.isMinimal || d.isCompactAndPanel ? 1 : 0
         color: {
             if(d.isMinimal || d.enableNavigationPanel){
-                return FluTheme.dark ? Qt.rgba(61/255,61/255,61/255,1) : Qt.rgba(243/255,243/255,243/255,1)
+                return  FluTheme.windowActiveBackgroundColor
             }
             return "transparent"
         }
@@ -1188,8 +1188,8 @@ Item {
         }
         background: Rectangle{
             implicitWidth: 180
-            color:FluTheme.dark ? Qt.rgba(45/255,45/255,45/255,1) : Qt.rgba(252/255,252/255,252/255,1)
-            border.color: FluTheme.dark ? Qt.rgba(26/255,26/255,26/255,1) : Qt.rgba(191/255,191/255,191/255,1)
+            color: FluTheme.windowBackgroundColor
+            border.color:  FluTheme.borderNormalColor
             border.width: 1
             radius: 5
             FluShadow{}
@@ -1344,3 +1344,4 @@ Item {
         }
     }
 }
+

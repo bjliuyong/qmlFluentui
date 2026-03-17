@@ -60,7 +60,7 @@ Item{
         }
         background: Rectangle{
             radius: 4
-            color:FluTheme.dark ? Qt.rgba(45/255,45/255,45/255,0.97) : Qt.rgba(237/255,237/255,237/255,0.97)
+            color:FluTheme.backgroundColor
         }
         contentItem:FluIcon{
             iconSource: vertical ? FluentIcons.CaretUpSolid8 : FluentIcons.CaretLeftSolid8
@@ -89,7 +89,7 @@ Item{
         }
         background: Rectangle{
             radius: 4
-            color:FluTheme.dark ? Qt.rgba(45/255,45/255,45/255,0.97) : Qt.rgba(237/255,237/255,237/255,0.97)
+            color:FluTheme.backgroundColor
         }
         visible: swipe.currentIndex !== swipe.count - 1
         contentItem:FluIcon{

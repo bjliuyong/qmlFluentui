@@ -3,8 +3,12 @@
 # 命名及开发规范
 
 ## 命名
-
-
+```mermaid
+sequenceDiagram
+    participant Redis
+    participant A
+    Redis->>A
+```
 
 ## 布局方式编写规范
 

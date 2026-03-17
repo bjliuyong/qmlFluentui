@@ -1,104 +1,60 @@
-// BaseLayout/qml/BizBaseComponent/BizBaseLabeledInput.qml
+
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls
 import FluentUI
 import "../DataManager"
+
 BizBaseCompDataManager {
-    id: control
+	id: control
 
-    /* ========= 公共属性 ========= */
-    property string label: "标题"
-    property string tail: ""
-    property bool required: false
+	/* ========= 公共属性 ========= */
+	property string label: "标题"                 // 标签文本内容
+	property bool required: false                 // 是否必填项
 
-    // 比例属性（权重）：默认 1:3:1
-    property real labelRatio: 1
-    property real inputRatio: 3
-    property real tailRatio: 1
-
-    // 【关键修改 1】定义一个放大基数
-    // 将比例 (1, 3) 放大为像素 (100px, 300px)，防止被 minWidth (如 60px) 覆盖
-    property real _pixelPerRatio: (control.width - spacing) /
-                                  (labelRatio+inputRatio+(control.tail==""?0:tailRatio))
-
-    property int minLabelWidth: 0
-    property int minInputWidth: 0
-    property int minTailWidth: 0
-
-    property int spacing: 10
-
-    // 内容插槽
-    default property alias content: contentSlot.data
-
-    implicitHeight: 32
-    Layout.fillWidth: true
-
-    /* ========= 布局实现 ========= */
-    RowLayout {
-        anchors.fill: parent
-        spacing: control.spacing
-
-        /* --- A. 左侧标签区 --- */
-        RowLayout {
-            Layout.fillWidth: true
-            implicitWidth: 0
-            // 【关键修改 3】乘以基数
-            Layout.preferredWidth: control.labelRatio * control._pixelPerRatio
-            Layout.minimumWidth: control.minLabelWidth
-
-            spacing: 2
+	// 布局控制属性
+	property int labelWidth: 120                   // 标签区固定宽度（用于网格绝对对齐）
 
 
-            FluCopyableText {
-                text: "*"
-                color: "red"
-                visible: control.required
-                font.bold: true
 
-            }
-            FluCopyableText {
-                text: control.label
-                Layout.fillWidth: true
-                verticalAlignment: Text.AlignVCenter
-            }
-        }
+	property int spacing: 20                      // 布局间距
+	property int lableFontSize: FluTextStyle.Body.pixelSize  // label字体大小
+	property color lableTextColor: FluTheme.fontPrimaryColor // label字体颜色
 
-        /* --- B. 中间输入区 (插槽) --- */
-        //TODO 设置tab focus
-        Item {
-            id: contentSlot
-            Layout.fillWidth: true
+	// 内容插槽
+	default property alias content: contentSlot.data
 
-            // 【关键修改 4】乘以基数
-            Layout.preferredWidth: control.inputRatio * control._pixelPerRatio
-            Layout.minimumWidth: control.minInputWidth
+	implicitHeight: 32                            // 控件的隐式高度
+	Layout.fillWidth: true                        // 填充父容器宽度
 
-            Layout.fillHeight: true
-            implicitWidth: 0
-            onChildrenChanged: {
-                for(var i=0; i<children.length; i++) {
-                    let child = children[i];
-                    if (child && child.hasOwnProperty("anchors")) {
-                        child.anchors.fill = contentSlot
-                    }
-                }
-            }
-        }
+	/* ========= 布局实现 ========= */
+	RowLayout {
+		anchors.fill: parent                       // 填充父对象
+		spacing: control.spacing              // 使用统一间距
+		FluText {
+			text: control.label
+			// required: control.required
+			font.pixelSize: lableFontSize       // label字体大小
+			Layout.preferredWidth: control.labelWidth
+			Layout.alignment: Qt.AlignVCenter
+		}
 
-        /* --- C. 右侧后缀区 (单位) --- */
-        FluCopyableText {
-            text: control.tail
-            visible: text !== ""
+		/* --- B. 中间输入区 (插槽) --- */
+		Item {
+			id: contentSlot                       // 插槽容器
 
-            Layout.fillWidth: visible
+			onChildrenChanged: {                  // 当子元素变化时触发，自动拉伸插槽内容
+				for(var i=0; i<children.length; i++) {
+					let child = children[i];
+					if (child && child.hasOwnProperty("anchors")) {
+						child.anchors.fill = contentSlot
+					}
+				}
+			}
 
-            // 【关键修改 5】乘以基数
-            Layout.preferredWidth: visible ? (control.tailRatio * control._pixelPerRatio) : 0
-            Layout.minimumWidth: visible ? control.minTailWidth : 0
-
-            color: "#888888"
-            verticalAlignment: Text.AlignVCenter
-        }
-    }
+			Layout.fillWidth: true                // 贪婪吸收剩余所有宽度
+			Layout.fillHeight: true
+			implicitHeight: 32
+		}
+	}
 }

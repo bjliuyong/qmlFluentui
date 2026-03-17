@@ -31,7 +31,7 @@ Popup {
     }
     background: FluRectangle{
         radius: [5,5,5,5]
-        color: FluTheme.dark ? Qt.rgba(43/255,43/255,43/255,1) : Qt.rgba(1,1,1,1)
+        color:  FluTheme.windowActiveBackgroundColor
         FluShadow{
             radius: 5
         }
@@ -52,3 +52,4 @@ Popup {
         }
     }
 }
+

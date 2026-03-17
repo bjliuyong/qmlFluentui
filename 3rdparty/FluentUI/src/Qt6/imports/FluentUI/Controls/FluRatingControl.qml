@@ -32,7 +32,7 @@ Item {
                     }
                     iconSize: control.size
                     iconSource: isSelected ? FluentIcons.FavoriteStarFill : FluentIcons.FavoriteStar
-                    iconColor: isSelected ? FluTheme.primaryColor : (FluTheme.dark ? "#FFFFFF" : "#000000")
+                    iconColor: isSelected ? FluTheme.primaryColor : ( FluTheme.whiteColor)
                     anchors.centerIn: parent
                 }
             }
@@ -52,3 +52,4 @@ Item {
         }
     }
 }
+

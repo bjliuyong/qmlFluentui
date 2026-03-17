@@ -14,29 +14,29 @@ FluButton {
         if(d.checked){
             return FluTheme.primaryColor
         }else{
-            return FluTheme.dark ? Qt.rgba(62/255,62/255,62/255,1) : Qt.rgba(254/255,254/255,254/255,1)
+            return  FluTheme.normalColor
         }
     }
     property color hoverColor: {
         if(d.checked){
-            return FluTheme.dark ? Qt.darker(normalColor,1.1) : Qt.lighter(normalColor,1.1)
+            return  FluTheme.hoverColor
         }else{
-            return FluTheme.dark ? Qt.rgba(68/255,68/255,68/255,1) : Qt.rgba(246/255,246/255,246/255,1)
+            return  FluTheme.hoverColor
         }
     }
     property color disableColor: {
         if(d.checked){
-            return FluTheme.dark ? Qt.rgba(82/255,82/255,82/255,1) : Qt.rgba(199/255,199/255,199/255,1)
+            return  FluTheme.disableColor
         }else{
-            return FluTheme.dark ? Qt.rgba(59/255,59/255,59/255,1) : Qt.rgba(244/255,244/255,244/255,1)
+            return FluTheme.normalColor
         }
     }
-    property color pressedColor: FluTheme.dark ? Qt.darker(normalColor,1.2) : Qt.lighter(normalColor,1.2)
+    property color pressedColor:  FluTheme.pressedColor
     background: FluControlBackground{
         implicitWidth: 30
         implicitHeight: 30
         radius: 4
-        border.color: FluTheme.dark ? Qt.rgba(48/255,48/255,48/255,1) : Qt.rgba(188/255,188/255,188/255,1)
+        border.color:  FluTheme.borderNormalColor
         border.width: d.checked ? 0 : 1
         color:{
             if(!enabled){
@@ -90,37 +90,20 @@ FluButton {
         verticalAlignment: Text.AlignVCenter
         color: {
             if(d.checked){
-                if(FluTheme.dark){
-                    if(!enabled){
-                        return Qt.rgba(173/255,173/255,173/255,1)
-                    }
-                    return Qt.rgba(0,0,0,1)
-                }else{
-                    return Qt.rgba(1,1,1,1)
+                if(!enabled){
+                    return FluTheme.disableColor
                 }
+                return FluTheme.strokeColor
             }else{
-                if(FluTheme.dark){
-                    if(!enabled){
-                        return Qt.rgba(131/255,131/255,131/255,1)
-                    }
-                    if(!d.checked){
-                        if(pressed){
-                            return Qt.rgba(162/255,162/255,162/255,1)
-                        }
-                    }
-                    return Qt.rgba(1,1,1,1)
-                }else{
-                    if(!enabled){
-                        return Qt.rgba(160/255,160/255,160/255,1)
-                    }
-                    if(!d.checked){
-                        if(pressed){
-                            return Qt.rgba(96/255,96/255,96/255,1)
-                        }
-                    }
-                    return Qt.rgba(0,0,0,1)
+                if(!enabled){
+                    return FluTheme.textDisableColor
                 }
+                if(pressed){
+                    return FluTheme.textNormalColor
+                }
+                return FluTheme.textHighlightColor
             }
         }
     }
 }
+

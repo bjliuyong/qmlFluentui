@@ -212,7 +212,7 @@ FluObject {
                     height: 20
                     visible: _super.duration<=0
                     anchors.verticalCenter: parent.verticalCenter
-                    iconColor: FluTheme.dark ? Qt.rgba(222/255,222/255,222/255,1) : Qt.rgba(97/255,97/255,97/255,1)
+                    iconColor:  FluTheme.iconColor
                     onClicked: _super.close()
                 }
             }
@@ -242,3 +242,4 @@ FluObject {
         return true
     }
 }
+

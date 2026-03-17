@@ -5,11 +5,11 @@ import FluentUI 1.0
 TextArea{
     signal commit(string text)
     property bool disabled: false
-    property color normalColor: FluTheme.dark ?  Qt.rgba(255/255,255/255,255/255,1) : Qt.rgba(27/255,27/255,27/255,1)
-    property color disableColor: FluTheme.dark ? Qt.rgba(131/255,131/255,131/255,1) : Qt.rgba(160/255,160/255,160/255,1)
-    property color placeholderNormalColor: FluTheme.dark ? Qt.rgba(210/255,210/255,210/255,1) : Qt.rgba(96/255,96/255,96/255,1)
-    property color placeholderFocusColor: FluTheme.dark ? Qt.rgba(152/255,152/255,152/255,1) : Qt.rgba(141/255,141/255,141/255,1)
-    property color placeholderDisableColor: FluTheme.dark ? Qt.rgba(131/255,131/255,131/255,1) : Qt.rgba(160/255,160/255,160/255,1)
+    property color normalColor:  FluTheme.textHighlightColor
+    property color disableColor:  FluTheme.itemDisableColor
+    property color placeholderNormalColor:  FluTheme.placeholderNormalColor
+    property color placeholderFocusColor:  FluTheme.placeholderFocusColor
+    property color placeholderDisableColor:  FluTheme.itemDisableColor
     property bool isCtrlEnterForNewline: false
     id:control
     enabled: !disabled
@@ -93,3 +93,4 @@ TextArea{
         }
     }
 }
+

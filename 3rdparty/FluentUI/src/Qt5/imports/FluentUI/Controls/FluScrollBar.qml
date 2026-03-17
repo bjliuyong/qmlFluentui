@@ -5,7 +5,7 @@ import FluentUI 1.0
 T.ScrollBar {
     id: control
 
-    property color color : FluTheme.dark ? Qt.rgba(159/255,159/255,159/255,1) : Qt.rgba(138/255,138/255,138/255,1)
+    property color color :  FluTheme.handleColor
     property color pressedColor: FluTheme.dark ? Qt.darker(color,1.2) : Qt.lighter(color,1.2)
 
     implicitWidth: Math.max(implicitBackgroundWidth + leftInset + rightInset,
@@ -25,7 +25,7 @@ T.ScrollBar {
     background: Rectangle{
         id:back_rect
         radius: 5
-        color:FluTheme.dark ? Qt.rgba(44/255,44/255,44/255,1) : Qt.rgba(255/255,255/255,255/255,1)
+        color: FluTheme.normalColor
         opacity:{
             if(vertical){
                 return d.maxLine === Number(rect_bar.width)
@@ -183,3 +183,4 @@ T.ScrollBar {
         ]
     }
 }
+

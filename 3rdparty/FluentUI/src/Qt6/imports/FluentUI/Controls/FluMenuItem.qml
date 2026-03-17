@@ -11,23 +11,13 @@ T.MenuItem {
     property int iconSource
     property int iconSize: 16
     property color textColor: {
-        if(FluTheme.dark){
-            if(!enabled){
-                return Qt.rgba(131/255,131/255,131/255,1)
-            }
-            if(pressed){
-                return Qt.rgba(162/255,162/255,162/255,1)
-            }
-            return Qt.rgba(1,1,1,1)
-        }else{
-            if(!enabled){
-                return Qt.rgba(160/255,160/255,160/255,1)
-            }
-            if(pressed){
-                return Qt.rgba(96/255,96/255,96/255,1)
-            }
-            return Qt.rgba(0,0,0,1)
+        if(!enabled){
+            return FluTheme.textDisableColor
         }
+        if(pressed){
+            return FluTheme.textHoverColor
+        }
+        return FluTheme.textHighlightColor
     }
     id: control
     implicitWidth: Math.max(implicitBackgroundWidth + leftInset + rightInset,

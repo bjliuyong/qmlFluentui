@@ -19,7 +19,7 @@ T.Slider {
         implicitWidth: 20
         implicitHeight: 20
         radius: 10
-        color:FluTheme.dark ? Qt.rgba(69/255,69/255,69/255,1) :Qt.rgba(1,1,1,1)
+        color: FluTheme.normalColor
         FluShadow{
             radius: 10
         }
@@ -55,7 +55,7 @@ T.Slider {
             anchors.fill: parent
             anchors.margins: 1
             radius: 2
-            color:FluTheme.dark ? Qt.rgba(162/255,162/255,162/255,1) : Qt.rgba(138/255,138/255,138/255,1)
+            color: FluTheme.handleColor
         }
         scale: control.horizontal && control.mirrored ? -1 : 1
         Rectangle {
@@ -72,3 +72,4 @@ T.Slider {
         text:control.text
     }
 }
+

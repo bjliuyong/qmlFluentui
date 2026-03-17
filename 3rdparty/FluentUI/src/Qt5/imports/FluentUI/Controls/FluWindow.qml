@@ -57,9 +57,9 @@ Window {
     property int __margins: 0
     property color resizeBorderColor: {
         if(window.active){
-            return FluTheme.dark ? Qt.rgba(51/255,51/255,51/255,1) : Qt.rgba(110/255,110/255,110/255,1)
+            return  FluTheme.windowBackgroundColor
         }
-        return FluTheme.dark ? Qt.rgba(61/255,61/255,61/255,1) : Qt.rgba(167/255,167/255,167/255,1)
+        return  FluTheme.windowActiveBackgroundColor
     }
     property int resizeBorderWidth: 1
     property var closeListener: function(event){
@@ -186,7 +186,7 @@ Window {
                 tintOpacity: window.tintOpacity
                 blurRadius: window.blurRadius
                 visible: window.active && FluTheme.blurBehindWindowEnabled
-                tintColor: FluTheme.dark ? Qt.rgba(0, 0, 0, 1)  : Qt.rgba(1, 1, 1, 1)
+                tintColor:  FluTheme.textHighlightColor
                 targetRect: Qt.rect(window.x-window.screen.virtualX,window.y-window.screen.virtualY,window.width,window.height)
             }
         }
@@ -388,3 +388,4 @@ Window {
         return layout_container
     }
 }
+

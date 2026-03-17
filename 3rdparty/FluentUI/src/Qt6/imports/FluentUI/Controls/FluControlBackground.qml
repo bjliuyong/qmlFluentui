@@ -11,14 +11,14 @@ Item{
     property var topMargin: undefined
     property var leftMargin: undefined
     property var rightMargin: undefined
-    property color color: FluTheme.dark ? Qt.rgba(42/255,42/255,42/255,1) : Qt.rgba(254/255,254/255,254/255,1)
+    property color color:  FluTheme.windowBackgroundColor
     property alias gradient : rect_border.gradient
     Rectangle{
         id:d
         property color startColor: Qt.lighter(d.border.color,1.25)
         property color endColor: shadow ? control.border.color : startColor
         visible: false
-        border.color: FluTheme.dark ? Qt.rgba(48/255,48/255,48/255,1) : Qt.rgba(188/255,188/255,188/255,1)
+        border.color:  FluTheme.borderNormalColor
     }
     Rectangle{
         id:rect_border
@@ -50,3 +50,4 @@ Item{
         color: control.color
     }
 }
+

@@ -146,8 +146,8 @@ FluTextBox{
             implicitWidth: control.width
             implicitHeight: control.itemHeight*Math.min(Math.max(list_view.count,1),control.itemRows)
             radius: 5
-            color: FluTheme.dark ? Qt.rgba(43/255,43/255,43/255,1) : Qt.rgba(1,1,1,1)
-            border.color: FluTheme.dark ? Qt.rgba(26/255,26/255,26/255,1) : Qt.rgba(191/255,191/255,191/255,1)
+            color:  FluTheme.windowActiveBackgroundColor
+            border.color:  FluTheme.borderNormalColor
             FluShadow{
                 radius: 5
             }
@@ -181,3 +181,4 @@ FluTextBox{
         d.flagVisible = true
     }
 }
+

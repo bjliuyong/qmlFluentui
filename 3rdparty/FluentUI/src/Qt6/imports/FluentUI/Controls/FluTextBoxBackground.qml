@@ -7,15 +7,16 @@ FluControlBackground{
     id:control
     color: {
         if(inputItem && !inputItem.enabled){
-            return FluTheme.dark ? Qt.rgba(59/255,59/255,59/255,1) : Qt.rgba(252/255,252/255,252/255,1)
+            return  FluTheme.disableColor
         }
-        if(inputItem && inputItem.activeFocus){
-            return FluTheme.dark ? Qt.rgba(36/255,36/255,36/255,1) : Qt.rgba(1,1,1,1)
+        var isReadOnly = inputItem && inputItem.hasOwnProperty("readOnly") && inputItem.readOnly
+        if(!isReadOnly && inputItem && inputItem.activeFocus){
+            return FluTheme.pressedColor
         }
-        if(inputItem && inputItem.hovered){
-            return FluTheme.dark ? Qt.rgba(68/255,68/255,68/255,1) : Qt.rgba(251/255,251/255,251/255,1)
+        if(!isReadOnly && inputItem && inputItem.hovered){
+            return FluTheme.hoverColor
         }
-        return FluTheme.dark ? Qt.rgba(62/255,62/255,62/255,1) : Qt.rgba(1,1,1,1)
+        return FluTheme.normalColor
     }
     border.width: 1
     gradient: Gradient {
@@ -27,18 +28,18 @@ FluControlBackground{
     QtObject{
         id:d
         property int offsetSize :  3
-        property color startColor : FluTheme.dark ? Qt.rgba(66/255,66/255,66/255,1) : Qt.rgba(232/255,232/255,232/255,1)
+        property color startColor :  FluTheme.startColor
         property color endColor: {
             if(!control.enabled){
                 return d.startColor
             }
-            return  FluTheme.dark ? Qt.rgba(123/255,123/255,123/255,1) : Qt.rgba(132/255,132/255,132/255,1)
+            return  FluTheme.borderNormalColor
         }
     }
     FluClip{
         anchors.fill: parent
         radius: [control.radius,control.radius,control.radius,control.radius]
-        visible: inputItem && inputItem.activeFocus
+        visible: inputItem && (!inputItem.hasOwnProperty("readOnly") || !inputItem.readOnly) && inputItem.activeFocus
         Rectangle{
             width: parent.width
             height: 2
@@ -47,3 +48,4 @@ FluControlBackground{
         }
     }
 }
+

@@ -256,10 +256,10 @@ FluButton {
                                         color: {
                                             if(toYear){
                                                 if(control_delegate.pressed){
-                                                    return FluTheme.dark ? Qt.darker(FluTheme.primaryColor,1.2) : Qt.lighter(FluTheme.primaryColor,1.2)
+                                                    return FluTheme.checkedPreesedColor
                                                 }
                                                 if(control_delegate.hovered){
-                                                    return FluTheme.dark ? Qt.darker(FluTheme.primaryColor,1.1) : Qt.lighter(FluTheme.primaryColor,1.1)
+                                                    return FluTheme.checkedHoverColor
                                                 }
                                                 return FluTheme.primaryColor
                                             }else{
@@ -292,12 +292,12 @@ FluButton {
                                                 return FluColors.White
                                             }
                                             if(control_delegate.pressed){
-                                                return FluTheme.dark ? FluColors.Grey100 : FluColors.Grey100
+                                                return FluColors.Grey100
                                             }
                                             if(control_delegate.hovered){
-                                                return FluTheme.dark ? FluColors.Grey80 : FluColors.Grey120
+                                                return FluTheme.textNormalColor
                                             }
-                                            return FluTheme.dark ? FluColors.White : FluColors.Grey220
+                                            return FluTheme.textHighlightColor
                                         }
                                     }
                                     onClicked: {
@@ -385,10 +385,10 @@ FluButton {
                                                 color: {
                                                     if(toMonth){
                                                         if(control_delegate.pressed){
-                                                            return FluTheme.dark ? Qt.darker(FluTheme.primaryColor,1.2) : Qt.lighter(FluTheme.primaryColor,1.2)
+                                                            return FluTheme.checkedPreesedColor
                                                         }
                                                         if(control_delegate.hovered){
-                                                            return FluTheme.dark ? Qt.darker(FluTheme.primaryColor,1.1) : Qt.lighter(FluTheme.primaryColor,1.1)
+                                                            return FluTheme.checkedHoverColor
                                                         }
                                                         return FluTheme.primaryColor
                                                     }else{
@@ -420,12 +420,12 @@ FluButton {
                                                         return FluColors.White
                                                     }
                                                     if(control_delegate.pressed){
-                                                        return FluTheme.dark ? FluColors.Grey100 : FluColors.Grey100
+                                                        return FluColors.Grey100
                                                     }
                                                     if(control_delegate.hovered){
-                                                        return FluTheme.dark ? FluColors.Grey80 : FluColors.Grey120
+                                                        return FluTheme.textNormalColor
                                                     }
-                                                    return FluTheme.dark ? FluColors.White : FluColors.Grey220
+                                                    return FluTheme.textHighlightColor
                                                 }
                                             }
                                             onClicked: {
@@ -522,10 +522,10 @@ FluButton {
                                             color: {
                                                 if(today){
                                                     if(control_delegate.pressed){
-                                                        return FluTheme.dark ? Qt.darker(FluTheme.primaryColor,1.2) : Qt.lighter(FluTheme.primaryColor,1.2)
+                                                        return FluTheme.checkedPreesedColor
                                                     }
                                                     if(control_delegate.hovered){
-                                                        return FluTheme.dark ? Qt.darker(FluTheme.primaryColor,1.1) : Qt.lighter(FluTheme.primaryColor,1.1)
+                                                        return FluTheme.checkedHoverColor
                                                     }
                                                     return FluTheme.primaryColor
                                                 }else{
@@ -578,12 +578,12 @@ FluButton {
                                                     return FluColors.White
                                                 }
                                                 if(control_delegate.pressed){
-                                                    return FluTheme.dark ? FluColors.Grey100 : FluColors.Grey100
+                                                    return FluColors.Grey100
                                                 }
                                                 if(control_delegate.hovered){
-                                                    return FluTheme.dark ? FluColors.Grey80 : FluColors.Grey120
+                                                    return FluTheme.textNormalColor
                                                 }
-                                                return FluTheme.dark ? FluColors.White : FluColors.Grey220
+                                                return FluTheme.textHighlightColor
                                             }
                                         }
                                         onClicked: {
@@ -607,8 +607,8 @@ FluButton {
         }
         background:Rectangle{
             radius: 5
-            color: FluTheme.dark ? Qt.rgba(43/255,43/255,43/255,1) : Qt.rgba(1,1,1,1)
-            border.color: FluTheme.dark ? Qt.rgba(26/255,26/255,26/255,1) : Qt.rgba(191/255,191/255,191/255,1)
+            color:  FluTheme.windowActiveBackgroundColor
+            border.color:  FluTheme.borderNormalColor
             FluShadow{
                 radius: 5
             }
@@ -626,3 +626,4 @@ FluButton {
         }
     }
 }
+

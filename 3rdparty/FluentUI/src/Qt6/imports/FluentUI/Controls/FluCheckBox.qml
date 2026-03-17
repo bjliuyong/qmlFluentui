@@ -7,31 +7,19 @@ import FluentUI
 T.CheckBox {
     property bool disabled: false
     property string contentDescription: ""
-    property color borderNormalColor: FluTheme.dark ? Qt.rgba(160 / 255, 160 / 255, 160 / 255, 1) : Qt.rgba(136 / 255, 136 / 255, 136 / 255, 1)
-    property color bordercheckedColor: FluTheme.primaryColor
-    property color borderHoverColor: FluTheme.dark ? Qt.rgba(167 / 255, 167 / 255, 167 / 255, 1) : Qt.rgba(135 / 255, 135 / 255, 135 / 255, 1)
-    property color borderDisableColor: FluTheme.dark ? Qt.rgba(82 / 255, 82 / 255, 82 / 255, 1) : Qt.rgba(199 / 255, 199 / 255, 199 / 255, 1)
-    property color borderPressedColor: FluTheme.dark ? Qt.rgba(90 / 255, 90 / 255, 90 / 255, 1) : Qt.rgba(191 / 255, 191 / 255, 191 / 255, 1)
-    property color normalColor: FluTheme.dark ? Qt.rgba(45 / 255, 45 / 255, 45 / 255, 1) : Qt.rgba(247 / 255, 247 / 255, 247 / 255, 1)
-    property color checkedColor: FluTheme.primaryColor
-    property color hoverColor: FluTheme.dark ? Qt.rgba(72 / 255, 72 / 255, 72 / 255, 1) : Qt.rgba(236 / 255, 236 / 255, 236 / 255, 1)
-    property color checkedHoverColor: FluTheme.dark ? Qt.darker(checkedColor, 1.15) : Qt.lighter(checkedColor, 1.15)
-    property color checkedPreesedColor: FluTheme.dark ? Qt.darker(checkedColor, 1.3) : Qt.lighter(checkedColor, 1.3)
-    property color checkedDisableColor: FluTheme.dark ? Qt.rgba(82 / 255, 82 / 255, 82 / 255, 1) : Qt.rgba(199 / 255, 199 / 255, 199 / 255, 1)
-    property color disableColor: FluTheme.dark ? Qt.rgba(50 / 255, 50 / 255, 50 / 255, 1) : Qt.rgba(253 / 255, 253 / 255, 253 / 255, 1)
-    property color textColor: {
-        if (FluTheme.dark) {
-            if (!enabled) {
-                return Qt.rgba(130 / 255, 130 / 255, 130 / 255, 1)
-            }
-            return Qt.rgba(1, 1, 1, 1)
-        } else {
-            if (!enabled) {
-                return Qt.rgba(161 / 255, 161 / 255, 161 / 255, 1)
-            }
-            return Qt.rgba(0, 0, 0, 1)
-        }
-    }
+    property color borderNormalColor: FluTheme.borderNormalColor
+    property color bordercheckedColor: FluTheme.borderCheckColor
+    property color borderHoverColor: FluTheme.borderHoverColor
+    property color borderDisableColor: FluTheme.borderDisableColor
+    property color borderPressedColor: FluTheme.borderPressedColor
+    property color normalColor: FluTheme.normalColor
+    property color checkedColor: FluTheme.checkedColor
+    property color hoverColor: FluTheme.hoverColor
+    property color checkedHoverColor: FluTheme.checkedHoverColor
+    property color checkedPreesedColor: FluTheme.checkedPreesedColor
+    property color checkedDisableColor: FluTheme.checkedDisableColor
+    property color disableColor: FluTheme.disableColor
+    property color textColor: !enabled ? FluTheme.itemDisableColor : FluTheme.textColor
     property real size: 18
     property bool textRight: true
     property bool animationEnabled: FluTheme.animationEnabled
@@ -103,7 +91,7 @@ T.CheckBox {
         Canvas {
             id: markCanvas
             property real strokeProgress: 0.0
-            property color strokeColor: FluTheme.dark ? "#000000" : "#FFFFFF"
+            property color strokeColor:  FluTheme.blackColor
             anchors.centerIn: parent
             width: size - 6
             height: width
@@ -209,3 +197,4 @@ T.CheckBox {
         clickListener()
     }
 }
+

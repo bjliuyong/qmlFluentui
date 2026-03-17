@@ -15,6 +15,7 @@ Window {
     property var tintOpacity: FluTheme.dark ? 0.80 : 0.75
     property int blurRadius: 60
     property alias effect: frameless.effect
+    property var leftBar
     readonly property alias effective: frameless.effective
     readonly property alias availableEffects: frameless.availableEffects
     property Item appBar: FluAppBar {
@@ -56,9 +57,9 @@ Window {
     property int __margins: 0
     property color resizeBorderColor: {
         if(window.active){
-            return FluTheme.dark ? Qt.rgba(51/255,51/255,51/255,1) : Qt.rgba(110/255,110/255,110/255,1)
+            return  FluTheme.windowBackgroundColor
         }
-        return FluTheme.dark ? Qt.rgba(61/255,61/255,61/255,1) : Qt.rgba(167/255,167/255,167/255,1)
+        return  FluTheme.windowActiveBackgroundColor
     }
     property int resizeBorderWidth: 1
     property var closeListener: function(event){
@@ -185,7 +186,7 @@ Window {
                 tintOpacity: window.tintOpacity
                 blurRadius: window.blurRadius
                 visible: window.active && FluTheme.blurBehindWindowEnabled
-                tintColor: FluTheme.dark ? Qt.rgba(0, 0, 0, 1)  : Qt.rgba(1, 1, 1, 1)
+                tintColor:  FluTheme.textHighlightColor
                 targetRect: Qt.rect(window.x-window.screen.virtualX,window.y-window.screen.virtualY,window.width,window.height)
             }
         }
@@ -283,17 +284,44 @@ Window {
             id: layout_content
             anchors{
                 top: loader_app_bar.bottom
-                left: parent.left
+                left: loader_left_bar.visible ? loader_left_bar.right : parent.left
                 right: parent.right
                 bottom: parent.bottom
             }
             clip: true
         }
+        Item{
+            id:loader_left_bar
+            anchors {
+                top: parent.top
+                left: parent.left
+                bottom: parent.bottom
+            }
+            width: 40
+            visible: window.leftBar !== undefined
+            FluLoader{
+                id: left_bar_loader
+                anchors.fill: parent
+                sourceComponent: window.leftBar instanceof Component ? window.leftBar : undefined
+            }
+            onVisibleChanged: {
+                if(visible && (window.leftBar instanceof Item)){
+                    window.leftBar.parent = loader_left_bar
+                    window.leftBar.anchors.fill = loader_left_bar
+                }
+            }
+            Component.onCompleted: {
+                if(window.leftBar instanceof Item){
+                    window.leftBar.parent = loader_left_bar
+                    window.leftBar.anchors.fill = loader_left_bar
+                }
+            }
+        }
         FluLoader{
             id:loader_app_bar
             anchors {
                 top: parent.top
-                left: parent.left
+                left: loader_left_bar.visible ? loader_left_bar.right : parent.left
                 right: parent.right
             }
             height: {
@@ -387,3 +415,4 @@ Window {
         return layout_container
     }
 }
+
