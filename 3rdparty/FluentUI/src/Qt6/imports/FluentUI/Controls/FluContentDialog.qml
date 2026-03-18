@@ -68,6 +68,18 @@ FluPopup {
                 leftPadding: 20
                 rightPadding: 20
                 wrapMode: Text.WordWrap
+                MouseArea {
+                    anchors.fill: parent
+                    property point clickPos: "0,0"
+                    onPressed: (mouse)=> {
+                                   clickPos = Qt.point(mouse.x, mouse.y)
+                               }
+                    onPositionChanged: (mouse)=> {
+                                           var delta = Qt.point(mouse.x - clickPos.x, mouse.y - clickPos.y)
+                                           control.xOffset += delta.x
+                                           control.yOffset += delta.y
+                                       }
+                }
             }
             FluLoader{
                 sourceComponent: com_message

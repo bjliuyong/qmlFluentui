@@ -14,7 +14,7 @@ Rectangle {
     }
     property var columnSource: []
     property var dataSource
-    property color borderColor: FluTheme.dark ? Qt.rgba(37/255,37/255,37/255,1) : Qt.rgba(228/255,228/255,228/255,1)
+    property color borderColor:  FluTheme.borderColor
     property bool horizonalHeaderVisible: true
     property bool verticalHeaderVisible: true
     property int startRowIndex: 1
@@ -315,9 +315,9 @@ Rectangle {
                         return control.selectedColor
                     }
                     if(d.rowHoverIndex === row || item_table_mouse.isRowSelected){
-                        return FluTheme.dark ? Qt.rgba(1,1,1,0.06) : Qt.rgba(0,0,0,0.06)
+                        return  FluTheme.itemHoverColor
                     }
-                    return (row%2!==0) ? control.color : (FluTheme.dark ? Qt.rgba(1,1,1,0.03) : Qt.rgba(0,0,0,0.03))
+                    return (row%2!==0) ? control.color : ( FluTheme.itemNormalColor)
                 }
                 MouseArea{
                     anchors.fill: parent
@@ -518,7 +518,7 @@ Rectangle {
                 }
                 return Math.max(TableView.view.height,Number.MIN_VALUE)
             }
-            color: FluTheme.dark ? Qt.rgba(50/255,50/255,50/255,1) : Qt.rgba(247/255,247/255,247/255,1)
+            color:  FluTheme.itemHoverColor
             Rectangle{
                 border.color: control.borderColor
                 width: parent.width
@@ -645,7 +645,7 @@ Rectangle {
             property var rowModel: control.getRow(row)
             implicitWidth: Math.max(30, row_text.implicitWidth + (cellPadding * 2))
             implicitHeight: row_text.implicitHeight + (cellPadding * 2)
-            color: FluTheme.dark ? Qt.rgba(50/255,50/255,50/255,1) : Qt.rgba(247/255,247/255,247/255,1)
+            color:  FluTheme.itemHoverColor
             Rectangle{
                 border.color: control.borderColor
                 width: parent.width
@@ -887,7 +887,7 @@ Rectangle {
                 Rectangle{
                     z:99
                     anchors.fill: parent
-                    border.color: FluTheme.dark ? Qt.rgba(26/255,26/255,26/255,0.6) : Qt.rgba(191/255,191/255,191/255,0.3)
+                    border.color:  FluTheme.borderNormalColor
                     FluShadow{
                         radius: 0
                         anchors.fill: parent
@@ -1097,3 +1097,4 @@ Rectangle {
         sourceModel.appendRow(obj)
     }
 }
+

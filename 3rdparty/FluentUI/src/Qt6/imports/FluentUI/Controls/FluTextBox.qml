@@ -14,6 +14,7 @@ TextField{
     property color placeholderFocusColor:  FluTheme.placeholderFocusColor
     property color placeholderDisableColor:  FluTheme.itemDisableColor
     property bool cleanEnabled: true
+    property bool shadow: true
     id:control
     padding: 7
     leftPadding: padding+4
@@ -50,6 +51,7 @@ TextField{
     width: 240
     background: FluTextBoxBackground{
         inputItem: control
+        shadow: control.shadow
     }
     Keys.onEnterPressed: (event)=> d.handleCommit(event)
     Keys.onReturnPressed:(event)=> d.handleCommit(event)

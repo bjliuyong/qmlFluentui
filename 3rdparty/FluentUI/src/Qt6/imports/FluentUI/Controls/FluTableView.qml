@@ -14,13 +14,17 @@ Rectangle {
     }
     property var columnSource: []
     property var dataSource
-    property color borderColor: FluTheme.dark ? Qt.rgba(37/255,37/255,37/255,1) : Qt.rgba(228/255,228/255,228/255,1)
+    property alias view: table_view
+    property color borderColor:  FluTheme.borderColor
     property bool horizonalHeaderVisible: true
     property bool verticalHeaderVisible: true
     property int startRowIndex: 1
-    property color selectedBorderColor: FluTheme.primaryColor
-    property color selectedColor: FluTools.withOpacity(FluTheme.primaryColor,0.3)
-    property alias view: table_view
+    property color selectedBorderColor: FluTheme.selectedBorderColor || FluTheme.accentColor
+    property color selectedColor: FluTheme.selectedColor || FluTools.withOpacity(FluTheme.accentColor, 0.3)
+    property color selectedTextColor: FluTheme.selectedTextColor || FluTheme.textNormalColor
+    // 斑马线颜色：奇数行 / 偶数行
+    property color oddRowColor: FluTheme.itemNormalColor
+    property color evenRowColor: "transparent"
     property var columnWidthProvider: function(column) {
         var columnModel = control.columnSource[column]
         var width = columnModel.width
@@ -46,12 +50,7 @@ Rectangle {
         return d.defaultItemHeight
     }
     id:control
-    color: {
-        if(Window.active){
-            return FluTheme.frameActiveColor
-        }
-        return FluTheme.frameColor
-    }
+    color: "transparent"   // 去除整体背景色
     onColumnSourceChanged: {
         if(columnSource.length!==0){
             var columns= []
@@ -204,6 +203,7 @@ Rectangle {
             text: String(display)
             elide: Text.ElideRight
             wrapMode: Text.WrapAnywhere
+            color: (parent && parent.isRowSelected) ? control.selectedTextColor : FluTheme.textNormalColor
             anchors{
                 fill: parent
                 leftMargin: 11
@@ -315,9 +315,10 @@ Rectangle {
                         return control.selectedColor
                     }
                     if(d.rowHoverIndex === row || item_table_mouse.isRowSelected){
-                        return FluTheme.dark ? Qt.rgba(1,1,1,0.06) : Qt.rgba(0,0,0,0.06)
+                        return  FluTheme.itemHoverColor
                     }
-                    return (row%2!==0) ? control.color : (FluTheme.dark ? Qt.rgba(1,1,1,0.03) : Qt.rgba(0,0,0,0.03))
+                    // 斑马线：奇数行用 oddRowColor，偶数行用 evenRowColor
+                    return (row % 2 !== 0) ? control.oddRowColor : control.evenRowColor
                 }
                 MouseArea{
                     anchors.fill: parent
@@ -353,6 +354,7 @@ Rectangle {
                     property var columnModel : model.columnModel
                     property int row : model.row
                     property int column: model.column
+                    property bool isRowSelected: item_table_mouse.isRowSelected
                     property bool isObject: typeof(display) == "object"
                     property var options: {
                         if(isObject){
@@ -455,6 +457,20 @@ Rectangle {
         onCanceled: {
             d.rowHoverIndex = -1
         }
+        // 斑马线背景：填充 TableView 下方无数据区域
+        Column {
+            anchors.fill: parent
+            z: -1
+            Repeater {
+                model: Math.ceil(parent.height / d.defaultItemHeight) + 1
+                Rectangle {
+                    required property int index
+                    width: parent.width
+                    height: d.defaultItemHeight
+                    color: (index % 2 !== 0) ? control.oddRowColor : control.evenRowColor
+                }
+            }
+        }
         TableView {
             id:table_view
             boundsBehavior: Flickable.StopAtBounds
@@ -518,7 +534,7 @@ Rectangle {
                 }
                 return Math.max(TableView.view.height,Number.MIN_VALUE)
             }
-            color: FluTheme.dark ? Qt.rgba(50/255,50/255,50/255,1) : Qt.rgba(247/255,247/255,247/255,1)
+            color:  column_item_control_mouse.containsMouse ? FluTheme.headerHoverColor : FluTheme.headerNormalColor
             Rectangle{
                 border.color: control.borderColor
                 width: parent.width
@@ -645,7 +661,7 @@ Rectangle {
             property var rowModel: control.getRow(row)
             implicitWidth: Math.max(30, row_text.implicitWidth + (cellPadding * 2))
             implicitHeight: row_text.implicitHeight + (cellPadding * 2)
-            color: FluTheme.dark ? Qt.rgba(50/255,50/255,50/255,1) : Qt.rgba(247/255,247/255,247/255,1)
+            color:  item_control_mouse.containsMouse ? FluTheme.headerHoverColor : FluTheme.headerNormalColor
             Rectangle{
                 border.color: control.borderColor
                 width: parent.width
@@ -879,15 +895,15 @@ Rectangle {
                 anchors.fill: parent
                 color: {
                     if(Window.active){
-                        return FluTheme.dark ? Qt.rgba(48/255,48/255,48/255,1) :Qt.rgba(1,1,1,1)
+                        return FluTheme.normalColor
                     }
-                    return FluTheme.dark ? Qt.rgba(56/255,56/255,56/255,1) :Qt.rgba(243/255,243/255,243/255,1)
+                    return FluTheme.hoverColor
                 }
                 visible: table_view.rows !== 0
                 Rectangle{
                     z:99
                     anchors.fill: parent
-                    border.color: FluTheme.dark ? Qt.rgba(26/255,26/255,26/255,0.6) : Qt.rgba(191/255,191/255,191/255,0.3)
+                    border.color:  FluTheme.borderNormalColor
                     FluShadow{
                         radius: 0
                         anchors.fill: parent
@@ -1097,3 +1113,4 @@ Rectangle {
         sourceModel.appendRow(obj)
     }
 }
+

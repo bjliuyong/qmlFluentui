@@ -19,10 +19,14 @@ Item{
                 return
             }
             for(var i = 0;i<buttons.length;i++){
-                buttons[i].checked = false
+                if ("checked" in buttons[i]) {
+                    buttons[i].checked = false
+                }
             }
             if(currentIndex>=0 && currentIndex<buttons.length){
-                buttons[currentIndex].checked = true
+                if ("checked" in buttons[currentIndex]) {
+                    buttons[currentIndex].checked = true
+                }
             }
         }
         function refreshButtonStatus() {
@@ -49,11 +53,12 @@ Item{
             spacing: control.spacing
             Component.onCompleted: {
                 for(var i = 0;i<control.buttons.length;i++){
-                    control.buttons[i].clickListener = function(){
-                        for(var i = 0;i<control.buttons.length;i++){
-                            var button = control.buttons[i]
-                            if(this === button){
-                                control.currentIndex = i
+                    if ("clickListener" in control.buttons[i]) {
+                        control.buttons[i].clickListener = function(){
+                            for(var j = 0;j<control.buttons.length;j++){
+                                if(this === control.buttons[j]){
+                                    control.currentIndex = j
+                                }
                             }
                         }
                     }
@@ -70,11 +75,12 @@ Item{
             spacing: control.spacing
             Component.onCompleted: {
                 for(var i = 0;i<control.buttons.length;i++){
-                    control.buttons[i].clickListener = function(){
-                        for(var i = 0;i<control.buttons.length;i++){
-                            var button = control.buttons[i]
-                            if(this === button){
-                                control.currentIndex = i
+                    if ("clickListener" in control.buttons[i]) {
+                        control.buttons[i].clickListener = function(){
+                            for(var j = 0;j<control.buttons.length;j++){
+                                if(this === control.buttons[j]){
+                                    control.currentIndex = j
+                                }
                             }
                         }
                     }

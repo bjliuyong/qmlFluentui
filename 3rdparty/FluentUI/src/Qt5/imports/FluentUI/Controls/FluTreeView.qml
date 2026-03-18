@@ -13,7 +13,7 @@ Rectangle {
     property int depthPadding: 15
     property bool checkable: false
     property color lineColor: FluTheme.dividerColor
-    property color borderColor: FluTheme.dark ? Qt.rgba(37/255,37/255,37/255,1) : Qt.rgba(228/255,228/255,228/255,1)
+    property color borderColor:  FluTheme.borderColor
     property color selectedBorderColor: FluTheme.primaryColor
     property color selectedColor: FluTools.withOpacity(FluTheme.primaryColor,0.3)
     readonly property alias current: d.current
@@ -424,9 +424,9 @@ Rectangle {
                         return control.selectedColor
                     }
                     if(d.rowHoverIndex === row || item_table.isRowSelected){
-                        return FluTheme.dark ? Qt.rgba(1,1,1,0.06) : Qt.rgba(0,0,0,0.06)
+                        return  FluTheme.itemHoverColor
                     }
-                    return (row%2!==0) ? control.color : (FluTheme.dark ? Qt.rgba(1,1,1,0.015) : Qt.rgba(0,0,0,0.015))
+                    return (row%2!==0) ? control.color : ( FluTheme.itemNormalColor)
                 }
                 Item{
                     anchors.fill: parent
@@ -562,7 +562,7 @@ Rectangle {
                 return (item_column_loader.item && item_column_loader.item.implicitWidth) + (cellPadding * 2)
             }
             implicitHeight: Math.max(36, (item_column_loader.item&&item_column_loader.item.implicitHeight) + (cellPadding * 2))
-            color: FluTheme.dark ? Qt.rgba(50/255,50/255,50/255,1) : Qt.rgba(247/255,247/255,247/255,1)
+            color:  FluTheme.itemHoverColor
             Rectangle{
                 border.color: control.borderColor
                 width: parent.width
@@ -754,3 +754,4 @@ Rectangle {
         return tree_model.selectionModel()
     }
 }
+

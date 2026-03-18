@@ -19,6 +19,7 @@ FluControlBackground{
         return FluTheme.normalColor
     }
     border.width: 1
+    Behavior on color { ColorAnimation { duration: 150 } }
     gradient: Gradient {
         GradientStop { position: 0.0; color: d.startColor }
         GradientStop { position: 1 - d.offsetSize/control.height; color: d.startColor }
@@ -28,12 +29,14 @@ FluControlBackground{
     QtObject{
         id:d
         property int offsetSize :  3
-        property color startColor :  FluTheme.startColor
-        property color endColor: {
-            if(!control.enabled){
-                return d.startColor
+        property color startColor : {
+            if (control.shadow && FluTheme.enableInputShadow) {
+                return Qt.lighter(FluTheme.borderNormalColor, 1.2)
             }
-            return  FluTheme.borderNormalColor
+            return FluTheme.borderNormalColor
+        }
+        property color endColor: {
+            return FluTheme.borderNormalColor
         }
     }
     FluClip{
