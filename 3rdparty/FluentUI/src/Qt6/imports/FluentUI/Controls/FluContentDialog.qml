@@ -24,6 +24,10 @@ FluPopup {
     signal neutralClicked
     signal negativeClicked
     signal positiveClicked
+    property color headerColor: "transparent"
+    property color messageColor: "transparent"
+    property color contentColor: "transparent"
+    property color footerColor: FluTheme.windowBackgroundColor
     implicitWidth: 400
     implicitHeight: layout_content.height
     focus: true
@@ -60,41 +64,51 @@ FluPopup {
         ColumnLayout{
             id:layout_column
             width: parent.width
-            FluText{
-                id:text_title
-                font: FluTextStyle.Title
-                text:title
-                topPadding: 20
-                leftPadding: 20
-                rightPadding: 20
-                wrapMode: Text.WordWrap
-                MouseArea {
-                    anchors.fill: parent
-                    property point clickPos: "0,0"
-                    onPressed: (mouse)=> {
-                                   clickPos = Qt.point(mouse.x, mouse.y)
-                               }
-                    onPositionChanged: (mouse)=> {
-                                           var delta = Qt.point(mouse.x - clickPos.x, mouse.y - clickPos.y)
-                                           control.xOffset += delta.x
-                                           control.yOffset += delta.y
-                                       }
+            Rectangle {
+                Layout.fillWidth: true
+                Layout.preferredHeight: text_title.height
+                color: control.headerColor
+                FluText{
+                    id:text_title
+                    font: FluTextStyle.Title
+                    text:title
+                    topPadding: 20
+                    leftPadding: 20
+                    rightPadding: 20
+                    wrapMode: Text.WordWrap
+                    Layout.fillWidth: true
+                    MouseArea {
+                        anchors.fill: parent
+                        property point clickPos: "0,0"
+                        onPressed: (mouse)=> {
+                                       clickPos = Qt.point(mouse.x, mouse.y)
+                                   }
+                        onPositionChanged: (mouse)=> {
+                                               var delta = Qt.point(mouse.x - clickPos.x, mouse.y - clickPos.y)
+                                               control.xOffset += delta.x
+                                               control.yOffset += delta.y
+                                           }
+                    }
                 }
             }
-            FluLoader{
-                sourceComponent: com_message
+            Rectangle {
                 Layout.fillWidth: true
-                Layout.preferredHeight: status===Loader.Ready ? item.height : 0
+                Layout.preferredHeight: loader_message.status === Loader.Ready ? loader_message.item.height : 0
+                color: control.messageColor
+                FluLoader{
+                    id: loader_message
+                    sourceComponent: com_message
+                    width: parent.width
+                }
             }
-            FluLoader{
-                sourceComponent:control.visible ? control.contentDelegate : undefined
+            Rectangle {
                 Layout.fillWidth: true
-                onStatusChanged: {
-                    if(status===Loader.Ready){
-                        Layout.preferredHeight = item.implicitHeight
-                    }else{
-                        Layout.preferredHeight = 0
-                    }
+                Layout.preferredHeight: loader_content.status === Loader.Ready ? loader_content.item.implicitHeight : 0
+                color: control.contentColor
+                FluLoader{
+                    id: loader_content
+                    sourceComponent:control.visible ? control.contentDelegate : undefined
+                    width: parent.width
                 }
             }
             Rectangle{
@@ -105,7 +119,7 @@ FluPopup {
                          (control.buttonFlags & FluContentDialogType.NegativeButton) ||
                          (control.buttonFlags & FluContentDialogType.PositiveButton)
                 radius: 5
-                color:  FluTheme.windowBackgroundColor
+                color:  control.footerColor
                 RowLayout{
                     anchors
                     {

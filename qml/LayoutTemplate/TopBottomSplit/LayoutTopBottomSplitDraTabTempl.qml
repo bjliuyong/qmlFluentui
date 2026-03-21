@@ -11,12 +11,12 @@ Item {
 
     /* ========= 0. 样式配置 ========= */
 
-    property int bottomRightTopTabStyle: 0
+    property int bottomRightTopTabStyle: 1
     property int bottomRightBottomTabStyle: 0
 
     /* ========= 1. 联动配置 (新增) ========= */
     // 开启右上和右下区域的标签切换联动
-    property bool enableTabSync: false
+    property bool enableTabSync: true
 
     function setTabSync(enable) {
         baseRoot.enableTabSync = enable
@@ -143,15 +143,52 @@ Item {
     }
     Component {
         id: compStack
-        StackLayout {
+
+        Item {
+            id: customStack
             anchors.fill: parent
-            currentIndex: 0
-            anchors.leftMargin: 10;
-            anchors.topMargin: 10;
-            Component.onCompleted: baseRoot.syncStack(this, modelData)
+            anchors.leftMargin: 10
+            anchors.topMargin: 10
+            clip: true
+
+            property int currentIndex: 0
+            property var tabItems: modelData
+            Repeater {
+                // 使用新的变量名
+                model: customStack.tabItems
+
+                Item {
+                    id: pageWrapper
+                    anchors.top: parent.top
+                    anchors.bottom: parent.bottom
+                    width: parent.width
+
+                    x: (index - customStack.currentIndex) * width
+
+                    Behavior on x {
+                        NumberAnimation { duration: 350; easing.type: Easing.OutCubic }
+                    }
+
+                    visible: true
+
+                    Loader {
+                        anchors.fill: parent
+                        // 【核心修复 2】：统一使用 customStack.tabItems[index] 来获取正确的元素
+                        sourceComponent: (customStack.tabItems[index] && customStack.tabItems[index].contentItem) ? customStack.tabItems[index].contentItem : undefined
+                    }
+
+                    Component.onCompleted: {
+                        // 【核心修复 3】：同理，使用 customStack.tabItems[index]
+                        var proxy = customStack.tabItems[index]
+                        if (proxy && proxy.contentItem === undefined) {
+                            proxy.parent = pageWrapper
+                            proxy.anchors.fill = pageWrapper
+                        }
+                    }
+                }
+            }
         }
     }
-
     /* ========= 8. 布局实现 ========= */
     ColumnLayout {
         anchors.fill: parent

@@ -101,6 +101,7 @@ class FluTheme : public QObject {
     Q_PROPERTY_AUTO(bool, nativeText)
     Q_PROPERTY_AUTO(bool, animationEnabled)
     Q_PROPERTY_AUTO(bool, blurBehindWindowEnabled)
+    Q_PROPERTY_AUTO(bool, enableInputShadow)
     QML_NAMED_ELEMENT(FluTheme)
     QML_SINGLETON
 
@@ -127,9 +128,12 @@ public:
     }
 
     bool dark() const;
+    Q_INVOKABLE void nextTheme();
+
 
 private:
     bool _systemDark;
+    bool _blockSync = false;
     QFileSystemWatcher _watcher;
     QMutex _mutex;
     QMap<QString, QMap<QString, QColor>> _themes;

@@ -56,6 +56,12 @@ FluWindow {
         anchors.fill:parent
 
     }
+    FluIconButton{
+        iconSource:FluentIcons.Wifi
+        text: "清空"
+        display: Button.TextBesideIcon
+        iconColor: "red"
+    }
 
 
 }

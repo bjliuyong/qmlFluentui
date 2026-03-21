@@ -70,18 +70,14 @@ Rectangle{
             d.win.stayTop = !d.win.stayTop
         }
     }
-    property var darkClickListener: function(){
-        var themes = ["Light", "Dark", "Blue", "Green"]
-        var idx = themes.indexOf(FluTheme.theme)
-        if(idx === -1) idx = 0
-        idx = (idx + 1) % themes.length
-        var nextTheme = themes[idx]
-        if (nextTheme === "Dark") {
-            FluTheme.darkMode = FluThemeType.Dark
-        } else {
-            FluTheme.darkMode = FluThemeType.Light
+    property var darkClickListener: function(button){
+        if(d.win instanceof FluWindow && FluTheme.animationEnabled){
+            d.win.startReveal(button, function(){
+                FluTheme.nextTheme()
+            })
+        }else{
+            FluTheme.nextTheme()
         }
-        FluTheme.theme = nextTheme
     }
     id:control
     color: Qt.rgba(0,0,0,0)

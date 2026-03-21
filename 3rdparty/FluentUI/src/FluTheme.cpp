@@ -16,24 +16,25 @@ bool systemDark() {
 
 FluTheme::FluTheme(QObject *parent) : QObject{parent} {
     _accentColor = FluColors::getInstance()->Blue();
-    _darkMode = FluThemeType::DarkMode::System;
-    _theme = "Light";
+    _darkMode = FluThemeType::DarkMode::Light;
     _nativeText = false;
     _animationEnabled = true;
     _systemDark = systemDark();
     _desktopImagePath = "";
     _blurBehindWindowEnabled = false;
+    _enableInputShadow = false;
     QGuiApplication::instance()->installEventFilter(this);
-    initThemes();
-    refreshColors();
 
     connect(this, &FluTheme::darkModeChanged, this, [=] { 
         _systemDark = systemDark();
         Q_EMIT darkChanged(); 
     });
     connect(this, &FluTheme::darkChanged, this, [=] { 
-        if (_theme == "Light" || _theme == "Dark") {
-            theme(dark() ? "Dark" : "Light"); 
+        if (_blockSync) return;
+        if (_darkMode == FluThemeType::DarkMode::System) {
+            if (_theme == "Light" || _theme == "Dark") {
+                theme(dark() ? "Dark" : "Light"); 
+            }
         }
         refreshColors(); 
     });
@@ -41,11 +42,18 @@ FluTheme::FluTheme(QObject *parent) : QObject{parent} {
         initThemes();
         refreshColors(); 
     });
-    connect(this, &FluTheme::themeChanged, this, [=]{ refreshColors(); });
+    connect(this, &FluTheme::themeChanged, this, [=] {
+        if (_blockSync) return;
+        refreshColors();
+    });
     connect(&_watcher, &QFileSystemWatcher::fileChanged, this,
             [=](const QString &path) { Q_EMIT desktopImagePathChanged(); });
     connect(this, &FluTheme::blurBehindWindowEnabledChanged, this,
             [=] { checkUpdateDesktopImage(); });
+
+    initThemes();
+    theme("Blue");
+    
     startTimer(1000);
 }
 
@@ -323,6 +331,7 @@ bool FluTheme::dark() const {
 
 void FluTheme::checkUpdateDesktopImage() {
     if (!_blurBehindWindowEnabled) {
+
         return;
     }
     QThreadPool::globalInstance()->start([=]() {
@@ -341,4 +350,29 @@ void FluTheme::checkUpdateDesktopImage() {
 
 void FluTheme::timerEvent(QTimerEvent *event) {
     checkUpdateDesktopImage();
+}
+void FluTheme::nextTheme() {
+    QStringList themes = {"Dark", "Blue", "Green"};
+    int idx = themes.indexOf(_theme);
+    if (idx == -1) idx = 0;
+    idx = (idx + 1) % themes.size();
+    QString nTheme = themes[idx];
+    
+    // 终极修复：启用同步封锁块
+    _blockSync = true;
+    _theme = nTheme;
+    if (nTheme == "Dark") {
+        _darkMode = FluThemeType::DarkMode::Dark;
+    } else {
+        _darkMode = FluThemeType::DarkMode::Light;
+    }
+    
+    // 仅执行一次全色刷新
+    refreshColors();
+    
+    // 原子化触发信号
+    Q_EMIT themeChanged();
+    Q_EMIT darkModeChanged();
+    
+    _blockSync = false;
 }

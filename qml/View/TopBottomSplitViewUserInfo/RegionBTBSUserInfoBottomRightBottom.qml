@@ -12,6 +12,7 @@ BizBaseTabItem {
     // enabled: rootContent.editStatus
     property string editModel: "edit"
     property string versionNum
+    property int allCheckState: Qt.Unchecked
     // property var roleTableView: tableId.item.roleTableView
     anchors.fill: parent
     signal checkBoxChanged
@@ -19,7 +20,7 @@ BizBaseTabItem {
     onCheckBoxChanged: {
         updateAllCheck()
     }
-    property var outUpdateCombox : splitView.updateCombox
+    // property var outUpdateCombox : splitView.updateCombox
 
     function updateAllCheck() {
         let checkedCount = 0
@@ -196,7 +197,7 @@ BizBaseTabItem {
 
     contentDelegate:RowLayout {
         id: splitView
-        anchors.fill: root
+        anchors.fill: parent
 
         //orientation: Qt.Horizontal
         FluGroupBox {

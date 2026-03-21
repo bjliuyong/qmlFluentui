@@ -15,6 +15,18 @@ FluContentDialog {
     property string scopeFormId: ""
 
     property QtObject rootContent: null
+    property color backgroundColor: "transparent"
+
+    background: FluRectangle{
+        radius: [5,5,5,5]
+        color: root.backgroundColor
+        borderWidth: 1
+        borderColor: FluTheme.dark ? Qt.rgba(255,255,255,0.08) : Qt.rgba(0,0,0,0.08)
+        FluShadow{
+            radius: 8
+            elevation: 10
+        }
+    }
 
     // 内部集成逻辑引擎
     BizBaseFormDataManager {

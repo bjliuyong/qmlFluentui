@@ -8,6 +8,7 @@ Item {
     property int closeButtonVisibility : FluTabViewType.Always
     property int itemWidth: 146
     property bool addButtonVisibility: true
+    property alias currentIndex: tab_nav.currentIndex
     signal newPressed
     id:control
     implicitHeight: height
@@ -273,13 +274,34 @@ Item {
             right: parent.right
             bottom: parent.bottom
         }
+
+        clip: true
+
         Repeater{
             model:tab_model
             FluLoader{
                 property var argument: model.argument
-                anchors.fill: parent
+
+                // 【关键 2】：解除 anchors.fill，改为限定上下，允许 X 轴移动
+                anchors.top: parent.top
+                anchors.bottom: parent.bottom
+                width: parent.width
+
                 sourceComponent: model.page
-                visible: tab_nav.currentIndex === index
+
+                // 【关键 3】：长纸条物理排列。利用 tab_nav.currentIndex 计算相对位置
+                x: (index - tab_nav.currentIndex) * width
+
+                // 【关键 4】：物理滑动动画
+                Behavior on x {
+                    NumberAnimation {
+                        duration: 350
+                        easing.type: Easing.OutCubic
+                    }
+                }
+
+                // 【关键 5】：杜绝闪屏，让组件永远保持渲染可见
+                visible: true
             }
         }
     }

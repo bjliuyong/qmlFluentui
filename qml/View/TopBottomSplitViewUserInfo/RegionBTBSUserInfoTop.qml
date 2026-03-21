@@ -86,6 +86,14 @@ BizBaseViewItem {
 
         }
 
+        FluFilledButton {
+            text: "测试窗口"
+            Layout.preferredWidth: 100
+            onClicked: {
+                testWindowComp.createObject(root).show()
+            }
+        }
+
         Item{
             Layout.fillHeight: true
             Layout.fillWidth: true
@@ -93,5 +101,17 @@ BizBaseViewItem {
 
     }
 
-
+    Component {
+        id: testWindowComp
+        FluWindow {
+            width: 400
+            height: 300
+            title: "测试窗口"
+            FluText {
+                text: "这是一个测试窗口，动画很流畅！"
+                anchors.centerIn: parent
+                font: FluTextStyle.Title
+            }
+        }
+    }
 }

@@ -11,12 +11,12 @@ Item {
     /* ========= 0. 样式配置 ========= */
 
 
-    property int bodyTabStyle: TabStyle.Pivot
-    property int footerTabStyle: TabStyle.Pivot
+    property int bodyTabStyle: 0
+    property int footerTabStyle: 2
 
     /* ========= 1. 联动配置 (新增) ========= */
     // 开启 Body 和 Footer 的标签切换联动
-    property bool enableTabSync: false
+    property bool enableTabSync: true
 
     // 方法：手动开启或关闭联动
     function setTabSync(enable) {
@@ -101,8 +101,8 @@ Item {
     }
 
     function getTabComponent(style) {
-        if (style === TabStyle.TabView) return compTabView;
-        if (style === TabStyle.Stack) return compStack;
+        if (style === 1) return compTabView;
+        if (style === 2) return compStack;
         return compPivot;
     }
 
@@ -155,12 +155,52 @@ Item {
     }
     Component {
         id: compStack
-        StackLayout {
+
+        Item {
+            id: customStack
             anchors.fill: parent
-            currentIndex: 0
-            anchors.leftMargin: 10;
-            anchors.topMargin: 10;
-            Component.onCompleted: baseRoot.syncStack(this, modelData)
+            anchors.leftMargin: 10
+            anchors.topMargin: 10
+            clip: true // 开启裁剪
+
+            property int currentIndex: 0
+
+            Repeater {
+                model: modelData
+
+                Item {
+                    id: pageWrapper
+                    // 解除全屏锚定，允许 X 轴移动
+                    anchors.top: parent.top
+                    anchors.bottom: parent.bottom
+                    width: parent.width
+
+                    // 【核心：智能空间排列】
+                    x: (index - customStack.currentIndex) * width
+
+                    // 【核心：平滑横向滑动】
+                    Behavior on x {
+                        NumberAnimation { duration: 350; easing.type: Easing.OutCubic }
+                    }
+
+                    // 永远保持 true，彻底消灭闪烁
+                    visible: true
+
+                    // 原有的内容挂载逻辑
+                    Loader {
+                        anchors.fill: parent
+                        sourceComponent: (modelData[index] && modelData[index].contentItem) ? modelData[index].contentItem : undefined
+                    }
+
+                    Component.onCompleted: {
+                        var proxy = modelData[index]
+                        if (proxy && proxy.contentItem === undefined) {
+                            proxy.parent = pageWrapper
+                            proxy.anchors.fill = pageWrapper
+                        }
+                    }
+                }
+            }
         }
     }
 

@@ -39,18 +39,23 @@ Item {
                         id: userInfo
 
                 },
-                RegionBTBSDeptManagerTab{
+            RegionBTBSUserInfoTab{
+                id: userInfosd
 
-                }
+            }
 
         ]
 
         // //尾部区域组件
-        bottomRightBottomContent:
+        bottomRightBottomContent:[
                 RegionBTBSUserInfoBottomRightBottom{
                     id:regionUserInfoFooter
                         anchors.fill: parent
-                }
+                },
+            RegionBTBSUserInfoTab{
+                id: userInforf
+
+            }]
 
 
         dialogContent: [

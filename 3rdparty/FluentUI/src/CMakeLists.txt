@@ -64,6 +64,7 @@ foreach (filepath ${CPP_FILES})
     message(${filename})
     list(APPEND sources_files ${filename})
 endforeach (filepath)
+list(APPEND sources_files CircularReveal.cpp CircularReveal.h)
 
 list(REMOVE_ITEM sources_files qhotkey/qhotkey_mac.cpp qhotkey/qhotkey_win.cpp qhotkey/qhotkey_x11.cpp)
 

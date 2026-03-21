@@ -18,6 +18,8 @@ Window {
     property var leftBar
     readonly property alias effective: frameless.effective
     readonly property alias availableEffects: frameless.availableEffects
+    // 是否启用加载动画
+    property bool enableStartupAnimation: true
     property Item appBar: FluAppBar {
         title: window.title
         height: 30
@@ -76,7 +78,7 @@ Window {
     property string _route
     property bool _hideShadow: false
     id: window
-    color: FluTools.isSoftware() ? window.backgroundColor : "transparent"
+    color: window.backgroundColor
     Component.onCompleted: {
         FluRouter.addWindow(window)
         useSystemAppBar = FluApp.useSystemAppBar
@@ -280,6 +282,47 @@ Window {
             anchors.fill: parent
             sourceComponent: background
         }
+        // 动画的初始状态 (如果开启了动画，就先全透明、缩小并下移 20px)
+        opacity: window.enableStartupAnimation ? 0 : 1
+        scale: window.enableStartupAnimation ? 0.9 : 1.0
+        transform: Translate {
+            id: startTranslate
+            y: window.enableStartupAnimation ? 20 : 0
+        }
+
+        //定义启动动画
+        ParallelAnimation {
+            id: startupAnimation
+            NumberAnimation {
+                target: layout_container
+                property: "opacity"
+                to: 1
+                duration: 400
+                easing.type: Easing.OutQuad
+            }
+            NumberAnimation {
+                target: layout_container
+                property: "scale"
+                to: 1
+                duration: 450
+                easing.type: Easing.OutBack
+                easing.amplitude: 1.2
+            }
+            NumberAnimation {
+                target: startTranslate
+                property: "y"
+                to: 0
+                duration: 450
+                easing.type: Easing.OutCubic
+            }
+        }
+        //组件加载完毕后，判断是否需要播放动画
+        Component.onCompleted: {
+            if(window.enableStartupAnimation){
+                startupAnimation.start()
+            }
+        }
+
         Item{
             id: layout_content
             anchors{
@@ -413,6 +456,17 @@ Window {
     }
     function containerItem(){
         return layout_container
+    }
+
+    function startReveal(button, callback) {
+        theme_reveal.start(button, callback)
+    }
+
+    FluThemeReveal {
+        id: theme_reveal
+        z: 65535
+        anchors.fill: parent
+        target: layout_container
     }
 }
 
