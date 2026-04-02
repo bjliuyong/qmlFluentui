@@ -2,6 +2,7 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
+import QtGraphicalEffects 1.15
 import FluentUI 1.0
 
 Window {
@@ -18,6 +19,7 @@ Window {
     property alias effect: frameless.effect
     readonly property alias effective: frameless.effective
     readonly property alias availableEffects: frameless.availableEffects
+    property bool enableStartupAnimation: true
     property Item appBar: FluAppBar {
         title: window.title
         height: 30
@@ -51,7 +53,7 @@ Window {
     property bool showStayTop: false
     property bool autoMaximize: false
     property bool autoVisible: true
-    property bool autoCenter: true
+    property bool autoCenter: false
     property bool autoDestroy: true
     property bool useSystemAppBar
     property int __margins: 0
@@ -76,7 +78,18 @@ Window {
     property string _route
     property bool _hideShadow: false
     id: window
-    color: FluTools.isSoftware() ? window.backgroundColor : "transparent"
+    color: "transparent"
+
+    // 高 DPI 下使用 Screen.devicePixelRatio 将物理边距等效换算为逻辑坐标
+    property int defaultX: Math.round(50 / Screen.devicePixelRatio)
+    property int defaultY: Math.round(30 / Screen.devicePixelRatio)
+    property int defaultWidth: Screen.width - Math.round(100 / Screen.devicePixelRatio)
+    property int defaultHeight: Screen.height - Math.round(50 / Screen.devicePixelRatio)
+
+    x: autoCenter ? (Screen.width - width) / 2 + Screen.virtualX : defaultX
+    y: autoCenter ? (Screen.height - height) / 2 + Screen.virtualY : defaultY
+    width: defaultWidth
+    height: defaultHeight
     Component.onCompleted: {
         FluRouter.addWindow(window)
         useSystemAppBar = FluApp.useSystemAppBar
@@ -185,7 +198,7 @@ Window {
                 target: img_back
                 tintOpacity: window.tintOpacity
                 blurRadius: window.blurRadius
-                visible: window.active && FluTheme.blurBehindWindowEnabled
+                visible: window.active && FluTheme.blurBehindWindowEnabled && (typeof startupAnimation !== "undefined" && !startupAnimation.running)
                 tintColor:  FluTheme.textHighlightColor
                 targetRect: Qt.rect(window.x-window.screen.virtualX,window.y-window.screen.virtualY,window.width,window.height)
             }
@@ -272,17 +285,94 @@ Window {
             border.color: window.resizeBorderColor
         }
     }
-    Item{
+    Item {
         id: layout_container
         anchors.fill: parent
-        anchors.margins: window.__margins
-        FluLoader{
+        // 左边和顶部不再预留阴影空间（彻底贴合消除假边框），仅右、下保留 10px 的阴影容纳区
+        anchors.topMargin: window.__margins
+        anchors.leftMargin: window.__margins
+        anchors.rightMargin: window.__margins + 10
+        anchors.bottomMargin: window.__margins + 10
+
+        // 将底板与阴影作为背景的最底层放入 layout_container 中
+        Rectangle {
+            id: shadow_source
+            anchors.fill: parent
+            color: "black"
+            radius: 8 // 给窗口本身一个柔和基底弧度
+            visible: false
+            z: -2
+        }
+
+        DropShadow {
+            anchors.fill: shadow_source
+            source: shadow_source
+            // 彻底消除左、上阴影发散：只要 offset >= radius ，反方向就不会有任何柔光溢出
+            horizontalOffset: 5
+            verticalOffset: 5
+            radius: 4
+            samples: 9 // 采用极其低消耗的低采样配置以换取性能
+            color: "#30000000"
+            transparentBorder: true // 允许在边界外生成模糊纹理
+            z: -1
+            visible: !_hideShadow && window.visibility !== Window.Maximized && window.visibility !== Window.FullScreen && layout_container.opacity > 0
+        }
+
+        FluLoader {
+            id: loader_background
             anchors.fill: parent
             sourceComponent: background
         }
-        Item{
+
+        // 动画的初始状态 (去除 scale 以极大增强性能)
+        opacity: window.enableStartupAnimation ? 0 : 1
+        transform: Translate {
+            id: startTranslate
+            y: window.enableStartupAnimation ? 20 : 0
+        }
+
+        // 定义启动动画 (性能精简版：摒弃 GPU 开销极高的图层形变，仅保留经典的淡入和上浮)
+        ParallelAnimation {
+            id: startupAnimation
+            NumberAnimation {
+                target: layout_container
+                property: "opacity"
+                from: 0
+                to: 1
+                duration: 300
+                easing.type: Easing.OutCubic
+            }
+            NumberAnimation {
+                target: startTranslate
+                property: "y"
+                from: 20
+                to: 0
+                duration: 350
+                easing.type: Easing.OutCubic
+            }
+        }
+
+        Connections {
+            target: window
+
+            function onVisibleChanged() {
+                if (window.visible && window.enableStartupAnimation) {
+                    timer_startup_handler.restart()
+                }
+            }
+        }
+        Timer {
+            id: timer_startup_handler
+            interval: 80 // 增加延迟至 80ms，确保内部 Tab/NavigationView 等组件完成初始化动画，且不因 opacity>0 被提前看见
+            repeat: false
+            onTriggered: {
+                startupAnimation.start()
+            }
+        }
+
+        Item {
             id: layout_content
-            anchors{
+            anchors {
                 top: loader_app_bar.bottom
                 left: parent.left
                 right: parent.right
@@ -290,102 +380,118 @@ Window {
             }
             clip: true
         }
-        FluLoader{
-            id:loader_app_bar
+        FluLoader {
+            id: loader_app_bar
             anchors {
                 top: parent.top
                 left: parent.left
                 right: parent.right
             }
             height: {
-                if(window.useSystemAppBar){
+                if (window.useSystemAppBar) {
                     return 0
                 }
                 return window.fitsAppBarWindows ? 0 : window.appBar.height
             }
             sourceComponent: window.useSystemAppBar ? undefined : com_app_bar
         }
-        FluLoader{
+        FluLoader {
             property string loadingText
             property bool cancel: false
-            id:loader_loading
+            id: loader_loading
             anchors.fill: parent
         }
-        FluInfoBar{
-            id:info_bar
+        FluInfoBar {
+            id: info_bar
             root: layout_container
         }
-        FluLoader{
-            id:loader_border
+        FluLoader {
+            id: loader_border
             anchors.fill: parent
             sourceComponent: {
-                if(window.useSystemAppBar || FluTools.isWin() || window.visibility === Window.Maximized || window.visibility === Window.FullScreen){
+                if (window.useSystemAppBar || FluTools.isWin() || window.visibility === Window.Maximized || window.visibility === Window.FullScreen) {
                     return undefined
                 }
                 return com_border
             }
         }
-    }
-    function hideLoading(){
-        loader_loading.sourceComponent = undefined
-    }
-    function showSuccess(text,duration,moremsg){
-        return info_bar.showSuccess(text,duration,moremsg)
-    }
-    function showInfo(text,duration,moremsg){
-        return info_bar.showInfo(text,duration,moremsg)
-    }
-    function showWarning(text,duration,moremsg){
-        return info_bar.showWarning(text,duration,moremsg)
-    }
-    function showError(text,duration,moremsg){
-        return info_bar.showError(text,duration,moremsg)
-    }
-    function clearAllInfo(){
-        return info_bar.clearAllInfo()
-    }
-    function moveWindowToDesktopCenter(){
-        var availableGeometry = FluTools.desktopAvailableGeometry(window)
-        window.setGeometry((availableGeometry.width-window.width)/2+Screen.virtualX,(availableGeometry.height-window.height)/2+Screen.virtualY,window.width,window.height)
-    }
-    function fixWindowSize(){
-        if(fixSize){
-            window.maximumWidth =  window.width
-            window.maximumHeight =  window.height
-            window.minimumWidth = window.width
-            window.minimumHeight = window.height
+
+        function hideLoading() {
+            loader_loading.sourceComponent = undefined
         }
-    }
-    function setResult(data){
-        if(_windowRegister){
-            _windowRegister.setResult(data)
+
+        function showSuccess(text, duration, moremsg) {
+            return info_bar.showSuccess(text, duration, moremsg)
         }
-    }
-    function showMaximized(){
-        frameless.showMaximized()
-    }
-    function showMinimized(){
-        frameless.showMinimized()
-    }
-    function showNormal(){
-        frameless.showNormal()
-    }
-    function showLoading(text = "",cancel = true){
-        if(text===""){
-            text = qsTr("Loading...")
+
+        function showInfo(text, duration, moremsg) {
+            return info_bar.showInfo(text, duration, moremsg)
         }
-        loader_loading.loadingText = text
-        loader_loading.cancel = cancel
-        loader_loading.sourceComponent = com_loading
-    }
-    function setHitTestVisible(val){
-        frameless.setHitTestVisible(val)
-    }
-    function deleteLater(){
-        FluTools.deleteLater(window)
-    }
-    function containerItem(){
-        return layout_container
+
+        function showWarning(text, duration, moremsg) {
+            return info_bar.showWarning(text, duration, moremsg)
+        }
+
+        function showError(text, duration, moremsg) {
+            return info_bar.showError(text, duration, moremsg)
+        }
+
+        function clearAllInfo() {
+            return info_bar.clearAllInfo()
+        }
+
+        function moveWindowToDesktopCenter() {
+            var availableGeometry = FluTools.desktopAvailableGeometry(window)
+            window.setGeometry((availableGeometry.width - window.width) / 2 + Screen.virtualX, (availableGeometry.height - window.height) / 2 + Screen.virtualY, window.width, window.height)
+        }
+
+        function fixWindowSize() {
+            if (fixSize) {
+                window.maximumWidth = window.width
+                window.maximumHeight = window.height
+                window.minimumWidth = window.width
+                window.minimumHeight = window.height
+            }
+        }
+
+        function setResult(data) {
+            if (_windowRegister) {
+                _windowRegister.setResult(data)
+            }
+        }
+
+        function showMaximized() {
+            frameless.showMaximized()
+        }
+
+        function showMinimized() {
+            frameless.showMinimized()
+        }
+
+        function showNormal() {
+            frameless.showNormal()
+        }
+
+        function showLoading(text = "", cancel = true) {
+            if (text === "") {
+                text = qsTr("Loading...")
+            }
+            loader_loading.loadingText = text
+            loader_loading.cancel = cancel
+            loader_loading.sourceComponent = com_loading
+        }
+
+        function setHitTestVisible(val) {
+            frameless.setHitTestVisible(val)
+        }
+
+        function deleteLater() {
+            FluTools.deleteLater(window)
+        }
+
+        function containerItem() {
+            return layout_container
+        }
     }
 }
 

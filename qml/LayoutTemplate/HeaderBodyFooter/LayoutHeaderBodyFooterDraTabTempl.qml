@@ -164,6 +164,11 @@ Item {
             clip: true // 开启裁剪
 
             property int currentIndex: 0
+            property real offsetIndex: Math.max(0, currentIndex)
+            Behavior on offsetIndex {
+                enabled: FluTheme.animationEnabled
+                NumberAnimation { duration: 350; easing.type: Easing.OutCubic }
+            }
 
             Repeater {
                 model: modelData
@@ -176,15 +181,9 @@ Item {
                     width: parent.width
 
                     // 【核心：智能空间排列】
-                    x: (index - customStack.currentIndex) * width
+                    x: (index - customStack.offsetIndex) * width
 
-                    // 【核心：平滑横向滑动】
-                    Behavior on x {
-                        NumberAnimation { duration: 350; easing.type: Easing.OutCubic }
-                    }
-
-                    // 永远保持 true，彻底消灭闪烁
-                    visible: true
+                    visible: Math.abs(index - customStack.offsetIndex) < 0.999 || index === customStack.currentIndex
 
                     // 原有的内容挂载逻辑
                     Loader {

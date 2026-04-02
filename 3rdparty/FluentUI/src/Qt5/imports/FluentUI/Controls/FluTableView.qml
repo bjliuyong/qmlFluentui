@@ -645,7 +645,12 @@ Rectangle {
             property var rowModel: control.getRow(row)
             implicitWidth: Math.max(30, row_text.implicitWidth + (cellPadding * 2))
             implicitHeight: row_text.implicitHeight + (cellPadding * 2)
-            color:  FluTheme.itemHoverColor
+            color: {
+                if (item_control_mouse.containsMouse) {
+                    return FluTheme.itemHoverColor
+                }
+                return (row % 2 !== 0) ? control.color : FluTheme.itemNormalColor
+            }
             Rectangle{
                 border.color: control.borderColor
                 width: parent.width

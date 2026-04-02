@@ -249,7 +249,9 @@ Item {
                             verticalCenter: parent.verticalCenter
                         }
                         onClicked: {
+                            container.isClosingTab = true
                             tab_model.remove(index)
+                            timer_isClosingTab.restart()
                         }
                     }
                     FluDivider{
@@ -273,13 +275,40 @@ Item {
             right: parent.right
             bottom: parent.bottom
         }
+
+        clip: true
+
+        property bool isClosingTab: false
+        Timer {
+            id: timer_isClosingTab
+            interval: 1
+            repeat: false
+            onTriggered: container.isClosingTab = false
+        }
+
+        property real offsetIndex: Math.max(0, tab_nav.currentIndex)
+        Behavior on offsetIndex {
+            enabled: FluTheme.animationEnabled && !container.isClosingTab
+            NumberAnimation {
+                duration: 350
+                easing.type: Easing.OutCubic
+            }
+        }
+
         Repeater{
             model:tab_model
             FluLoader{
                 property var argument: model.argument
-                anchors.fill: parent
+
+                anchors.top: parent.top
+                anchors.bottom: parent.bottom
+                width: parent.width
+
                 sourceComponent: model.page
-                visible: tab_nav.currentIndex === index
+
+                x: (index - container.offsetIndex) * width
+
+                visible: Math.abs(index - container.offsetIndex) < 0.999 || index === tab_nav.currentIndex
             }
         }
     }

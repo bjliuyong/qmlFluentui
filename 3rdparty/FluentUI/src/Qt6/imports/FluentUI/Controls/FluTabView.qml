@@ -250,7 +250,9 @@ Item {
                             verticalCenter: parent.verticalCenter
                         }
                         onClicked: {
+                            container.isClosingTab = true
                             tab_model.remove(index)
+                            timer_isClosingTab.restart()
                         }
                     }
                     FluDivider{
@@ -277,31 +279,37 @@ Item {
 
         clip: true
 
+        property bool isClosingTab: false
+        Timer {
+            id: timer_isClosingTab
+            interval: 1
+            repeat: false
+            onTriggered: container.isClosingTab = false
+        }
+
+        property real offsetIndex: Math.max(0, tab_nav.currentIndex)
+        Behavior on offsetIndex {
+            enabled: FluTheme.animationEnabled && !container.isClosingTab
+            NumberAnimation {
+                duration: 350
+                easing.type: Easing.OutCubic
+            }
+        }
+
         Repeater{
             model:tab_model
             FluLoader{
                 property var argument: model.argument
 
-                // 【关键 2】：解除 anchors.fill，改为限定上下，允许 X 轴移动
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
                 width: parent.width
 
                 sourceComponent: model.page
 
-                // 【关键 3】：长纸条物理排列。利用 tab_nav.currentIndex 计算相对位置
-                x: (index - tab_nav.currentIndex) * width
+                x: (index - container.offsetIndex) * width
 
-                // 【关键 4】：物理滑动动画
-                Behavior on x {
-                    NumberAnimation {
-                        duration: 350
-                        easing.type: Easing.OutCubic
-                    }
-                }
-
-                // 【关键 5】：杜绝闪屏，让组件永远保持渲染可见
-                visible: true
+                visible: Math.abs(index - container.offsetIndex) < 0.999 || index === tab_nav.currentIndex
             }
         }
     }

@@ -153,6 +153,13 @@ Item {
 
             property int currentIndex: 0
             property var tabItems: modelData
+            
+            property real offsetIndex: Math.max(0, currentIndex)
+            Behavior on offsetIndex {
+                enabled: FluTheme.animationEnabled
+                NumberAnimation { duration: 350; easing.type: Easing.OutCubic }
+            }
+
             Repeater {
                 // 使用新的变量名
                 model: customStack.tabItems
@@ -163,13 +170,9 @@ Item {
                     anchors.bottom: parent.bottom
                     width: parent.width
 
-                    x: (index - customStack.currentIndex) * width
+                    x: (index - customStack.offsetIndex) * width
 
-                    Behavior on x {
-                        NumberAnimation { duration: 350; easing.type: Easing.OutCubic }
-                    }
-
-                    visible: true
+                    visible: Math.abs(index - customStack.offsetIndex) < 0.999 || index === customStack.currentIndex
 
                     Loader {
                         anchors.fill: parent

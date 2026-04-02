@@ -454,20 +454,20 @@ Rectangle {
         onExited: {
             d.rowHoverIndex = -1
         }
-        onCanceled: {
-            d.rowHoverIndex = -1
-        }
-        // 斑马线背景：填充 TableView 下方无数据区域
+        // 斑马线背景：由于不需要绘制全屏影响性能并防止由于透明行产生的滚动重影，
+        // 我们将其作为子节点放到 contentItem，紧贴在数据区域的正下方。
         Column {
-            anchors.fill: parent
+            parent: table_view.contentItem
+            y: table_view.contentHeight
             z: -1
+            width: table_view.contentWidth
             Repeater {
-                model: Math.ceil(parent.height / d.defaultItemHeight) + 1
+                model: Math.max(0, Math.ceil((table_view.height - table_view.contentHeight) / d.defaultItemHeight) + 1)
                 Rectangle {
                     required property int index
                     width: parent.width
                     height: d.defaultItemHeight
-                    color: (index % 2 !== 0) ? control.oddRowColor : control.evenRowColor
+                    color: ((index + table_view.rows) % 2 !== 0) ? control.oddRowColor : control.evenRowColor
                 }
             }
         }
@@ -661,7 +661,12 @@ Rectangle {
             property var rowModel: control.getRow(row)
             implicitWidth: Math.max(30, row_text.implicitWidth + (cellPadding * 2))
             implicitHeight: row_text.implicitHeight + (cellPadding * 2)
-            color:  item_control_mouse.containsMouse ? FluTheme.headerHoverColor : FluTheme.headerNormalColor
+            color: {
+                if (item_control_mouse.containsMouse) {
+                    return FluTheme.headerHoverColor
+                }
+                return (row % 2 !== 0) ? control.oddRowColor : control.evenRowColor
+            }
             Rectangle{
                 border.color: control.borderColor
                 width: parent.width
@@ -812,6 +817,24 @@ Rectangle {
             color:"#00000000"
         }
     }
+
+    // 序号列表格下方的空白斑马纹
+    Column {
+        parent: header_vertical.contentItem
+        y: header_vertical.contentHeight
+        z: -1
+        width: header_vertical.width
+        Repeater {
+            model: Math.max(0, Math.ceil((header_vertical.height - header_vertical.contentHeight) / d.defaultItemHeight) + 1)
+            Rectangle {
+                required property int index
+                width: parent.width
+                height: d.defaultItemHeight
+                color: ((index + table_view.rows) % 2 !== 0) ? control.oddRowColor : control.evenRowColor
+            }
+        }
+    }
+
     TableView {
         id: header_horizontal
         model: header_column_model

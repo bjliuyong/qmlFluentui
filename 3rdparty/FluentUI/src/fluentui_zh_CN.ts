@@ -51,6 +51,11 @@
         <source>Sticky on Top cancelled</source>
         <translation type="unfinished">取消置顶</translation>
     </message>
+    <message>
+        <location filename="Qt6/imports/FluentUI/Controls/FluAppBar.qml" line="185"/>
+        <source>Theme: </source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>FluAutoSuggestBox</name>
@@ -356,7 +361,7 @@
     <name>FluWindow</name>
     <message>
         <location filename="Qt5/imports/FluentUI/Controls/FluWindow.qml" line="375"/>
-        <location filename="Qt6/imports/FluentUI/Controls/FluWindow.qml" line="374"/>
+        <location filename="Qt6/imports/FluentUI/Controls/FluWindow.qml" line="445"/>
         <source>Loading...</source>
         <translation type="unfinished">加载中...</translation>
     </message>

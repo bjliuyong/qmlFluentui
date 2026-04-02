@@ -47,33 +47,27 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="build/cmake-build-debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_PREFIX_PATH=&quot;D:/SoftWare/QT/6.10.2/mingw_64&quot;" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="build/cmake-build-debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_PREFIX_PATH=&quot;D:/SoftWare/QT/6.10.2/mingw_64&quot;" BUILD_OPTIONS="-j 6" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9961c51d-cac8-4b2d-99ad-bda63727440d" name="更改" comment="2">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QtSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QtSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/FluTheme.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/FluTheme.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/FluTheme.h" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/FluTheme.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/FluentIconDef.h" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/FluentIconDef.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Font/FluentIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Font/FluentIcons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluAppBar.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluAppBar.qml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluContentDialog.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluContentDialog.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPivot.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluPivot.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTabView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTabView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTableView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluTableView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluWindow.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt5/imports/FluentUI/Controls/FluWindow.qml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPivot.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluPivot.qml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTabView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTabView.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTableView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluTableView.qml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluWindow.qml" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Controls/FluWindow.qml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Font/FluentIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/Qt6/imports/FluentUI/Font/FluentIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/fluentui_en_US.ts" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/fluentui_en_US.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3rdparty/FluentUI/src/fluentui_zh_CN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/3rdparty/FluentUI/src/fluentui_zh_CN.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/Main.qml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qml/BizBaseComponent/BaseComp/BizBaseDialogItem.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/BizBaseComponent/BaseComp/BizBaseDialogItem.qml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/HeaderBodyFooter/LayoutHeaderBodyFooterDraTabTempl.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/LayoutTemplate/HeaderBodyFooter/LayoutHeaderBodyFooterDraTabTempl.qml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qml/LayoutTemplate/TopBottomSplit/LayoutTopBottomSplitDraTabTempl.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/LayoutTemplate/TopBottomSplit/LayoutTopBottomSplitDraTabTempl.qml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qml/View/TopBottomSplitViewUserInfo/RegionBTBSUserInfoBottomRightBottom.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/View/TopBottomSplitViewUserInfo/RegionBTBSUserInfoBottomRightBottom.qml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qml/View/TopBottomSplitViewUserInfo/RegionBTBSUserInfoTop.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/View/TopBottomSplitViewUserInfo/RegionBTBSUserInfoTop.qml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qml/View/TopBottomSplitViewUserInfo/ViewBTBSUserInfo.qml" beforeDir="false" afterPath="$PROJECT_DIR$/qml/View/TopBottomSplitViewUserInfo/ViewBTBSUserInfo.qml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +81,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chjuashduq&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chjuashduq/qmlFluentui.git&quot;,
+    &quot;accountId&quot;: &quot;a39a3e19-26b9-4ba4-aba4-fced519537b2&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://D:/Study/QTQMLStudy/code/BaseLayout/3rdparty/FluentUI/src/FluTheme.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Study/QTQMLStudy/code/BaseLayout/3rdparty/FluentUI/src/FluTheme.h" root0="SKIP_HIGHLIGHTING" />
@@ -121,6 +127,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -285,6 +292,11 @@
       <workItem from="1773716996785" duration="51568000" />
       <workItem from="1773884099664" duration="13761000" />
       <workItem from="1774088585529" duration="1191000" />
+      <workItem from="1774090679170" duration="4797000" />
+      <workItem from="1774095765609" duration="7430000" />
+      <workItem from="1774173679346" duration="3717000" />
+      <workItem from="1774233483688" duration="32039000" />
+      <workItem from="1775094258839" duration="575000" />
     </task>
     <task id="LOCAL-00001" summary="12">
       <option name="closed" value="true" />
@@ -334,5 +346,9 @@
     <MESSAGE value="12" />
     <MESSAGE value="2" />
     <option name="LAST_COMMIT_MESSAGE" value="2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

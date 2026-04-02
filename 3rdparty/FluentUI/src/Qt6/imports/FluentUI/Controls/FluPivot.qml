@@ -82,6 +82,16 @@ Page {
         anchors.fill: parent
 
         clip: true
+
+        property real offsetIndex: nav_list.currentIndex
+        Behavior on offsetIndex {
+            enabled: FluTheme.animationEnabled
+            NumberAnimation {
+                duration: 350
+                easing.type: Easing.OutCubic
+            }
+        }
+
         Repeater{
             model:d.children
             FluLoader {
@@ -92,20 +102,9 @@ Page {
 
                 sourceComponent: modelData.contentItem
 
-                // 【关键 3】：真正的物理排列！根据索引差值，将所有页面排成一长条
-                // 比如当前是 1，那么索引 0 的 x 就是 -width，索引 2 的 x 就是 width
-                x: (index - nav_list.currentIndex) * width
+                x: (index - container.offsetIndex) * width
 
-                // 【关键 4】：纯净的物理滑动动画
-                Behavior on x {
-                    NumberAnimation {
-                        duration: 350 // 350ms 是最舒服的滑动速度
-                        easing.type: Easing.OutCubic
-                    }
-                }
-
-                // 【关键 5】：杜绝闪屏！永远保持 true，让 QML 动画引擎绝不中断
-                visible: true
+                visible: Math.abs(index - container.offsetIndex) < 0.999 || index === nav_list.currentIndex
             }
         }
     }

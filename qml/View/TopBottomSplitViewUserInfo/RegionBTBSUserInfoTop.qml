@@ -104,8 +104,7 @@ BizBaseViewItem {
     Component {
         id: testWindowComp
         FluWindow {
-            width: 400
-            height: 300
+
             title: "测试窗口"
             FluText {
                 text: "这是一个测试窗口，动画很流畅！"

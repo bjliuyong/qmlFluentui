@@ -79,13 +79,31 @@ Page {
     Item{
         id:container
         anchors.fill: parent
+
+        clip: true
+
+        property real offsetIndex: nav_list.currentIndex
+        Behavior on offsetIndex {
+            enabled: FluTheme.animationEnabled
+            NumberAnimation {
+                duration: 350
+                easing.type: Easing.OutCubic
+            }
+        }
+
         Repeater{
             model:d.children
             FluLoader{
                 property var argument: modelData.argument
-                anchors.fill: parent
+                anchors.top: parent.top
+                anchors.bottom: parent.bottom
+                width: parent.width
+
                 sourceComponent: modelData.contentItem
-                visible: nav_list.currentIndex === index
+
+                x: (index - container.offsetIndex) * width
+
+                visible: Math.abs(index - container.offsetIndex) < 0.999 || index === nav_list.currentIndex
             }
         }
     }
